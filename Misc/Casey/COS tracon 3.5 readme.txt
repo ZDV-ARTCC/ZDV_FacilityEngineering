@@ -1,0 +1,16 @@
+COS_TRACON v3.5.sct2
+by Noah Bryant
+
+This file is meant to be used with VRC version 1.1
+
+MVA altitudes have been added as static text. Used in conjunction with the MVA diagram they clearly show the minimum vectoring altitudes in the COS TRACON.
+
+The COS Charlie airspace is a dark blue color to make it less distracting. The class C airspace floors and ceilings are added as static text as well.
+
+I have also added a region depicting pikes peak at 11,500, 12,500 feet and 13,500 feet. Definitions of the colors are added as static text near the HBU vor.
+
+Also added was airport graphics submitted by Erin Rakickas
+
+See attached jpg image to see what the scope should look like.
+
+

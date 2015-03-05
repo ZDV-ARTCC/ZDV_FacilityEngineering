@@ -1,0 +1,7 @@
+DEN_TWR v2.0
+By Noah Bryant
+
+
+This Sector file takes advantage of VRC 1.1 by using static text to indicate takiways and runways. It also uses regions to depict the airport map.
+
+Because these features are exclusive to VRC 1.1 this file is not intended for use in ASRC.

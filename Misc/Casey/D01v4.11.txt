@@ -1,0 +1,8 @@
+D01 V4.11 Video Map
+By: Dan Moses
+
+Updates:
+4.11: Update SID/STAR to AIRAC 0807 by Bobby Cosgrove.
+
+
+Copyright © 2008 Virtual Denver ARTCC. www.denartcc.org

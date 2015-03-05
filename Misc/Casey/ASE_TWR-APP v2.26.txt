@@ -1,0 +1,3 @@
+Updates:
+added MVA diagram with MVA altitudes displayed as labels (fixes in ASRC)
+Added a region that denotes terrain above 13,500
