@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE changelog [
+<!ELEMENT changelog (version+)>
+<!ELEMENT version (by*,packetinfo,sectorinfo,POFinfo,aliasinfo,change+)>
+]>
+ <changelog>
+ <facility current="1" releasedate="22 February 2015" releasetime="1424638430">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <fileinfo filerev="1.0" releasedate="2/22/15">
+    <airportname>Denver Intl</airportname>
+    <airporticao>KDEN</airporticao>
+    <url>http://denartcc.org/fe/vATIS%20Facility%20-%20Denver%20Intl%20(KDEN).150222.gz</url>
+   </fileinfo>
+	<change>First Release</change>
+  </facility>
+ <facility current="1" releasedate="22 February 2015" releasetime="1424638430">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <fileinfo filerev="1.0" releasedate="2/22/15">
+    <airportname>Aspen</airportname>
+    <airporticao>KASE</airporticao>
+    <url>http://denartcc.org/fe/vATIS%20Facility%20-%20Aspen%20(KASE).150222.gz</url>
+   </fileinfo>
+	<change>First Release</change>
+  </facility>
+ <facility current="1" releasedate="22 February 2015" releasetime="1424638430">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <fileinfo filerev="1.0" releasedate="2/22/15">
+    <airportname>Eagle County</airportname>
+    <airporticao>KEGE</airporticao>
+    <url>http://denartcc.org/fe/vATIS%20Facility%20-%20Eagle%20County%20(KEGE).150222.gz</url>
+   </fileinfo>
+	<change>First Release</change>
+  </facility>
+ <facility current="1" releasedate="22 February 2015" releasetime="1424638430">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <fileinfo filerev="1.0" releasedate="2/22/15">
+    <airportname>Colorado Springs</airportname>
+    <airporticao>KCOS</airporticao>
+    <url>http://denartcc.org/fe/vATIS%20Facility%20-%20Colorado%20Springs%20(KCOS).150222.gz</url>
+   </fileinfo>
+	<change>First Release</change>
+  </facility>
+ <facility current="1" releasedate="22 February 2015" releasetime="1424638430">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <fileinfo filerev="1.0" releasedate="2/22/15">
+    <airportname>Centennial</airportname>
+    <airporticao>KAPA</airporticao>
+    <url>http://denartcc.org/fe/vATIS%20Facility%20-%20Centennial%20(KAPA).150222.gz</url>
+   </fileinfo>
+	<change>First Release</change>
+  </facility>
+ </changelog>

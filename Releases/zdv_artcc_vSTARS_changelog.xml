@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE changelog [
+<!ELEMENT changelog (version+)>
+<!ELEMENT version (by*,facility,change+)>
+<!ELEMENT facility (filename*,ID*,url*)>
+<!ELEMENT filename (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT by (#PCDATA)>
+<!ELEMENT change (#PCDATA)>
+<!ATTLIST version current CDATA #IMPLIED>
+<!ATTLIST version releasedate CDATA #IMPLIED>
+<!ATTLIST version releasetime CDATA #IMPLIED>
+<!ATTLIST by title CDATA #IMPLIED>
+<!ATTLIST facility id CDATA #IMPLIED>
+<!ATTLIST facility filerev CDATA #IMPLIED>
+<!ATTLIST change affected CDATA #IMPLIED>
+]>
+ <changelog>
+  <version current="1" releasedate="31 Oct 2012" releasetime="1351726181">
+   <by title="Facility Engineer">Casey Diers</by>
+   <facility id="D01" filerev="101453">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>http://www.denartcc.org/fe/101453.vSTARS Facility - Denver Tracon (D01).gz</url>
+   </facility>
+   <change>Added in several additional D01 airports so that arrivals correctly show up as arrivals instead of over-flights.</change>
+  </version>
+  <version releasedate="19 Feb 2012" releasetime="1329700443">
+   <by title="Facility Engineer">Casey Diers</by>
+   <facility id="D01" filerev="91352">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>http://www.denartcc.org/fe/91352.vSTARS Facility - Denver Tracon (D01).gz</url>
+   </facility>
+   <change>Allow 4 character scratch pad entries.</change>
+   <change>Display requested altitudes in departure aircraft data blocks.</change>
+   <change>Updated departure auto scratch pad entries so they are only set when aircraft have PLAINS, PIKES, ROCKI, or YELLO DP with a valid transition listed in their flight plan.</change>
+  </version>
+  <version releasedate="10 Feb 2012" releasetime="1328928080">
+   <by title="Facility Engineer">Casey Diers</by>
+   <facility id="D01" filerev="82046">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>http://www.denartcc.org/fe/82046.vSTARS Facility - Denver Tracon (D01).gz</url>
+   </facility>
+   <change affected="All">Initial Release</change>
+  </version>
+  <version releasedate="1 Jan 2012" releasetime="1327550400">
+   <by title="Facility Engineer">Casey Diers</by>
+   <facility id="D01" filerev="0">
+    <filename>Denver Tracon (D01) [**Coming Soon**]</filename>
+    <ID>D01</ID>
+    <url>#</url>
+   </facility>
+   <change affected="All">Denver Tracon (D01) [**Coming Soon**]</change>
+  </version>
+ </changelog>

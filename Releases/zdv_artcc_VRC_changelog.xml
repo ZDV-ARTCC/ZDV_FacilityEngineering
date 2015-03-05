@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE changelog [
+<!ELEMENT changelog (version+)>
+<!ELEMENT version (by*,packetinfo,sectorinfo,POFinfo,aliasinfo,change+)>
+<!ELEMENT packetinfo (filename*,url*)>
+<!ELEMENT sectorinfo (filename*,url*)>
+<!ELEMENT POFinfo (filename*,url*)>
+<!ELEMENT aliasinfo (filename*,url*)>
+<!ELEMENT filename (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT by (#PCDATA)>
+<!ELEMENT change (#PCDATA)>
+<!ATTLIST version current CDATA #IMPLIED>
+<!ATTLIST version releasedate CDATA #IMPLIED>
+<!ATTLIST version releasetime CDATA #IMPLIED>
+<!ATTLIST version airac CDATA #IMPLIED>
+<!ATTLIST by title CDATA #IMPLIED>
+<!ATTLIST packetinfo filerev CDATA #IMPLIED>
+<!ATTLIST packetinfo releasedate CDATA #IMPLIED>
+<!ATTLIST sectorinfo filerev CDATA #IMPLIED>
+<!ATTLIST sectorinfo releasedate CDATA #IMPLIED>
+<!ATTLIST POFinfo filerev CDATA #IMPLIED>
+<!ATTLIST POFinfo releasedate CDATA #IMPLIED>
+<!ATTLIST aliasinfo filerev CDATA #IMPLIED>
+<!ATTLIST aliasinfo releasedate CDATA #IMPLIED>
+<!ATTLIST change affected CDATA #IMPLIED>
+]>
+ <changelog>
+ <version current="1" releasedate="23 November 2014" releasetime="1416770296" airac="1412">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.4" releasedate="11/23/14">
+    <filename>New Student Package v5.4</filename>
+    <url>http://denartcc.org/fe/New Student Package v5.4.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.4" releasedate="11/23/14">
+    <filename>ZDV ARTCC Sector v5.4</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_5.4.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change>Updated VORs, NDBs, FIXs, and Airways to 1412 AIRAC.</change>
+	<change affected="KDEN, D01">DANDD SIX becomes DANDD SEVEN.</change>
+	<change affected="KDEN, D01">JAGGR TWO becomes JAGGR THREE.</change>
+	<change affected="KDEN, D01">BRYCC ONE becomes BRYCC THREE.</change>
+	<change affected="KDEN, D01">EPKEE TWO becomes EPKEE THREE.</change>
+	<change affected="KDEN, D01">STAKR TWO becomes STAKR THREE.</change>
+	<change affected="KDEN, D01">SPAZZ TWO becomes SPAZZ THREE.</change>
+	<change affected="KDEN, D01">SOLAR TWO becomes SOLAR THREE.</change>
+	<change affected="KDEN, D01">CONNR TWO becomes CONNR THREE.</change>
+	<change affected="KDEN, D01">COORZ TWO becomes COORZ THREE.</change>
+	<change affected="KDEN, D01">FOOOT TWO becomes FOOOT THREE.</change>
+	<change affected="KDEN, D01">YAMMI TWO becomes YAMMI THREE.</change>
+	<change affected="KDEN, D01">RIKKK TWO becomes RIKKK THREE</change>
+	<change affected="KDEN, D01">BAYLR TWO becomes BAYLR THREE.</change>
+	<change affected="KDEN, D01">CREDE TWO becomes CREDE THREE.</change>
+	<change affected="KDEN, D01">FRNCH TWO becomes FRNCH THREE.</change>
+	<change affected="KDEN, D01">MOLTN TWO becomes MOLTN THREE.</change>
+	<change affected="KDEN, D01">PEEKK TWO becomes PEEKK THREE.</change>
+	<change affected="KDEN, D01">ZPLYN TWO becomes ZPLYN THREE.</change>
+	<change affected="KDEN, D01">PIKES FIVE  becomes PIKES SEVEN.</change>
+	<change affected="KDEN, D01">PLAINS FIVE becomes PLAINS SEVEN.</change>
+	<change affected="KDEN, D01">YELLO SEVEN becomes YELLO NINE.</change>
+	<change affected="KDEN, D01">ROCKI NINE becomes ROCKI TWO.</change>
+	<change affected="KDEN, D01">EEONS TWO becomes EEONS FOUR.</change>
+	<change affected="KDEN, D01">EMMYS TWO becomes EMMYS FOUR.</change>
+	<change affected="KDEN, D01">EXTAN TWO becomes EXTAN FOUR.</change>
+	<change affected="KDEN, D01">YOKES TWO becomes YOKES FOUR.</change>
+	<change affected="KAPA, D01">PUFFR TWO becomes PUFFR FOUR.</change>
+	<change affected="KAPA, D01">SKARF TWO becomes SKARF THREE.</change>
+	<change affected="KEGE, D01">GYPSM FOUR becomes GYPSM FIVE.</change>
+	<change affected="KCPR, D01">ALCOS FOUR becomes ALCOS FIVE.</change>
+	<change affected="KDEN, D01">JMPRS ONE becomes JMPRS TWO.</change>
+	<change affected="KDEN, D01">ANCHR TWO becomes ANCHR THREE.</change>
+	<change affected="KDEN, D01">KIPPR TWO becomes KIPPR THREE.</change>
+	<change affected="KDEN, D01">KOHOE TWO becomes KOHOE THREE.</change>
+	<change affected="KDEN, D01">WAHUU ONE becomes WAHUU TWO.</change>
+	<change affected="KAPA, D01">ADDED FOOOT THREE to KAPA diagram list.</change>
+	<change affected="KAPA, D01">DUNNN ONE becomes DUNNN TWO.</change>
+	<change affected="KBJC, D01">Updated runway numbers at KBJC.</change>
+  </version>
+ <version releasedate="14 September 2013" releasetime="1379192376" airac="1309">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.3" releasedate="9/13/2013">
+    <filename>New Student Package v5.3</filename>
+    <url>http://denartcc.org/fe/New Student Package v5.3.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.3" releasedate="9/13/2013">
+    <filename>ZDV ARTCC Sector v5.3</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_5.3.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change>Updated VORs, NDBs, FIXs, and Airways to 1309 AIRAC.</change>
+	<change affected="KDEN, D01">BAYLR ONE becomes BAYLR TWO</change>
+	<change affected="KDEN, D01">BRYCC ONE becomes BRYCC TWO</change>
+	<change affected="KDEN, D01">CONNR ONE becomes CONNR TWO</change>
+	<change affected="KDEN, D01">COORZ ONE becomes COORZ TWO</change>
+	<change affected="KDEN, D01">EEONS TWO becomes EEONS THREE</change>
+	<change affected="KDEN, D01">EMMYS TWO becomes EMMYS THREE</change>
+	<change affected="KDEN, D01">EPKEE ONE becomes EPKEE TWO</change>
+	<change affected="KDEN, D01">EXTAN TWO becomes EXTAN THREE</change>
+	<change affected="KDEN, D01">FOOOT ONE becomes FOOOT TWO</change>
+	<change affected="KDEN, D01">RIKKK ONE becomes RIKKK TWO</change>
+	<change affected="KDEN, D01">SOLAR ONE becomes SOLAR TWO</change>
+	<change affected="KDEN, D01">SPAZZ ONE becomes SPAZZ TWO</change>
+	<change affected="KDEN, D01">STAKR ONE becomes STAKR TWO</change>
+	<change affected="KDEN, D01">YAMMI ONE becomes YAMMI TWO</change>
+	<change affected="KDEN, D01">YOKES ONE becomes YOKES TWO</change>
+	<change affected="KBJC, D01">KBJC Airport Section added to accommodate BJC specific maps.</change>
+	<change affected="KBJC, D01">New SID at KBJC: DUNNN ONE</change>
+	<change affected="D01">New RNAV specific video maps added throughout.</change>
+	<change affected="D01">Airport dividers in airport list added for reading clarity.</change>
+	<change affected="D01">D01 Class B Map Updated</change>
+	<change affected="D01">D01 MVAs separated from D01 Primary Video Map for clarity</change>
+	<change affected="D01">New D01 Roads and Landmarks Map.  This data split from Class B map for additional clarity.</change>
+	<change affected="D01">New D01 Emergency Obstacle Video Map added</change>
+	<change affected="D01">D01 STARs RNAV L/N and L/S headers now clickable and gives a simplified overview of all Land North or Land South procedures.</change>
+	<change affected="D01">New D01 STAR header called L/N/S.  Is clickable and gives a simplified overview of all Land North / South RNAV STAR procedures.</change>
+	<change affected="D01">New D01 SID header called South.  Is clickable and gives a simplified overview of all Land South RNAV SID procedures.</change>
+	<change affected="D01">New D01 SID header called North.  Is clickable and gives a simplified overview of all Land North RNAV SID procedures.</change>
+	<change affected="D01">New D01 header called DEN RNAV-ILS Transitions and has several video maps, organized by corresponding approach runway, which show the connector paths from the RNAV arrivals to the ILS approaches.</change>
+	<change affected="D01">New D01 SID header called D01 SAT RNAV SIDS.  Is clickable and gives a simplified overview of D01 satellite airport SID procedures.  At this time, appears to have extraneous data.  This may incorporate future procedures not yet published.</change>
+	<change affected="D01">New KAPA header called RNAV STARs APA.  Is clickable and gives a simplified overview of all KAPA STAR procedures.  At this time, appears to have extraneous and / or erroneous data.  This may incorporate future procedures not yet published.</change>
+	<change affected="D01">New KBJC header called RNAV STARs BJC.  Is clickable and gives a simplified overview of all KAPA STAR procedures.  At this time, appears to have extraneous and / or erroneous data.  This may incorporate future procedures not yet published.</change>
+	<change affected="D01">Reverted center MVA colors to their color from before 10-13-12.  This makes them a less predominate color.</change>
+	<change affected="D01">Created a new color group so that Tracon MVAs can be more easily manipulated and set their colors to match the center MVA colors.</change>
+	<change affected="D01">Removed D01 Emergency Obstacle Video Map.</change>
+  </version>
+  <version releasedate="7 July 2013" releasetime="1373597211" airac="1307">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.2" releasedate="7/11/2013">
+    <filename>New Student Package v5.2</filename>
+    <url>http://denartcc.org/fe/New Student Package v5.2.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.2" releasedate="7/11/2013">
+    <filename>ZDV ARTCC Sector v5.2</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_5.2.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change>Updated VORs, NDBs, FIXs, and Airways to 1307 AIRAC.</change>
+	<change>Changed magnetic variation of entire file to 8deg east (from 8.0)deg east.  This is due to the resurveying of KDEN (2015).</change>
+   	<change affected="KEAR">Added back in the KEAR shelf, which modified DEN_CTR's boundary with ZMP.  It got omitted somewhere along the way, but has always been active.</change>
+	<change affected="KDEN, D01">Added BAYLR ONE</change>
+	<change affected="KDEN, D01">ANCHR ONE becomes ANCHR TWO</change>
+	<change affected="KDEN, D01">CREDE ONE becomes CREDE TWO</change>
+	<change affected="KDEN, D01">FRNCH ONE becomes FRNCH TWO</change>
+	<change affected="KDEN, D01">JAGGR ONE becomes JAGGR TWO</change>
+	<change affected="KDEN, D01">KOHOE ONE becomes KOHOE TWO</change>
+	<change affected="KDEN, D01">MOLTN ONE becomes MOLTN TWO</change>
+	<change affected="KDEN, D01">PEEKK ONE becomes PEEKK TWO</change>
+	<change affected="KDEN, D01">ZPLYN ONE becomes ZPLYN TWO</change>
+	<change affected="KDEN, D01">PIKES FIVE radials updated due to the resurveying of KDEN (2015).</change>
+	<change affected="KDEN, D01">PLAIN FIVE radials updated due to the resurveying of KDEN (2015).</change>
+	<change affected="KDEN, D01">YELLO SEVEN radials updated due to the resurveying of KDEN (2015).</change>
+	<change affected="KDEN, D01">ROCKI EIGHT becomes ROCKI NINE, and radials updated due to the resurveying of KDEN (2015).</change>
+	<change affected="KDEN, D01">EEONS ONE becomes EEONS TWO (very small change between EEONS and LUPTN)</change>
+	<change affected="KDEN, D01">EMMYS ONE becomes EMMYS TWO</change>
+	<change affected="KDEN, D01">EXTANS ONE becomes EXTANS TWO</change>
+	<change affected="KDEN, D01">YOKES ONE becomes YOKES TWO</change>
+	<change affected="KEGE">Deleted COTTN2 (Discontinued KEGE SID)</change>
+	<change affected="KCOS">DBERRY ONE becomes DBERRY TWO</change>
+	<change affected="KRAP">RCA ONE becomes RCA TWO</change>
+	<change affected="KRCA">ALCOS THREE becomes ALCOS FOUR</change>
+	<change affected="KGJT, D01">JNC FIVE becomes JNC SIX</change>
+	<change affected="KAPA, D01">SKARF ONE becomes SKARF TWO</change>
+  </version>
+  <version releasedate="16 January 2013" releasetime="1358391799" airac="1301">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.1" releasedate="1/16/2013">
+    <filename>New Student Package v5.1</filename>
+    <url>http://denartcc.org/fe/New Student Package v5.1.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.1" releasedate="1/16/2013">
+    <filename>ZDV ARTCC Sector v5.1</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_5.1.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+   <change>Reordered D01 RNAV STARs to make more sense. They now start at the 12 oclock entry gate and rotate around D01 clockwise. And the correspond, so if you need to switch someone on a LN STAR to a LS STAR, you can open the menu. If they are on the third down LN STAR, you can look at the LS section, go down three, and that is the star you need to switch them to.</change>
+   <change>Updated VORs, NDBs, FIXs, and Airways to 1301 AIRAC.</change>
+   <change affected="D01">New SID at KDEN: YOKES ONE</change>
+   <change affected="D01">New SID at KDEN: BRYCC ONE</change>
+   <change affected="D01">New SID at KDEN: YOKES ONE</change>
+   <change affected="D01">New SID at KDEN: EEONS ONE</change>
+   <change affected="D01">New SID at KDEN: EMMYS ONE</change>
+   <change affected="D01">New SID at KDEN: EXTAN ONE</change>
+   <change affected="D01">New SID at KDEN: EPKEE ONE</change>
+   <change affected="D01">New SID at KDEN: JMPRS ONE</change>
+   <change affected="D01">New SID at KDEN: STAKR ONE</change>
+   <change affected="D01">New SID at KDEN: SPAZZ ONE</change>
+   <change affected="D01">New SID at KDEN: SOLAR ONE</change>
+   <change affected="D01">New SID at KDEN: CONNR ONE</change>
+   <change affected="D01">New SID at KDEN: COORZ ONE</change>
+   <change affected="D01">New SID at KDEN: FOOOT ONE</change>
+   <change affected="D01">New SID at KDEN: YAMMI ONE</change>
+   <change affected="D01">KIPPR ONE becomes KIPPR TWO</change>
+   <change affected="D01">New STAR at KAPA: PUFFR TWO</change>
+  </version>
+  <version releasedate="17 November 2012" releasetime="1353175200" airac="1212">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.0" releasedate="11/17/2012">
+    <filename>New Student Package v5.0</filename>
+    <url>http://denartcc.org/fe/New Student Package v5.0.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.0" releasedate="11/17/2012">
+    <filename>ZDV ARTCC Sector 5.0</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_5.0.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.3" releasedate="6/6/2012">
+    <filename>ZDV Alias File v2.1.3</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.3.zip</url>
+   </aliasinfo>
+   <change>Updated VORs, NDBs, FIXs, and Airways to 1212 AIRAC.</change>
+   <change affected="D01">YELLO6 becomes YELLO7</change>
+   <change affected="D01">ROCKI7 becomes ROCKI8</change>
+   <change affected="D01">PLAIN4 becomes PLAIN5</change>
+   <change affected="D01">TOMSN5 becomes TOMSN6</change>
+   <change affected="D01">SAYGE7 becomes SAYGE8</change>
+   <change affected="D01">RAMMS5 becomes RAMMS6</change>
+   <change affected="D01">QUAIL6 becomes QUAIL7</change>
+   <change affected="D01">POWDR7 becomes POWDR8</change>
+   <change affected="D01">LARKS6 becomes LARKS7</change>
+   <change affected="D01">LANDR6 becomes LANDR7</change>
+   <change affected="D01">DANDD6 becomes DANDD7</change>
+   <change affected="KASE">LINDZ7 becomes LINDZ8</change>
+   <change affected="KASE">PITKN3 becomes PITKN4</change>
+   <change affected="D01">New STAR at KDEN: ANCHR ONE</change>
+   <change affected="D01">New STAR at KDEN: BOSSS ONE</change>
+   <change affected="D01">New STAR at KDEN: CREDE ONE</change>
+   <change affected="D01">New STAR at KDEN: FRNCH ONE</change>
+   <change affected="D01">New STAR at KDEN: JAGGR ONE</change>
+   <change affected="D01">New STAR at KDEN: KAILE ONE</change>
+   <change affected="D01">New STAR at KDEN: KOHOE ONE</change>
+   <change affected="D01">New STAR at KDEN: ANCHR ONE</change>
+   <change affected="D01">New STAR at KDEN: LDORA ONE</change>
+   <change affected="D01">New STAR at KDEN: MOLTN ONE</change>
+   <change affected="D01">New STAR at KDEN: PEEKK ONE</change>
+   <change affected="D01">New STAR at KDEN: PURRL ONE</change>
+   <change affected="D01">New STAR at KDEN: TELLR ONE</change>
+   <change affected="D01">New STAR at KDEN: TSHNR ONE</change>
+   <change affected="D01">New STAR at KDEN: WAHUU ONE</change>
+   <change affected="D01">New STAR at KDEN: ZPLYN ONE</change>
+   <change affected="KCOS">New STAR at KCOS: OZZZY ONE</change>
+   <change affected="D01">New STAR at KAPA: DUNNN ONE</change>
+   <change affected="D01">New STAR at KAPA: SKARF ONE</change>
+   <change affected="D01">New STAR at KAPA: ZOMBZ ONE</change>
+  </version>
+  <version releasedate="31 October 2012" releasetime="1351726181" airac="1211">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="4.9" releasedate="10/31/2012">
+    <filename>New Student Package v4.9</filename>
+    <url>http://denartcc.org/fe/New Student Package v4.9.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="4.9" releasedate="10/31/2012">
+    <filename>ZDV ARTCC Sector 4.9</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_4.9.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.3" releasedate="6/6/2012">
+    <filename>ZDV Alias File v2.1.3</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.3.zip</url>
+   </aliasinfo>
+   <change>Updated VORs, NDBs, FIXs, and Airways to 1211 AIRAC.</change>
+   <change affected="KDEN">Added in runway lines at KDEN.  These are the overlays, so that when airport graphics are off, you can still view the runway center lines.</change>
+   <change>Per Nils (ATM) Request, made the center MVAs a more predominate color, utilizing the existing taxiway color.</change>
+  </version>
+  <version releasedate="6 June 2012" releasetime="1339208043" airac="1206">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="4.8" releasedate="6/6/2012">
+    <filename>New Student Package v4.8</filename>
+    <url>http://denartcc.org/fe/New Student Package v4.8.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="4.8" releasedate="6/6/2012">
+    <filename>ZDV ARTCC Sector 4.8</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_4.8.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.3" releasedate="6/6/2012">
+    <filename>ZDV Alias File v2.1.3</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.3.zip</url>
+   </aliasinfo>
+   <change>Updated VORs, NDBs, FIXs, and Airways to 1206 AIRAC.  NOTE: This is the first release that has all Airways both high and low correctly displayed.  While this will ensure accuracy, it is highly discouraged that controllers operating on lower end computers attempt to view all airways at once.</change>
+   <change affected="D01">LANDR5 becomes LANDR6</change>
+   <change affected="D01">SAYGE6 becomes SAYGE7</change>
+   <change affected="D01">TOMSN4 becomes TOMSN5</change>
+   <change>Corrected, updated and added so all 'runways' are displayed for all displayed airports (those with published approaches).</change>
+   <change>Added in runway center lines at all class C and D airports per request from training department.  NOTE: E's omitted to avoid clutter, B's omitted because they are represented in appropriate video maps.</change>
+   <change>Rearranged SIDs/STARs Menu</change>
+   <change>Reverted Center Splits to their arrangement prior to 8-23-11.  See ZDV SOP v4.0 for details.</change>
+  </version>
+  <version releasedate="19 Feb 2012" releasetime="1329700443" airac="1202">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="4.7" releasedate="2/19/2012">
+    <filename>New Student Package v4.7</filename>
+    <url>http://denartcc.org/fe/New Student Package v4.7.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="4.7" releasedate="2/19/2012">
+    <filename>ZDV ARTCC Sector 4.7</filename>
+    <url>http://denartcc.org/fe/ZDV_ARTCC_Sector_4.7.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/fe/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.2" releasedate="7/14/2011">
+    <filename>ZDV Alias File v2.1.2</filename>
+    <url>http://denartcc.org/fe/zdv_alias_v2.1.2.zip</url>
+   </aliasinfo>
+   <change affected="KANK">Added KANK to video map.</change>
+   <change affected="9V5">Added 9V5 to video map.</change>
+   <change affected="33V">Added 33V to video map.</change>
+   <change affected="KAIB">Added KAIB to video map.</change>
+   <change affected="KPSO">Added KPSO to video map.</change>
+   <change affected="8V7">Added 8V7 to video map.</change>
+   <change affected="3K3">Added 3K3 to video map.</change>
+   <change affected="KHLC">Added KHLC to video map.</change>
+   <change>Update ZLC Splits per documents from ZLC DATM Jon Stoops.</change>
+   <change>Deleted random other lines from previous neighboring artcc splits.</change>
+   <change affected="KCPR">Cleaned up KCPR Video map and updated runway numbers.</change>
+   <change affected="KDRO">Updated KDRO runway numbers.</change>
+   <change affected="KGLD">Added KGLD rwy 17/35.</change>
+   <change>Added MLF waypoint to J28.</change>
+   <change>Added MTU and CHE waypoints to J24.</change>
+   <change>Updated V211 in accordance with 1202 AIRAC.</change>
+   <change>Updated VORs, NDBs, and FIXs to 1202 AIRAC.</change>
+  </version>
+  <version releasedate="21 Nov 2011" releasetime="1324516776" airac="1113">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="4.6" releasedate="11/21/2011">
+    <filename>New Student Package v4.6</filename>
+    <url>http://denartcc.org/a/sites/default/files/New Student Package v4.6.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="4.6" releasedate="11/21/2011">
+    <filename>ZDV ARTCC Sector 4.6</filename>
+    <url>http://denartcc.org/a/sites/default/files/ZDV_ARTCC_Sector_4.6.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.01" releasedate="5/16/2011">
+    <filename>ZDV POF File v4.01</filename>
+    <url>http://denartcc.org/a/sites/default/files/VZDVv4.01.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.2" releasedate="7/14/2011">
+    <filename>ZDV Alias File v2.1.2</filename>
+    <url>http://denartcc.org/a/sites/default/files/zdv_alias_v2.1.2.zip</url>
+   </aliasinfo>
+   <change affected="KASE">Updated LINDZ SIX to LINDZ SEVEN and PITKN ONE to PITKN TWO</change>
+   <change>Updated VORs, NDBs, and FIXs to 1113 AIRAC.</change>
+  </version>
+  
+  <version releasedate="16 Nov 2011" releasetime="1321486977" airac="1111">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.5">
+    <filename>ZDV ARTCC Sector 4.5</filename>
+    <url>http://denartcc.org/a/sites/default/files/ZDV_ARTCC_Sector_4.5.zip</url>
+   </sectorinfo>
+   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change>Updated VORs, NDBs, and FIXs to 1111 AIRAC.</change>
+  </version>
+  
+  <version releasedate="5 Sep 2011" releasetime="1315180800" airac="1109">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.4">
+    <filename>ZDV ARTCC Sector 4.4</filename>
+    <url>http://denartcc.org/a/sites/default/files/ZDV_ARTCC_Sector_4.4.zip</url>
+   </sectorinfo>   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change>Updated VORs, NDBs, and FIXs to 1109 AIRAC.</change>
+   <change>Updated V484 per 1109 AIRAC.</change>
+   <change>Added the Q126, Q134 and Q136 per 1109 AIRAC.</change>
+   <change>Updated the ARTCC, Low and Hi boundaries to the new layout style per Harold.</change>
+  </version>
+  <version releasedate="23 AUG 2011" releasetime="1314057600" airac="1107">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.3.5">
+   </sectorinfo>
+   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change affected="D01">Added in new High/Low Center Splits, to be utilized at Denver Live this year.</change>
+   <change affected="KPUB">Corrected KPUB extended center line issue.</change>
+  </version>
+  
+  <version releasedate="11 JULY 2011" releasetime="1310342400" airac="1107">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.3" >
+   </sectorinfo>   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change>Updated AIRAC to 1107</change>
+   <change affected="D01">Added in STAR holds</change>
+   <change affected="D01">Added in SID Holds</change>
+   <change affected="D01">Put in experimental SID hold names, as well as the RAMMS label for feedback.</change>
+   <change affected="KFMN">Reworked KFMN SIDs</change>
+   <change affected="KGJT">Make the MONMT2 ODP diagram</change>
+  </version>
+  
+  <version releasedate="23 MAY 2011" releasetime="1306108800" airac="1105">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.2.1">
+   </sectorinfo>
+   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change affected="KCOS">Bug that warranted mid release update: Added back in KCOS airport diagram</change>
+   <change affected="D01">Updated the PLAIN4 HCT initial heading marker.  Updated due to magnetic variation.  was 062&#176;, now 061&#176;.</change>
+  </version>
+  
+  <version releasedate="16 MAY 2011" releasetime="1305504000" airac="1105">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo>
+    <filename></filename>
+    <url></url>
+   </packetinfo>
+   <sectorinfo filerev="4.2">
+   </sectorinfo>
+   <POFinfo>
+    <filename></filename>
+    <url></url>
+   </POFinfo>
+   <aliasinfo>
+    <filename></filename>
+    <url></url>
+   </aliasinfo>
+   <change affected="D01">Changed primary video map colors from ARTS greenish color to definable within VRC</change>
+   <change affected="D01">Updated / Changed how diagrams are displayed in the SIDs and STARs columns</change>
+   <change affected="KDEN">Changed KDEN airport diagram to a prettier and more accurate one.  Thanks Marcus ZDV_MC.</change>
+   <change affected="KPUB">Updated KPUB taxiway labels to reflect their real world counterpart.  Realistic .bgl file for FSX on the way.</change>
+   <change>Added in all runway labels to nearly all runways in the ARTCC.  Thanks Marcus ZDV_MC.</change>
+   <change>Enabled easy deactivation and reactivation of Runway and Taxiway labels.  Open the file with notepad and see lines 15 and 16 for instructions on how to do so.  See below for details.</change>
+   <change affected="KBKF">Added airport diagram to KBKF - Buckley  AFB and KRCA - Ellsworth AFB. Thanks Marcus!</change>
+   <change>Updated AIRAC to 1105 (IE all FIXs, VORs, and NDBs should be up to date with the FAA)</change>
+   <change affected="KGJT">KGJT: Monument 2 replaces Glade Park 1.</change>
+   <change affected="KASE">KASE: Updated from LINDZ5 to LINDZ6</change>
+   <change affected="KGCC">KGCC: Added in RNAV Procedures and tweaked existing scope labels.</change>
+   <change>Added in new DEN ATCT video maps.  These depict DEN ATCT airspace, as well as the DEN ATCT departure corridors into D01, and video maps for the ATCT to utilize during different landing configurations.</change>
+   <change>removed lots of duplicate entries, making the file about 20% smaller</change>
+   <change>Updated Magnetic Variation, so expect to see your scope rotated slightly.  This should make your vectors more accurate by about 1.6&#176;.</change>
+   <change>Added back in all FIXs required to display SIDs in our diagram list but not in our ARTCC, as those had gotten deleted at some point.</change>
+   <change>Many other minor improvements.</change>
+   <change>
+Note regarding turning on and off taxiway and runway labels:
+
+One of the problems with using a combined file for all positions is that traditionally the labels column must be either all on or all off.  This is not a problem until you get up to radar positions where your scope is zoomed out all the way.  The problem is that these labels actually scale up, making it impossible to, for example, see anything within about a 15mi radius around KDEN because all you can see is a large mass of bright white labels all jumbled on top of each other.  I have come up with a solution.  At the request of the training department, all sector files from here on out will ship with all labels displayed.  This is to lower the burden on our newer students.  If, however, any of our controllers would like to turn off these labels, all you must do is:
+
+1) Open the sector file in notepad or some similar text editing program.
+2) Navigate to line 16 to modify Runway Labels and line 17 to modify Taxiway Labels
+3) Delete the first character on the line, the semicolon (";").
+4) Save the file.
+5) In VRC, type in the text box ".reloadsector"
+
+To re-enable them, simply add that semicolon (";") back at the beginning of the line.
+   </change>
+  </version>
+ </changelog>
