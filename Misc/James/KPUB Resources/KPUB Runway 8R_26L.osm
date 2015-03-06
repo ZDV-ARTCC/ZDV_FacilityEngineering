@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-3973' action='modify' visible='true' lat='38.28691866307' lon='-104.51008647419' />
+  <node id='-3971' action='modify' visible='true' lat='38.28778114781' lon='-104.47352579106' />
+  <node id='-3969' action='modify' visible='true' lat='38.28819989693' lon='-104.473542564' />
+  <node id='-3968' action='modify' visible='true' lat='38.28733699907' lon='-104.51010677915' />
+  <way id='-3970' action='modify' visible='true'>
+    <nd ref='-3968' />
+    <nd ref='-3969' />
+    <nd ref='-3971' />
+    <nd ref='-3973' />
+    <nd ref='-3968' />
+    <tag k='aeroway' v='runway' />
+  </way>
+</osm>

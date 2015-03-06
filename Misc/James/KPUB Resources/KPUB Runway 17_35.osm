@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-9125' action='modify' visible='true' lat='38.29008710568' lon='-104.50389692311' />
+  <node id='-9111' action='modify' visible='true' lat='38.29038218148' lon='-104.50391326873' />
+  <node id='-9098' action='modify' visible='true' lat='38.29032872581' lon='-104.50400316964' />
+  <node id='-9065' action='modify' visible='true' lat='38.29039194242' lon='-104.50325086043' />
+  <node id='-9043' action='modify' visible='true' lat='38.2901054196' lon='-104.50325903324' />
+  <node id='-9030' action='modify' visible='true' lat='38.29035434003' lon='-104.50312554401' />
+  <node id='-8996' action='modify' visible='true' lat='38.29012991487' lon='-104.50399827038' />
+  <node id='-8988' action='modify' visible='true' lat='38.29015306857' lon='-104.50311553478' />
+  <node id='-8955' action='modify' visible='true' lat='38.2900146336' lon='-104.50382965261' />
+  <node id='-8947' action='modify' visible='true' lat='38.29001426674' lon='-104.50331492657' />
+  <node id='-8936' action='modify' visible='true' lat='38.29047110282' lon='-104.50384571755' />
+  <node id='-8929' action='modify' visible='true' lat='38.29048210418' lon='-104.50332859549' />
+  <node id='-8916' action='modify' visible='true' lat='38.28138314229' lon='-104.5035186313' />
+  <node id='-8914' action='modify' visible='true' lat='38.30418079576' lon='-104.50436544507' />
+  <node id='-8912' action='modify' visible='true' lat='38.30419789831' lon='-104.5038369367' />
+  <node id='-8911' action='modify' visible='true' lat='38.28139144321' lon='-104.50299138458' />
+  <way id='-8913' action='modify' visible='true'>
+    <nd ref='-8911' />
+    <nd ref='-8947' />
+    <nd ref='-9043' />
+    <nd ref='-8988' />
+    <nd ref='-9030' />
+    <nd ref='-9065' />
+    <nd ref='-8929' />
+    <nd ref='-8912' />
+    <nd ref='-8914' />
+    <nd ref='-8936' />
+    <nd ref='-9111' />
+    <nd ref='-9098' />
+    <nd ref='-8996' />
+    <nd ref='-9125' />
+    <nd ref='-8955' />
+    <nd ref='-8916' />
+    <nd ref='-8911' />
+    <tag k='aeroway' v='runway' />
+  </way>
+</osm>
