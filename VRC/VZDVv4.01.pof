@@ -128,7 +128,37 @@ LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
 ;ADJACENT ARTCCs
 Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
 Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
-Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
+;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
 Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
 Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
 Minneapolis South(30) Center:-:135.770:36:C:MSP:CTR:MSP:CTR
+
+;ZAB ARTCC---------------------------------------------------
+; ZAB Combined ABQ_CTR
+ZB - ZAB:Albuquerque Center:127.850:ZB:C:ABQ:CTR:ZAB:ZB:0701:0777
+; ZAB Northwest Area
+NW - NORWEST:Albuquerque Center:128.450:NW:C:ABQ:CTR:ZAB:NW:0701:0777
+38 - MIALH:Albuquerque Center:132.900:38:C:ABQ:CTR:ZAB:38:0701:0777
+43 - DRKLO:Albuquerque Center:128.450:43:C:ABQ:CTR:ZAB:43:0701:0777
+;ZAB Northeast Area
+NE - NOREST:Albuquerque Center:127.850:NE:C:ABQ:CTR:ZAB:NE:0701:0777
+; ZAB North Area
+ZN - North:Albuquerque Center:127.850:ZN:C:ABQ:CTR:ZAB:ZN:0701:0777
+94 - CNXLH:Albuquerque Center:133.650:94:C:ABQ:CTR:ZAB:94:0701:0777
+17 - LAVLO:Albuquerque Center:124.320:17:C:ABQ:CTR:ZAB:17:0701:0777
+; ZAB South Area
+ZS - SOUTH:Albuquerque Center:126.450:ZS:C:ABQ:CTR:ZAB:ZS:0701:0777
+; ZAB East Area
+ZE _ EAST:Albuquerque Center:127.850:ZE:C:ABQ:CTR:ZAB:ZE:0701:0777
+15 - BDGLO:Albuquerque Center:127.850:15:C:ABQ:CTR:ZAB:15:0701:0777
+97 - AMAHI:Albuquerque Center:134.750:97:C:ABQ:CTR:ZAB:97:0701:0777
+;ZAB West Area
+ZW - WEST:Albuquerque Center:128.450:ZW:C:ABQ:CTR:ZAB:ZW:0701:0777
+; ZAB Southeast Area
+SE - SOUEST:Albuquerque Center:120.970:SE:C:ABQ:CTR:ZAB:SE:0701:0777
+19 - DMNLO:Albuquerque Center:128.200:19:C:ABQ:CTR:ZAB:19:0701:0777
+63 - ELPHI:Albuquerque Center:120.970:63:C:ABQ:CTR:ZAB:63:0701:0777
+; ZAB Southwest Area
+SW - SOUWST:Albuquerque Center:126.450:SW:C:ABQ:CTR:ZAB:SW:0701:0777
+42 - GBNLO:Albuquerque Center:126.450:42:C:ABQ:CTR:ZAB:42:0701:0777
+46 - TUSLO:Albuquerque Center:125.400:46:C:ABQ:CTR:ZAB:46:0701:0777
