@@ -5,8 +5,7 @@
 ;	| Release Date: 22 MAY 2015                                                                          |
 ;	+----------------------------------------------------------------------------------------------------+
 ;	| Authorization: Mani Manigault ATM                                                                  |
-;	| ZDV Authors: Gary Widup, Dick Snaer, Daniel Moses, Marcus Becker, Harold Rutila, Casey Diers and   |
-;	| James Waltz                                                                                        |
+;	| ZDV Authors: Harold Rutila, Richard Snaer, David Hendleman, Mike Evans, Casey Diers and James Waltz|
 ;	+----------------------------------------------------------------------------------------------------+
 ;THIS FILE USES THE FOLLOWING FORMAT
 ;NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
