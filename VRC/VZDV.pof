@@ -1,11 +1,12 @@
 ;	+----------------------------------------------------------------------------------------------------+
-;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.01                         |
+;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.1                          |
 ;	| File may only be distributed as freeware.                                                          |
-;	| Copyright (c) 2011 Virtual Denver ARTCC on VATSIM                                                  |
-;	| Release Date: 16 MAY 2011                                                                          |                                                
+;	| Copyright (c) Virtual Denver ARTCC on VATSIM                                                       |
+;	| Release Date: 22 MAY 2015                                                                          |
 ;	+----------------------------------------------------------------------------------------------------+
-;	| Authorization: Harold Rutila, ATM                                                                  |
-;	| ZDV Authors: Harold Rutila, Richard Snaer, David Hendleman, Mike Evans                             |
+;	| Authorization: Mani Manigault ATM                                                                  |
+;	| ZDV Authors: Gary Widup, Dick Snaer, Daniel Moses, Marcus Becker, Harold Rutila, Casey Diers and   |
+;	| James Waltz                                                                                        |
 ;	+----------------------------------------------------------------------------------------------------+
 ;THIS FILE USES THE FOLLOWING FORMAT
 ;NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
