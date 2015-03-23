@@ -1,0 +1,20 @@
+Effective Immediately, [url=http://denartcc.org/fe/ZDV_ARTCC_Sector_5.5.zip]ZDV ARTCC Sector File 5.5[/url] is current and available for download.
+Also released today is a new pof file, [url=http://denartcc.org/fe/VZDVv4.1.pof]POF version 4.1[/url].
+
+This release has several improvements.  Here is a full list of changes included in this release:
+
++ Update VORs, NDBs, FIXs, and Airways to 1503 AIRAC.
++ Update KPUB to reflect the new runway north of old runway 08L/26R. Runways renamed accordingly.
++ Update ZAB Center Splits diagram to correctly reflect the changes to their sectorization that they implemented in January of 2015.
+
++ Update ZAB section of POF file to correctly reflect the changes to their sectorization that they implemented in January of 2015.
+
+Enjoy!
+
+Casey Diers
+ZDV_CI_FE
+DEN ARTCC Facility Engineer
+casey@denartcc.org
+
+
+Please post feature requests and bugs below this post in this thread.
