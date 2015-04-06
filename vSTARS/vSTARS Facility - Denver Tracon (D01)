@@ -20,10 +20,10 @@
       <AirportData ID="KDEN" TowerList="1" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="100" />
       <AirportData ID="KAPA" TowerList="2" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="100" />
       <AirportData ID="KBJC" TowerList="3" IncludeInSSA="true" SupportsTopDownMode="true" TowerListRange="100" />
-      <AirportData ID="KFTG" TowerListRange="30" />
-      <AirportData ID="KGXY" TowerListRange="30" />
-      <AirportData ID="KFNL" TowerListRange="30" />
-      <AirportData ID="KLMO" TowerListRange="30" />
+      <AirportData ID="KFTG" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KGXY" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KFNL" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KLMO" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
     </AirportData>
     <CALateralMinimum>3</CALateralMinimum>
     <CAVerticalMinimum>1000</CAVerticalMinimum>
@@ -101,7 +101,7 @@
       <PositionInfo PositionType="Other" SectorName="Minneapolis North(11) Center" RadioName="Minneapolis North(11) Center" Prefix="MSP" Suffix="CTR" Frequency="33400" SectorID="34" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="Minneapolis South(30) Center" RadioName="Minneapolis South(30) Center" Prefix="MSP" Suffix="CTR" Frequency="35770" SectorID="36" PositionSymbol="C" />
     </Positions>
-    <PositionsLastImported>2012-01-14T15:44:01.4375-06:00</PositionsLastImported>
+    <PositionsLastImported>2012-01-14T16:44:01.4375-05:00</PositionsLastImported>
     <CommandAliases>
       <CommandAlias Command=".cor" ReplaceWith="clearance on request, standby..." />
       <CommandAlias Command=".cdt" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, then as filed;" />
@@ -501,7 +501,7 @@
       <CommandAlias Command=".reload8" ReplaceWith=".reloadsector /8" />
       <CommandAlias Command=".reload" ReplaceWith=".reload1 .reload2 .reload3 .reload4 .reload5 .reload6 .reload7 .reload8" />
     </CommandAliases>
-    <CommandAliasesLastImported>2012-01-14T15:43:12.3125-06:00</CommandAliasesLastImported>
+    <CommandAliasesLastImported>2012-01-14T16:43:12.3125-05:00</CommandAliasesLastImported>
     <LDBBeaconCodesInhibited>true</LDBBeaconCodesInhibited>
     <PDBGroundSpeedInhibited>true</PDBGroundSpeedInhibited>
     <DisplayRequestedAltInFDB>true</DisplayRequestedAltInFDB>
@@ -680,7 +680,7 @@
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />  
+      <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
@@ -688,7 +688,7 @@
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" /> 
+      <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
@@ -704,7 +704,7 @@
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />  
+      <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
@@ -712,7 +712,7 @@
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" /> 
+      <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
@@ -728,7 +728,7 @@
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />  
+      <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
@@ -736,7 +736,7 @@
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" /> 
+      <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
@@ -752,7 +752,7 @@
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />  
+      <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
@@ -760,8 +760,8 @@
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" /> 
-    </ScratchpadRules>                                                                                                            
+      <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+    </ScratchpadRules>
     <CoastSuspendListTimeout>10</CoastSuspendListTimeout>
     <UseVFRPositionSymbol>true</UseVFRPositionSymbol>
     <ShowDestinationDepartures>false</ShowDestinationDepartures>
@@ -778,8 +778,8 @@
       <SelectedPrefSet>0</SelectedPrefSet>
       <Bookmarks />
     </Local>
-    <IFRSquawkCodeRange Low="0601" High="0677" />
-    <VFRSquawkCodeRange Low="4300" High="4377" />
+    <IFRSquawkCodeRange Low="601" High="677" />
+    <VFRSquawkCodeRange Low="601" High="677" />
     <SystemVolumes>
       <SystemVolume VolumeType="MSAWSuppression" Name="KDEN MSAW SUPPRESSION" Floor="0" Ceiling="6500" Airport="" VolumeShape="Polygon" Radius="0">
         <Center Lon="0" Lat="0" />
