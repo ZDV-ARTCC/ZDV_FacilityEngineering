@@ -661,8 +661,6 @@
       <RDVSFrequencySpec Frequency="99998" />
       <RDVSFrequencySpec Frequency="99998" />
       <RDVSFrequencySpec Frequency="99998" />
-      <RDVSFrequencySpec Frequency="99998" />
-      <RDVSFrequencySpec Frequency="99998" />
     </RDVSFrequencySpecs>
     <ScratchpadRules>
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
@@ -28394,7 +28392,40 @@
         </Region>
       </SystemVolume>
     </SystemVolumes>
-    <RNAVPatterns />
+    <RNAVPatterns>
+      <string>ANCHR#</string>
+      <string>BAYLR#</string>
+      <string>BOSSS#</string>
+      <string>BRYCC#</string>
+      <string>CONNR#</string>
+      <string>COORZ#</string>
+      <string>CREDE#</string>
+      <string>EEONS#</string>
+      <string>EMMYS#</string>
+      <string>EPKEE#</string>
+      <string>EXTAN#</string>
+      <string>FOOOT#</string>
+      <string>FRNCH#</string>
+      <string>JAGGR#</string>
+      <string>JMPRS#</string>
+      <string>KAILE#</string>
+      <string>KIPPR#</string>
+      <string>KOHOE#</string>
+      <string>LDORA#</string>
+      <string>MOLTN#</string>
+      <string>PEEKK#</string>
+      <string>PURRL#</string>
+      <string>RIKKK#</string>
+      <string>SOLAR#</string>
+      <string>SPAZZ#</string>
+      <string>STAKR#</string>
+      <string>TELLR#</string>
+      <string>TSHNR#</string>
+      <string>WAHUU#</string>
+      <string>YAMMI#</string>
+      <string>YOKES#</string>
+      <string>ZPLYN#</string>
+    </RNAVPatterns>
   </Facility>
   <VideoMaps>
     <VideoMap ShortName="D01" LongName="D01 Base Map" STARSGroup="A" STARSTDMOnly="false" VisibleInList="false">
