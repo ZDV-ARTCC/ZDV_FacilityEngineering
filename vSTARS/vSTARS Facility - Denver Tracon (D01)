@@ -24,6 +24,9 @@
       <AirportData ID="KGXY" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
       <AirportData ID="KFNL" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
       <AirportData ID="KLMO" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KBDU" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KEIK" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
+      <AirportData ID="KBKF" TowerList="0" IncludeInSSA="false" SupportsTopDownMode="false" TowerListRange="30" />
     </AirportData>
     <CALateralMinimum>3</CALateralMinimum>
     <CAVerticalMinimum>1000</CAVerticalMinimum>
