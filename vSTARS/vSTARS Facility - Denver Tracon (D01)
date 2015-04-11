@@ -664,15 +664,18 @@
     </RDVSFrequencySpecs>
     <ScratchpadRules>
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
       <ScratchpadRule Airport="KDEN" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KDEN" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
       <ScratchpadRule Airport="KDEN" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
@@ -684,19 +687,46 @@
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
-      <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KDEN" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="BAYLR# BOBBA" MinAltitude="0" MaxAltitude="0" Template="BOBA" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="BAYLR# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="BAYLR# TEHRU" MinAltitude="0" MaxAltitude="0" Template="TERU" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="BRYCC# TAYOT" MinAltitude="0" MaxAltitude="0" Template="TAYT" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="CONNR# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="COORZ# VOAXA" MinAltitude="0" MaxAltitude="0" Template="VOXA" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EEONS# WYNDM" MinAltitude="0" MaxAltitude="0" Template="WNDM" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EMMYS# ZIRKL" MinAltitude="0" MaxAltitude="0" Template="ZRKL" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EPKEE# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EPKEE# DUUCE" MinAltitude="0" MaxAltitude="0" Template="DUCE" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EPKEE# GATTR" MinAltitude="0" MaxAltitude="0" Template="GATR" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="EXTAN# SHAYK" MinAltitude="0" MaxAltitude="0" Template="SHAK" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="FOOOT# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="JMPRS# ADANE" MinAltitude="0" MaxAltitude="0" Template="ADAN" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="RIKKK# FISAR" MinAltitude="0" MaxAltitude="0" Template="FISR" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="SOLAR# DAAYE" MinAltitude="0" MaxAltitude="0" Template="DAAY" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="SPAZZ# SPAZZ" MinAltitude="0" MaxAltitude="0" Template="SPAZ" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="SPAZZ# JOPLN" MinAltitude="0" MaxAltitude="0" Template="JPLN" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="SPAZZ# TBE" MinAltitude="0" MaxAltitude="0" Template="TBE" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="SPAZZ# ZAPAA" MinAltitude="0" MaxAltitude="0" Template="ZAPA" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="STAKR# PYPER" MinAltitude="0" MaxAltitude="0" Template="PYPR" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="YAMMI# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="YOKES# YOKES" MinAltitude="0" MaxAltitude="0" Template="YOKS" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="YOKES# DEHLI" MinAltitude="0" MaxAltitude="0" Template="DELI" />
+      <ScratchpadRule Airport="KDEN" SearchPattern="YOKES# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KAPA" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
       <ScratchpadRule Airport="KAPA" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
@@ -708,19 +738,46 @@
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
-      <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KAPA" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="BAYLR# BOBBA" MinAltitude="0" MaxAltitude="0" Template="BOBA" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="BAYLR# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="BAYLR# TEHRU" MinAltitude="0" MaxAltitude="0" Template="TERU" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="BRYCC# TAYOT" MinAltitude="0" MaxAltitude="0" Template="TAYT" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="CONNR# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="COORZ# VOAXA" MinAltitude="0" MaxAltitude="0" Template="VOXA" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EEONS# WYNDM" MinAltitude="0" MaxAltitude="0" Template="WNDM" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EMMYS# ZIRKL" MinAltitude="0" MaxAltitude="0" Template="ZRKL" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EPKEE# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EPKEE# DUUCE" MinAltitude="0" MaxAltitude="0" Template="DUCE" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EPKEE# GATTR" MinAltitude="0" MaxAltitude="0" Template="GATR" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="EXTAN# SHAYK" MinAltitude="0" MaxAltitude="0" Template="SHAK" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="FOOOT# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="JMPRS# ADANE" MinAltitude="0" MaxAltitude="0" Template="ADAN" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="RIKKK# FISAR" MinAltitude="0" MaxAltitude="0" Template="FISR" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="SOLAR# DAAYE" MinAltitude="0" MaxAltitude="0" Template="DAAY" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="SPAZZ# SPAZZ" MinAltitude="0" MaxAltitude="0" Template="SPAZ" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="SPAZZ# JOPLN" MinAltitude="0" MaxAltitude="0" Template="JPLN" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="SPAZZ# TBE" MinAltitude="0" MaxAltitude="0" Template="TBE" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="SPAZZ# ZAPAA" MinAltitude="0" MaxAltitude="0" Template="ZAPA" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="STAKR# PYPER" MinAltitude="0" MaxAltitude="0" Template="PYPR" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="YAMMI# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="YOKES# YOKES" MinAltitude="0" MaxAltitude="0" Template="YOKS" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="YOKES# DEHLI" MinAltitude="0" MaxAltitude="0" Template="DELI" />
+      <ScratchpadRule Airport="KAPA" SearchPattern="YOKES# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KBJC" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
       <ScratchpadRule Airport="KBJC" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
@@ -732,19 +789,46 @@
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
-      <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KBJC" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="BAYLR# BOBBA" MinAltitude="0" MaxAltitude="0" Template="BOBA" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="BAYLR# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="BAYLR# TEHRU" MinAltitude="0" MaxAltitude="0" Template="TERU" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="BRYCC# TAYOT" MinAltitude="0" MaxAltitude="0" Template="TAYT" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="CONNR# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="COORZ# VOAXA" MinAltitude="0" MaxAltitude="0" Template="VOXA" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EEONS# WYNDM" MinAltitude="0" MaxAltitude="0" Template="WNDM" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EMMYS# ZIRKL" MinAltitude="0" MaxAltitude="0" Template="ZRKL" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EPKEE# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EPKEE# DUUCE" MinAltitude="0" MaxAltitude="0" Template="DUCE" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EPKEE# GATTR" MinAltitude="0" MaxAltitude="0" Template="GATR" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="EXTAN# SHAYK" MinAltitude="0" MaxAltitude="0" Template="SHAK" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="FOOOT# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="JMPRS# ADANE" MinAltitude="0" MaxAltitude="0" Template="ADAN" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="RIKKK# FISAR" MinAltitude="0" MaxAltitude="0" Template="FISR" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="SOLAR# DAAYE" MinAltitude="0" MaxAltitude="0" Template="DAAY" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="SPAZZ# SPAZZ" MinAltitude="0" MaxAltitude="0" Template="SPAZ" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="SPAZZ# JOPLN" MinAltitude="0" MaxAltitude="0" Template="JPLN" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="SPAZZ# TBE" MinAltitude="0" MaxAltitude="0" Template="TBE" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="SPAZZ# ZAPAA" MinAltitude="0" MaxAltitude="0" Template="ZAPA" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="STAKR# PYPER" MinAltitude="0" MaxAltitude="0" Template="PYPR" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="YAMMI# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="YOKES# YOKES" MinAltitude="0" MaxAltitude="0" Template="YOKS" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="YOKES# DEHLI" MinAltitude="0" MaxAltitude="0" Template="DELI" />
+      <ScratchpadRule Airport="KBJC" SearchPattern="YOKES# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KFTG" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
       <ScratchpadRule Airport="KFTG" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
@@ -756,9 +840,136 @@
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
-      <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# GLL" MinAltitude="0" MaxAltitude="0" Template="GLL" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
       <ScratchpadRule Airport="KFTG" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="BAYLR# BOBBA" MinAltitude="0" MaxAltitude="0" Template="BOBA" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="BAYLR# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="BAYLR# TEHRU" MinAltitude="0" MaxAltitude="0" Template="TERU" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="BRYCC# TAYOT" MinAltitude="0" MaxAltitude="0" Template="TAYT" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="CONNR# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="COORZ# VOAXA" MinAltitude="0" MaxAltitude="0" Template="VOXA" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EEONS# WYNDM" MinAltitude="0" MaxAltitude="0" Template="WNDM" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EMMYS# ZIRKL" MinAltitude="0" MaxAltitude="0" Template="ZRKL" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EPKEE# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EPKEE# DUUCE" MinAltitude="0" MaxAltitude="0" Template="DUCE" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EPKEE# GATTR" MinAltitude="0" MaxAltitude="0" Template="GATR" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="EXTAN# SHAYK" MinAltitude="0" MaxAltitude="0" Template="SHAK" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="FOOOT# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="JMPRS# ADANE" MinAltitude="0" MaxAltitude="0" Template="ADAN" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="RIKKK# FISAR" MinAltitude="0" MaxAltitude="0" Template="FISR" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="SOLAR# DAAYE" MinAltitude="0" MaxAltitude="0" Template="DAAY" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="SPAZZ# SPAZZ" MinAltitude="0" MaxAltitude="0" Template="SPAZ" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="SPAZZ# JOPLN" MinAltitude="0" MaxAltitude="0" Template="JPLN" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="SPAZZ# TBE" MinAltitude="0" MaxAltitude="0" Template="TBE" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="SPAZZ# ZAPAA" MinAltitude="0" MaxAltitude="0" Template="ZAPA" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="STAKR# PYPER" MinAltitude="0" MaxAltitude="0" Template="PYPR" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="YAMMI# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="YOKES# YOKES" MinAltitude="0" MaxAltitude="0" Template="YOKS" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="YOKES# DEHLI" MinAltitude="0" MaxAltitude="0" Template="DELI" />
+      <ScratchpadRule Airport="KFTG" SearchPattern="YOKES# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="BAYLR# BOBBA" MinAltitude="0" MaxAltitude="0" Template="BOBA" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="BAYLR# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="BAYLR# TEHRU" MinAltitude="0" MaxAltitude="0" Template="TERU" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="BRYCC# TAYOT" MinAltitude="0" MaxAltitude="0" Template="TAYT" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="CONNR# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="COORZ# VOAXA" MinAltitude="0" MaxAltitude="0" Template="VOXA" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EEONS# WYNDM" MinAltitude="0" MaxAltitude="0" Template="WNDM" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EMMYS# ZIRKL" MinAltitude="0" MaxAltitude="0" Template="ZRKL" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EPKEE# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EPKEE# DUUCE" MinAltitude="0" MaxAltitude="0" Template="DUCE" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EPKEE# GATTR" MinAltitude="0" MaxAltitude="0" Template="GATR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="EXTAN# SHAYK" MinAltitude="0" MaxAltitude="0" Template="SHAK" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="FOOOT# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="JMPRS# ADANE" MinAltitude="0" MaxAltitude="0" Template="ADAN" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="RIKKK# FISAR" MinAltitude="0" MaxAltitude="0" Template="FISR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="SOLAR# DAAYE" MinAltitude="0" MaxAltitude="0" Template="DAAY" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="SPAZZ# SPAZZ" MinAltitude="0" MaxAltitude="0" Template="SPAZ" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="SPAZZ# JOPLN" MinAltitude="0" MaxAltitude="0" Template="JPLN" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="SPAZZ# TBE" MinAltitude="0" MaxAltitude="0" Template="TBE" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="SPAZZ# ZAPAA" MinAltitude="0" MaxAltitude="0" Template="ZAPA" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="STAKR# PYPER" MinAltitude="0" MaxAltitude="0" Template="PYPR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YAMMI# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YOKES# YOKES" MinAltitude="0" MaxAltitude="0" Template="YOKS" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YOKES# DEHLI" MinAltitude="0" MaxAltitude="0" Template="DELI" />
+      <ScratchpadRule Airport="KFNL" SearchPattern="YOKES# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
+      <ScratchpadRule Airport="KGXY" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# AKO" MinAltitude="0" MaxAltitude="0" Template="AKO" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# ASHBY" MinAltitude="0" MaxAltitude="0" Template="ASBY" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# BELKE" MinAltitude="0" MaxAltitude="0" Template="BELK" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# CABET" MinAltitude="0" MaxAltitude="0" Template="CABE" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# GCK" MinAltitude="0" MaxAltitude="0" Template="GCK" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# GLD" MinAltitude="0" MaxAltitude="0" Template="GLD" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# HCT" MinAltitude="0" MaxAltitude="0" Template="HCT" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# MCK" MinAltitude="0" MaxAltitude="0" Template="MCK" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# TXC" MinAltitude="0" MaxAltitude="0" Template="TXC" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PLAIN# WEEDS" MinAltitude="0" MaxAltitude="0" Template="WEED" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PIKES# ALS" MinAltitude="0" MaxAltitude="0" Template="ALS" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PIKES# BINKE" MinAltitude="0" MaxAltitude="0" Template="BINK" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="PIKES# PUB" MinAltitude="0" MaxAltitude="0" Template="PUB" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# HBU" MinAltitude="0" MaxAltitude="0" Template="HBU" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# MTJ" MinAltitude="0" MaxAltitude="0" Template="MTJ" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# DVC" MinAltitude="0" MaxAltitude="0" Template="DVC" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# DBL" MinAltitude="0" MaxAltitude="0" Template="DBL" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# EKR" MinAltitude="0" MaxAltitude="0" Template="EKR" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="ROCKI# RLG" MinAltitude="0" MaxAltitude="0" Template="RLG" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# NATTI" MinAltitude="0" MaxAltitude="0" Template="NATT" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# LAR" MinAltitude="0" MaxAltitude="0" Template="LAR" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# MBW" MinAltitude="0" MaxAltitude="0" Template="MBW" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# CYS" MinAltitude="0" MaxAltitude="0" Template="CYS" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# RAP" MinAltitude="0" MaxAltitude="0" Template="RAP" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# BFF" MinAltitude="0" MaxAltitude="0" Template="BFF" />
+      <ScratchpadRule Airport="KBKF" SearchPattern="YELLO# HANKI" MinAltitude="0" MaxAltitude="0" Template="HANK" />
     </ScratchpadRules>
     <CoastSuspendListTimeout>10</CoastSuspendListTimeout>
     <UseVFRPositionSymbol>true</UseVFRPositionSymbol>
