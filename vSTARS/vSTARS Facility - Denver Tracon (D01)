@@ -28614,6 +28614,7 @@
       <string>CONNR#</string>
       <string>COORZ#</string>
       <string>CREDE#</string>
+      <string>DUNNN#</string>
       <string>EEONS#</string>
       <string>EMMYS#</string>
       <string>EPKEE#</string>
@@ -28628,8 +28629,10 @@
       <string>LDORA#</string>
       <string>MOLTN#</string>
       <string>PEEKK#</string>
+      <string>PUFFR#</string>
       <string>PURRL#</string>
       <string>RIKKK#</string>
+      <string>SKARF#</string>
       <string>SOLAR#</string>
       <string>SPAZZ#</string>
       <string>STAKR#</string>
@@ -28638,6 +28641,7 @@
       <string>WAHUU#</string>
       <string>YAMMI#</string>
       <string>YOKES#</string>
+      <string>ZOMBZ#</string>
       <string>ZPLYN#</string>
     </RNAVPatterns>
   </Facility>
