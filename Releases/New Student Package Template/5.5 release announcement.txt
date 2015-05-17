@@ -17,4 +17,4 @@ DEN ARTCC Facility Engineer
 casey@denartcc.org
 
 
-Please post feature requests and bugs below this post in this thread.
+Please post feature requests and bugs below this post in this thread or on the new  [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues]github issue tracker page by clicking here[/url].
