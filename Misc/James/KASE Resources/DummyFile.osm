@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-1872' action='modify' visible='true' lat='39.21769483584' lon='-106.8613045839' />
+  <node id='-1870' action='modify' visible='true' lat='39.21710325961' lon='-106.85847489076' />
+  <node id='-1868' action='modify' visible='true' lat='39.21922595117' lon='-106.85762149124' />
+  <node id='-1867' action='modify' visible='true' lat='39.21981750951' lon='-106.8600469425' />
+  <node id='-1863' action='modify' visible='true' lat='39.22312318496' lon='-106.86373003517' />
+  <node id='-1861' action='modify' visible='true' lat='39.22211410054' lon='-106.85986727945' />
+  <node id='-1859' action='modify' visible='true' lat='39.2255588462' lon='-106.86063084744' />
+  <node id='-1858' action='modify' visible='true' lat='39.22576761323' lon='-106.86390969823' />
+  <node id='-41' action='modify' visible='true' lat='39.23710968846' lon='-106.89458716518' />
+  <node id='-37' action='modify' visible='true' lat='39.22761169504' lon='-106.85407314586' />
+  <node id='-35' action='modify' visible='true' lat='39.23237824804' lon='-106.85762149124' />
+  <node id='-34' action='modify' visible='true' lat='39.23262178585' lon='-106.86691905443' />
+  <node id='-25' action='modify' visible='true' lat='39.22357552843' lon='-106.85586977643' />
+  <node id='-23' action='modify' visible='true' lat='39.23063866767' lon='-106.85910371146' />
+  <node id='-21' action='modify' visible='true' lat='39.22983839041' lon='-106.87066015525' />
+  <node id='-17' action='modify' visible='true' lat='39.23053429148' lon='-106.87455473434' />
+  <node id='-15' action='modify' visible='true' lat='39.21317089093' lon='-106.86476309775' />
+  <node id='-13' action='modify' visible='true' lat='39.22037426575' lon='-106.86373003517' />
+  <node id='-10' action='modify' visible='true' lat='39.23227387443' lon='-106.87244369342' />
+  <node id='-7' action='modify' visible='true' lat='39.23248262149' lon='-106.87383608212' />
+  <way id='-1869' action='modify' visible='true'>
+    <nd ref='-1867' />
+    <nd ref='-1868' />
+    <nd ref='-1870' />
+    <nd ref='-1872' />
+    <nd ref='-1867' />
+    <tag k='aeroway' v='hangar' />
+    <tag k='building' v='hangar' />
+    <tag k='ref' v='Cargo 1' />
+  </way>
+  <way id='-1860' action='modify' visible='true'>
+    <nd ref='-1858' />
+    <nd ref='-1859' />
+    <nd ref='-1861' />
+    <nd ref='-1863' />
+    <nd ref='-1858' />
+    <tag k='aeroway' v='terminal' />
+    <tag k='name' v='Concourse A' />
+  </way>
+  <way id='-36' action='modify' visible='true'>
+    <nd ref='-34' />
+    <nd ref='-35' />
+    <nd ref='-37' />
+    <nd ref='-34' />
+    <tag k='aeroway' v='apron' />
+    <tag k='ref' v='GA Parking' />
+  </way>
+  <way id='-24' action='modify' visible='true'>
+    <nd ref='-21' />
+    <nd ref='-23' />
+    <nd ref='-25' />
+    <tag k='aeroway' v='taxiway' />
+    <tag k='ref' v='A' />
+  </way>
+  <way id='-11' action='modify' visible='true'>
+    <nd ref='-7' />
+    <nd ref='-17' />
+    <nd ref='-15' />
+    <nd ref='-13' />
+    <nd ref='-21' />
+    <nd ref='-10' />
+    <nd ref='-7' />
+    <tag k='aeroway' v='runway' />
+    <tag k='ref' v='Runway 15' />
+  </way>
+</osm>

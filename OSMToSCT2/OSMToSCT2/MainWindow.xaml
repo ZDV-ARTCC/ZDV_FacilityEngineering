@@ -1,0 +1,171 @@
+﻿<Window x:Class="OSMToSCT2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OSMToSCT 2" Height="600" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5,3,5,3" />
+            <Setter Property="Padding" Value="3,1,3,1" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5,3,5,3" />
+            <Setter Property="Padding" Value="3,1,3,1" />
+        </Style>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="5" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="Files">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Input OSM File"
+                   Grid.Row="0"
+                   Target="{Binding ElementName=txtInputOSM}"/>
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Name="txtInputOSM" />
+                        <Button Grid.Column="1">...</Button>
+                    </Grid>
+                    <Label Content="Input SCT File"
+                           Grid.Row="2"
+                           Target="{Binding ElementName=txtInputSCT}"/>
+                    <Grid Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Name="txtInputSCT" />
+                        <Button Grid.Column="1">...</Button>
+                    </Grid>
+                    <Label Content="Output Directory"
+                           Grid.Row="4"
+                           Target="{Binding ElementName=txtOutputDir}"/>
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox Name="txtOutputDir"
+                         HorizontalAlignment="Stretch"/>
+                        <Button Grid.Column="1">...</Button>
+                    </Grid>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Settings"
+                      Grid.Column="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <GroupBox Header="Colors">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20*" />
+                                <ColumnDefinition Width="30*" />
+                                <ColumnDefinition Width="20*" />
+                                <ColumnDefinition Width="30*" />
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Row="0"
+                                   Grid.Column="0"
+                                   HorizontalAlignment="Right"
+                                   Content="Runway"
+                                   Target="{Binding ElementName=txtColorRunway}"/>
+                            <TextBox Name="txtColorRunway"
+                                     Grid.Row="0"
+                                     Grid.Column="1" />
+                            <Label Grid.Row="0" 
+                                   Grid.Column ="2"
+                                   HorizontalAlignment="Right"
+                                   Content="Taxiway"
+                                   Target="{Binding ElementName=txtColorTaxiway}"/>
+                            <TextBox Name="txtColorTaxiway" 
+                                     Grid.Row="0"
+                                     Grid.Column="3" />
+                            <Label Grid.Row="1"
+                                   Grid.Column="0"
+                                   HorizontalAlignment="Right"
+                                   Content="Apron"
+                                   Target="{Binding ElementName=txtColorApron}"/>
+                            <TextBox Name="txtColorApron" 
+                                     Grid.Row="1"
+                                     Grid.Column="1" />
+                            <Label Grid.Row="1" 
+                                   Grid.Column ="2"
+                                   HorizontalAlignment="Right"
+                                   Content="Terminal"
+                                   Target="{Binding ElementName=txtColorTerminal}"/>
+                            <TextBox Name="txtColorTerminal"
+                                     Grid.Row="1"
+                                     Grid.Column="3" />
+                            <Label Grid.Row="2"
+                                   Grid.Column="0"
+                                   HorizontalAlignment="Right"
+                                   Content="Hangar"
+                                   Target="{Binding ElementName=txtColorHangar}"/>
+                            <TextBox Name="txtColorHangar" 
+                                     Grid.Row="2"
+                                     Grid.Column="1" />
+                            <Label Grid.Row="2" 
+                                   Grid.Column ="2"
+                                   HorizontalAlignment="Right"
+                                   Content="Other 1"
+                                   Target="{Binding ElementName=txtColorOther1}"/>
+                            <TextBox Name="txtColorOther1"
+                                     Grid.Row="2"
+                                     Grid.Column="3" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Other"
+                              Grid.Row="1" />
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <GroupBox Grid.Row="1"
+                  Header="Actions">
+            <StackPanel  HorizontalAlignment="Right"
+                         Orientation="Horizontal">
+                <Button Content="Convert OSM to SCT" />
+                <Button Content="Convert SCT to OSM" />
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Header="Output Console"
+                  Grid.Row="2">
+            <TextBox TextWrapping="Wrap"
+                     ScrollViewer.CanContentScroll="True"
+                     MinLines="5"/>
+
+        </GroupBox>
+    </Grid>
+</Window>
