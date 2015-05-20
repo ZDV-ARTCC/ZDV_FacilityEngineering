@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OSMToSCT2.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,15 @@ namespace OSMToSCT2
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainViewModel mViewModel;
+
         public MainWindow()
         {
+            mViewModel = new MainViewModel();
+            DataContext = mViewModel;
+
             InitializeComponent();
         }
+
     }
 }
