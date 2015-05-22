@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VideoMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShortName="ALERT" LongName="Alert Areas" STARSGroup="" STARSTDMOnly="false" VisibleInList="true">
+  <Colors>
+    <NamedColor Red="255" Green="128" Blue="0" Name="R255G128B0" />
+  </Colors>
+  <Elements>
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-0" StartLat="0" EndLon="-0" EndLat="0" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.7838889" StartLat="39.0333331" EndLon="-104.7838889" EndLat="38.95" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.7838889" StartLat="38.95" EndLon="-104.9172219" EndLat="38.95" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.9172219" StartLat="38.95" EndLon="-104.9172219" EndLat="39.0333331" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.9172219" StartLat="39.0333331" EndLon="-104.7838889" EndLat="39.0333331" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.3166669" StartLat="38.8333331" EndLon="-103.7166669" EndLat="38.75" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-103.7166669" StartLat="38.75" EndLon="-103.7166669" EndLat="38.3666669" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-103.7166669" StartLat="38.3666669" EndLon="-104.3333331" EndLat="38.3666669" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.3333331" StartLat="38.3666669" EndLon="-104.3166669" EndLat="38.8333331" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.2666669" StartLat="39.1833331" EndLon="-104.2" EndLat="39.2" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.2" StartLat="39.2" EndLon="-103.9833331" EndLat="39" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-103.9833331" StartLat="39" EndLon="-103.9833331" EndLat="38.9333331" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-103.9833331" StartLat="38.9333331" EndLon="-104.2666669" EndLat="38.9666669" />
+    <Element xsi:type="Line" Color="R255G128B0" StartLon="-104.2666669" StartLat="38.9666669" EndLon="-104.2666669" EndLat="39.1833331" />
+  </Elements>
+</VideoMap>
