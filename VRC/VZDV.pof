@@ -124,12 +124,13 @@ LN:Denver Center:134.500:18:C:DEN:CTR:DEN:CTR:1401:1477
 LS:Denver Center:124.800:19:C:DEN:CTR:DEN:CTR:1401:1477
 LE:Denver Center:125.900:20:C:DEN:CTR:DEN:CTR:1401:1477
 LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
-;
-;ADJACENT ARTCCs
+;==================================================================================================
+
+;ADJACENT ARTCCs===================================================================================
 Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
 Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
 ;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
-Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
+;Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
 Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
 Minneapolis South(30) Center:-:135.770:36:C:MSP:CTR:MSP:CTR
 
@@ -162,3 +163,40 @@ SE - SOUEST:Albuquerque Center:120.970:SE:C:ABQ:CTR:ZAB:SE:0701:0777
 SW - SOUWST:Albuquerque Center:126.450:SW:C:ABQ:CTR:ZAB:SW:0701:0777
 42 - GBNLO:Albuquerque Center:126.450:42:C:ABQ:CTR:ZAB:42:0701:0777
 46 - TUSLO:Albuquerque Center:125.400:46:C:ABQ:CTR:ZAB:46:0701:0777
+
+;ZLA ARTCC---------------------------------------------------
+Los Angeles Center:-:124.150:02:C:LAX:CTR:LAX:02:7101:7137   
+Los Angeles Center:-:127.100:03:C:LAX:CTR:LAX:03:7140:7177   ; LAX_B_CTR
+Los Angeles Center:-:125.800:04:C:LAX:CTR:LAX:04:7140:7177   ; LAX_CTR Comb.
+Los Angeles Center:-:134.650:06:C:LAX:CTR:LAX:06:7250:7307   
+Los Angeles Center:-:124.200:07:C:LAX:CTR:LAX:07:7340:7377   
+Los Angeles Center:-:124.850:08:C:LAX:CTR:LAX:08:7340:7377   
+Los Angeles Center:-:128.600:09:C:LAX:CTR:LAX:09:7310:7337   
+Los Angeles Center:-:128.150:10:C:LAX:CTR:LAX:10:7310:7337   
+Los Angeles Center:-:125.650:12:C:LAX:CTR:LAX:12:7310:7337   
+Los Angeles Center:-:132.600:13:C:LAX:CTR:LAX:13:7101:7137   
+Los Angeles Center:-:135.500:14:C:LAX:CTR:LAX:14:7101:7137   
+Los Angeles Center:-:119.050:15:C:LAX:CTR:LAX:15:7101:7137   
+Los Angeles Center:-:124.620:16:C:LAX:CTR:LAX:16:7250:7307   
+Los Angeles Center:-:132.500:17:C:LAX:CTR:LAX:17:7140:7177   
+Los Angeles Center:-:125.270:18:C:LAX:CTR:LAX:18:7140:7177   
+Los Angeles Center:-:126.350:19:C:LAX:CTR:LAX:19:7200:7247   
+Los Angeles Center:-:133.750:20:C:LAX:CTR:LAX:20:7200:7247   
+Los Angeles Center:-:132.850:21:C:LAX:CTR:LAX:21:7310:7337   
+Los Angeles Center:-:134.570:22:C:LAX:CTR:LAX:22:7310:7337   
+Los Angeles Center:-:126.520:25:C:LAX:CTR:LAX:25:7101:7137   
+Los Angeles Center:-:135.300:26:C:LAX:CTR:LAX:26:7101:7137   ; LAX_A_CTR
+Los Angeles Center:-:128.370:27:C:LAX:CTR:LAX:27:7140:7177   
+Los Angeles Center:-:132.150:28:C:LAX:CTR:LAX:28:7101:7137   
+Los Angeles Center:-:119.950:30:C:LAX:CTR:LAX:30:7310:7337   ; LAX_E_CTR
+Los Angeles Center:-:126.770:31:C:LAX:CTR:LAX:31:7310:7337   
+Los Angeles Center:-:135.550:32:C:LAX:CTR:LAX:32:7250:7307   
+Los Angeles Center:-:135.250:33:C:LAX:CTR:LAX:33:7250:7307   ; LAX_D_CTR
+Los Angeles Center:-:132.620:34:C:LAX:CTR:LAX:34:7250:7307   
+Los Angeles Center:-:128.070:35:C:LAX:CTR:LAX:35:7340:7377   
+Los Angeles Center:-:127.350:36:C:LAX:CTR:LAX:36:7340:7377   ; LAX_F_CTR
+Los Angeles Center:-:133.550:37:C:LAX:CTR:LAX:37:7200:7247   ; LAX_CN_CTR
+Los Angeles Center:-:125.720:38:C:LAX:CTR:LAX:38:7140:7177   
+Los Angeles Center:-:133.200:39:C:LAX:CTR:LAX:39:7200:7247   ; LAX_C_CTR Comb., LAX_CS_CTR
+Los Angeles Center:-:127.520:40:C:LAX:CTR:LAX:40:7200:7247   
+Los Angeles Center:-:134.470:60:C:LAX:CTR:LAX:60:7200:7247
