@@ -127,7 +127,7 @@ LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
 ;==================================================================================================
 
 ;ADJACENT ARTCCs===================================================================================
-Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
+;Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
 ;Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
 ;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
 ;Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
@@ -163,6 +163,13 @@ SE - SOUEST:Albuquerque Center:120.970:SE:C:ABQ:CTR:ZAB:SE:0701:0777
 SW - SOUWST:Albuquerque Center:126.450:SW:C:ABQ:CTR:ZAB:SW:0701:0777
 42 - GBNLO:Albuquerque Center:126.450:42:C:ABQ:CTR:ZAB:42:0701:0777
 46 - TUSLO:Albuquerque Center:125.400:46:C:ABQ:CTR:ZAB:46:0701:0777
+
+;ZKC ARTCC---------------------------------------------------
+Kansas City Center Sector 41 (Kansas City Low):Kansas City Center Combined/41:132.320:41:C:KC:CTR:KC:CTR:2101:2177
+Kansas City Center Sector 94 (St Louis Low):Kansas City Center 94 STL:127.220:94:C:KC:CTR:KC:CTR:2115:2132
+Kansas City Center Sector 97 (Tulsa Low):Kansas City Center 97 TUL:125.820:97:C:KC:CTR:KC:CTR:2133:2146
+Kansas City Center Sector 98 (Vandalia High):Kansas City Center 98 VLA:135.300:98:C:KC:CTR:KC:CTR:2147:2162
+Kansas City Center Sector 21 (Liberal High):Kansas City Center 21 LIB:134.670:21:C:KC:CTR:KC:CTR:2163:2177
 
 ;ZLA ARTCC---------------------------------------------------
 Los Angeles Center:-:124.150:02:C:LAX:CTR:LAX:02:7101:7137   
