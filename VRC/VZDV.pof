@@ -128,7 +128,7 @@ LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
 
 ;ADJACENT ARTCCs===================================================================================
 Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
-Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
+;Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
 ;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
 ;Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
 ;Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
@@ -200,6 +200,13 @@ Los Angeles Center:-:125.720:38:C:LAX:CTR:LAX:38:7140:7177
 Los Angeles Center:-:133.200:39:C:LAX:CTR:LAX:39:7200:7247   ; LAX_C_CTR Comb., LAX_CS_CTR
 Los Angeles Center:-:127.520:40:C:LAX:CTR:LAX:40:7200:7247   
 Los Angeles Center:-:134.470:60:C:LAX:CTR:LAX:60:7200:7247
+
+;ZLC ARTCC=--------------------------------------------------
+SLC_CTR:Salt Lake Center:133.600:10:C:SLC:CTR:SLC:CTR:6001:6077
+SLC_N_CTR:Salt Lake Center:133.600:11:N:SLC:CTR:SLC:CTR:6001:6077
+SLC_S_CTR:Salt Lake Center:127.700:13:S:SLC:CTR:SLC:CTR:6001:6077
+SLC_W_CTR:Salt Lake Center:132.250:13:W:SLC:CTR:SLC:CTR:6001:6077
+SLC_L_CTR:Salt Lake Center:133.250:14:L:SLC:CTR:SLC:CTR:6001:6077
 
 ;ZMP ARTCC---------------------------------------------------
 ZMP10 Princeton:Minneapolis Center:121.050:10:0:MSP:CTR:MSP:10:3601:3677
