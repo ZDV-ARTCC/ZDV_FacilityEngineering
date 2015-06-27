@@ -131,8 +131,8 @@ Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
 Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
 ;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
 ;Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
-Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
-Minneapolis South(30) Center:-:135.770:36:C:MSP:CTR:MSP:CTR
+;Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
+;Minneapolis South(30) Center:-:135.770:36:C:MSP:CTR:MSP:CTR
 
 ;ZAB ARTCC---------------------------------------------------
 ; ZAB Combined ABQ_CTR
@@ -200,3 +200,21 @@ Los Angeles Center:-:125.720:38:C:LAX:CTR:LAX:38:7140:7177
 Los Angeles Center:-:133.200:39:C:LAX:CTR:LAX:39:7200:7247   ; LAX_C_CTR Comb., LAX_CS_CTR
 Los Angeles Center:-:127.520:40:C:LAX:CTR:LAX:40:7200:7247   
 Los Angeles Center:-:134.470:60:C:LAX:CTR:LAX:60:7200:7247
+
+;ZMP ARTCC---------------------------------------------------
+ZMP10 Princeton:Minneapolis Center:121.050:10:0:MSP:CTR:MSP:10:3601:3677
+ZMP11 Alexandria:Minneapolis Center:133.400:11:1:MSP:CTR:MSP:11:3601:3677
+ZMP1A Alexandria:Minneapolis Center:133.400:1A:1:MSP:CTR:MSP:1A:3601:3677
+ZMP12 White Cloud:Minneapolis Center:126.370:12:2:MSP:CTR:MSP:12:3601:3677
+ZMP17 Rochester:Minneapolis Center:134.250:17:7:MSP:CTR:MSP:17:3601:3677
+ZMP2  Traverse City:Minneapolis Center:132.900:2:2:MSP:CTR:MSP:2:3601:3677
+ZMP20 Huron:Minneapolis Center:126.250:20:0:MSP:CTR:MSP:24:3601:3677
+ZMP24 Jamestown:Minneapolis Center:124.200:24:4:MSP:CTR:MSP:24:3601:3677
+ZMP25 Bemidji:Minneapolis Center:134.750:25:5:MSP:CTR:MSP:25:3601:3677
+ZMP30 Des Moines:Minneapolis Center:135.770:30:3:MSP:CTR:MSP:30:3601:3677
+ZMP33 Pierre:Minneapolis Center:125.100:33:3:MSP:CTR:MSP:33:3601:3677
+ZMP39 Hastings:Minneapolis Center:135.100:39:9:MSP:CTR:MSP:39:3601:3677
+ZMP4  Rhinelander:Minneapolis Center:133.650:4:4:MSP:CTR:MSP:4:3601:3677
+ZMP6  Farmington:Minneapolis Center:133.700:6:6:MSP:CTR:MSP:6:3601:3677
+ZMP7  Rochester:Minneapolis Center:132.350:7:7:MSP:CTR:MSP:7:3601:3677
+ZMP9  Redwood Falls:Minneapolis Center:127.100:9:9:MSP:CTR:MSP:9:3601:3677
