@@ -127,108 +127,46 @@ LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
 ;==================================================================================================
 
 ;ADJACENT ARTCCs===================================================================================
-;Kansas City Center:-:132.320:31:C:KC:CTR:KC:CTR
-;Salt Lake Center:-:133.600:32:C:SLC:CTR:SLC:CTR
-;Albuquerque Center:-:127.850:33:C:ABQ:CTR:ABQ:CTR
-;Los Angeles Center:-:125.800:35:C:LAX:CTR:LAX:CTR
-;Minneapolis North(11) Center:-:133.400:34:C:MSP:CTR:MSP:CTR
-;Minneapolis South(30) Center:-:135.770:36:C:MSP:CTR:MSP:CTR
+;ZAB ARTCC-----------------------------------------------------
+ZAB ZB:Albuquerque Center:127.850:ZB:C:ABQ:CTR:ZAB:ZB:0701:0777
+ZAB ZN:Albuquerque Center:127.850:ZN:C:ABQ:CTR:ZAB:ZN:0701:0777
+ZAB ZE:Albuquerque Center:127.850:ZE:C:ABQ:CTR:ZAB:ZE:0701:0777
+ZAB ZW:Albuquerque Center:128.450:ZW:C:ABQ:CTR:ZAB:ZW:0701:0777
+ZAB NW:Albuquerque Center:128.450:NW:C:ABQ:CTR:ZAB:NW:0701:0777
+ZAB NE:Albuquerque Center:127.850:NE:C:ABQ:CTR:ZAB:NE:0701:0777
+ZAB 15:Albuquerque Center:127.850:15:C:ABQ:CTR:ZAB:15:0701:0777
+ZAB 17:Albuquerque Center:124.320:17:C:ABQ:CTR:ZAB:17:0701:0777
+ZAB 43:Albuquerque Center:128.450:43:C:ABQ:CTR:ZAB:43:0701:0777
+ZAB 94:Albuquerque Center:133.650:94:C:ABQ:CTR:ZAB:94:0701:0777
+ZAB 97:Albuquerque Center:134.750:97:C:ABQ:CTR:ZAB:97:0701:0777
 
-;ZAB ARTCC---------------------------------------------------
-; ZAB Combined ABQ_CTR
-ZB - ZAB:Albuquerque Center:127.850:ZB:C:ABQ:CTR:ZAB:ZB:0701:0777
-; ZAB Northwest Area
-NW - NORWEST:Albuquerque Center:128.450:NW:C:ABQ:CTR:ZAB:NW:0701:0777
-38 - MIALH:Albuquerque Center:132.900:38:C:ABQ:CTR:ZAB:38:0701:0777
-43 - DRKLO:Albuquerque Center:128.450:43:C:ABQ:CTR:ZAB:43:0701:0777
-;ZAB Northeast Area
-NE - NOREST:Albuquerque Center:127.850:NE:C:ABQ:CTR:ZAB:NE:0701:0777
-; ZAB North Area
-ZN - North:Albuquerque Center:127.850:ZN:C:ABQ:CTR:ZAB:ZN:0701:0777
-94 - CNXLH:Albuquerque Center:133.650:94:C:ABQ:CTR:ZAB:94:0701:0777
-17 - LAVLO:Albuquerque Center:124.320:17:C:ABQ:CTR:ZAB:17:0701:0777
-; ZAB South Area
-ZS - SOUTH:Albuquerque Center:126.450:ZS:C:ABQ:CTR:ZAB:ZS:0701:0777
-; ZAB East Area
-ZE _ EAST:Albuquerque Center:127.850:ZE:C:ABQ:CTR:ZAB:ZE:0701:0777
-15 - BDGLO:Albuquerque Center:127.850:15:C:ABQ:CTR:ZAB:15:0701:0777
-97 - AMAHI:Albuquerque Center:134.750:97:C:ABQ:CTR:ZAB:97:0701:0777
-;ZAB West Area
-ZW - WEST:Albuquerque Center:128.450:ZW:C:ABQ:CTR:ZAB:ZW:0701:0777
-; ZAB Southeast Area
-SE - SOUEST:Albuquerque Center:120.970:SE:C:ABQ:CTR:ZAB:SE:0701:0777
-19 - DMNLO:Albuquerque Center:128.200:19:C:ABQ:CTR:ZAB:19:0701:0777
-63 - ELPHI:Albuquerque Center:120.970:63:C:ABQ:CTR:ZAB:63:0701:0777
-; ZAB Southwest Area
-SW - SOUWST:Albuquerque Center:126.450:SW:C:ABQ:CTR:ZAB:SW:0701:0777
-42 - GBNLO:Albuquerque Center:126.450:42:C:ABQ:CTR:ZAB:42:0701:0777
-46 - TUSLO:Albuquerque Center:125.400:46:C:ABQ:CTR:ZAB:46:0701:0777
+;ZKC ARTCC----------------------------------------------------
+ZKC 21:Kansas City Center:134.670:21:C:KC:CTR:KC:CTR:2163:2177
+ZKC 41:Kansas City Center:132.320:41:C:KC:CTR:KC:CTR:2101:2177
+ZKC 97:Kansas City Center:125.820:97:C:KC:CTR:KC:CTR:2133:2146
 
-;ZKC ARTCC---------------------------------------------------
-Kansas City Center Sector 41 (Kansas City Low):Kansas City Center Combined/41:132.320:41:C:KC:CTR:KC:CTR:2101:2177
-Kansas City Center Sector 94 (St Louis Low):Kansas City Center 94 STL:127.220:94:C:KC:CTR:KC:CTR:2115:2132
-Kansas City Center Sector 97 (Tulsa Low):Kansas City Center 97 TUL:125.820:97:C:KC:CTR:KC:CTR:2133:2146
-Kansas City Center Sector 98 (Vandalia High):Kansas City Center 98 VLA:135.300:98:C:KC:CTR:KC:CTR:2147:2162
-Kansas City Center Sector 21 (Liberal High):Kansas City Center 21 LIB:134.670:21:C:KC:CTR:KC:CTR:2163:2177
-
-;ZLA ARTCC---------------------------------------------------
-Los Angeles Center:-:124.150:02:C:LAX:CTR:LAX:02:7101:7137   
-Los Angeles Center:-:127.100:03:C:LAX:CTR:LAX:03:7140:7177   ; LAX_B_CTR
-Los Angeles Center:-:125.800:04:C:LAX:CTR:LAX:04:7140:7177   ; LAX_CTR Comb.
-Los Angeles Center:-:134.650:06:C:LAX:CTR:LAX:06:7250:7307   
-Los Angeles Center:-:124.200:07:C:LAX:CTR:LAX:07:7340:7377   
-Los Angeles Center:-:124.850:08:C:LAX:CTR:LAX:08:7340:7377   
-Los Angeles Center:-:128.600:09:C:LAX:CTR:LAX:09:7310:7337   
-Los Angeles Center:-:128.150:10:C:LAX:CTR:LAX:10:7310:7337   
-Los Angeles Center:-:125.650:12:C:LAX:CTR:LAX:12:7310:7337   
-Los Angeles Center:-:132.600:13:C:LAX:CTR:LAX:13:7101:7137   
-Los Angeles Center:-:135.500:14:C:LAX:CTR:LAX:14:7101:7137   
-Los Angeles Center:-:119.050:15:C:LAX:CTR:LAX:15:7101:7137   
-Los Angeles Center:-:124.620:16:C:LAX:CTR:LAX:16:7250:7307   
-Los Angeles Center:-:132.500:17:C:LAX:CTR:LAX:17:7140:7177   
-Los Angeles Center:-:125.270:18:C:LAX:CTR:LAX:18:7140:7177   
-Los Angeles Center:-:126.350:19:C:LAX:CTR:LAX:19:7200:7247   
-Los Angeles Center:-:133.750:20:C:LAX:CTR:LAX:20:7200:7247   
-Los Angeles Center:-:132.850:21:C:LAX:CTR:LAX:21:7310:7337   
-Los Angeles Center:-:134.570:22:C:LAX:CTR:LAX:22:7310:7337   
-Los Angeles Center:-:126.520:25:C:LAX:CTR:LAX:25:7101:7137   
-Los Angeles Center:-:135.300:26:C:LAX:CTR:LAX:26:7101:7137   ; LAX_A_CTR
-Los Angeles Center:-:128.370:27:C:LAX:CTR:LAX:27:7140:7177   
-Los Angeles Center:-:132.150:28:C:LAX:CTR:LAX:28:7101:7137   
-Los Angeles Center:-:119.950:30:C:LAX:CTR:LAX:30:7310:7337   ; LAX_E_CTR
-Los Angeles Center:-:126.770:31:C:LAX:CTR:LAX:31:7310:7337   
-Los Angeles Center:-:135.550:32:C:LAX:CTR:LAX:32:7250:7307   
-Los Angeles Center:-:135.250:33:C:LAX:CTR:LAX:33:7250:7307   ; LAX_D_CTR
-Los Angeles Center:-:132.620:34:C:LAX:CTR:LAX:34:7250:7307   
-Los Angeles Center:-:128.070:35:C:LAX:CTR:LAX:35:7340:7377   
-Los Angeles Center:-:127.350:36:C:LAX:CTR:LAX:36:7340:7377   ; LAX_F_CTR
-Los Angeles Center:-:133.550:37:C:LAX:CTR:LAX:37:7200:7247   ; LAX_CN_CTR
-Los Angeles Center:-:125.720:38:C:LAX:CTR:LAX:38:7140:7177   
-Los Angeles Center:-:133.200:39:C:LAX:CTR:LAX:39:7200:7247   ; LAX_C_CTR Comb., LAX_CS_CTR
-Los Angeles Center:-:127.520:40:C:LAX:CTR:LAX:40:7200:7247   
-Los Angeles Center:-:134.470:60:C:LAX:CTR:LAX:60:7200:7247
+;ZLA ARTCC-----------------------------------------------------
+ZLA 04:Los Angeles Center:125.800:04:C:LAX:CTR:LAX:04:7140:7177
+ZLA 06:Los Angeles Center:134.650:06:C:LAX:CTR:LAX:06:7250:7307
+ZLA 13:Los Angeles Center:132.600:13:C:LAX:CTR:LAX:13:7101:7137
+ZLA 30:Los Angeles Center:119.950:30:C:LAX:CTR:LAX:30:7310:7337
+ZLA 36:Los Angeles Center:127.350:36:C:LAX:CTR:LAX:36:7340:7377
+ZLA 37:Los Angeles Center:133.550:37:C:LAX:CTR:LAX:37:7200:7247
+ZLA 39:Los Angeles Center:133.200:39:C:LAX:CTR:LAX:39:7200:7247
 
 ;ZLC ARTCC=--------------------------------------------------
-SLC_CTR:Salt Lake Center:133.600:10:C:SLC:CTR:SLC:CTR:6001:6077
-SLC_N_CTR:Salt Lake Center:133.600:11:N:SLC:CTR:SLC:CTR:6001:6077
-SLC_S_CTR:Salt Lake Center:127.700:13:S:SLC:CTR:SLC:CTR:6001:6077
-SLC_W_CTR:Salt Lake Center:132.250:13:W:SLC:CTR:SLC:CTR:6001:6077
-SLC_L_CTR:Salt Lake Center:133.250:14:L:SLC:CTR:SLC:CTR:6001:6077
+ZLC  :Salt Lake Center:133.600:10:C:SLC:CTR:SLC:CTR:6001:6077
+ZLC N:Salt Lake Center:133.600:11:N:SLC:CTR:SLC:CTR:6001:6077
+ZLC S:Salt Lake Center:127.700:13:S:SLC:CTR:SLC:CTR:6001:6077
+ZLC L:Salt Lake Center:133.250:14:L:SLC:CTR:SLC:CTR:6001:6077
 
-;ZMP ARTCC---------------------------------------------------
-ZMP10 Princeton:Minneapolis Center:121.050:10:0:MSP:CTR:MSP:10:3601:3677
-ZMP11 Alexandria:Minneapolis Center:133.400:11:1:MSP:CTR:MSP:11:3601:3677
-ZMP1A Alexandria:Minneapolis Center:133.400:1A:1:MSP:CTR:MSP:1A:3601:3677
-ZMP12 White Cloud:Minneapolis Center:126.370:12:2:MSP:CTR:MSP:12:3601:3677
-ZMP17 Rochester:Minneapolis Center:134.250:17:7:MSP:CTR:MSP:17:3601:3677
-ZMP2  Traverse City:Minneapolis Center:132.900:2:2:MSP:CTR:MSP:2:3601:3677
-ZMP20 Huron:Minneapolis Center:126.250:20:0:MSP:CTR:MSP:24:3601:3677
-ZMP24 Jamestown:Minneapolis Center:124.200:24:4:MSP:CTR:MSP:24:3601:3677
-ZMP25 Bemidji:Minneapolis Center:134.750:25:5:MSP:CTR:MSP:25:3601:3677
-ZMP30 Des Moines:Minneapolis Center:135.770:30:3:MSP:CTR:MSP:30:3601:3677
-ZMP33 Pierre:Minneapolis Center:125.100:33:3:MSP:CTR:MSP:33:3601:3677
-ZMP39 Hastings:Minneapolis Center:135.100:39:9:MSP:CTR:MSP:39:3601:3677
-ZMP4  Rhinelander:Minneapolis Center:133.650:4:4:MSP:CTR:MSP:4:3601:3677
-ZMP6  Farmington:Minneapolis Center:133.700:6:6:MSP:CTR:MSP:6:3601:3677
-ZMP7  Rochester:Minneapolis Center:132.350:7:7:MSP:CTR:MSP:7:3601:3677
-ZMP9  Redwood Falls:Minneapolis Center:127.100:9:9:MSP:CTR:MSP:9:3601:3677
+;ZMP ARTCC-----------------------------------------------------
+ZMP 10:Minneapolis Center:121.050:10:0:MSP:CTR:MSP:10:3601:3677
+ZMP 11:Minneapolis Center:133.400:11:1:MSP:CTR:MSP:11:3601:3677
+ZMP 1A:Minneapolis Center:133.400:1A:1:MSP:CTR:MSP:1A:3601:3677
+ZMP 17:Minneapolis Center:134.250:17:7:MSP:CTR:MSP:17:3601:3677
+ZMP 20:Minneapolis Center:126.250:20:0:MSP:CTR:MSP:24:3601:3677
+ZMP 30:Minneapolis Center:135.770:30:3:MSP:CTR:MSP:30:3601:3677
+ZMP 33:Minneapolis Center:125.100:33:3:MSP:CTR:MSP:33:3601:3677
+ZMP 39:Minneapolis Center:135.100:39:9:MSP:CTR:MSP:39:3601:3677
+ZMP 07:Minneapolis Center:132.350:07:7:MSP:CTR:MSP:07:3601:3677
