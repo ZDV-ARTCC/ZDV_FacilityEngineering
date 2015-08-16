@@ -11,5 +11,23 @@
     <Setting Name="OutputDirectory" Type="System.String" Scope="User">
       <Value Profile="(Default)">%appdata%\OSMToSCT2\Output\</Value>
     </Setting>
+    <Setting Name="ColorApron" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regram</Value>
+    </Setting>
+    <Setting Name="ColorHangar" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regbui</Value>
+    </Setting>
+    <Setting Name="ColorOther1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regoth</Value>
+    </Setting>
+    <Setting Name="ColorRunway" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regrw</Value>
+    </Setting>
+    <Setting Name="ColorTaxiway" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regtax</Value>
+    </Setting>
+    <Setting Name="ColorTerminal" Type="System.String" Scope="User">
+      <Value Profile="(Default)">regbui</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
