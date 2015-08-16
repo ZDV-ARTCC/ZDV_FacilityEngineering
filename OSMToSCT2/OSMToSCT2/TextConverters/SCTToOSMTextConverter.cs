@@ -1,6 +1,7 @@
 ﻿using OSMToSCT2.Geo;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -223,23 +224,25 @@ namespace OSMToSCT2.TextConverters
         /// <returns>OSM data (XML)</returns>
         private string GenerateOSM(IEnumerable<Shape> shapes, IEnumerable<Node> nodes)
         {
-            StringBuilder outputBuilder;
+            //StringBuilder outputBuilder;
             XmlWriter writer;
             XmlWriterSettings settings;
+            string outputText;
+            MemoryStream memoryStream;
 
-            outputBuilder = new StringBuilder();
+            memoryStream = new MemoryStream();
 
             settings = new XmlWriterSettings()
             {
                 ConformanceLevel = ConformanceLevel.Document,
-                Encoding = Encoding.UTF8,
+                Encoding = new UTF8Encoding(false),
                 Indent = true,
                 IndentChars = "  ",
                 OmitXmlDeclaration = false,
                 WriteEndDocumentOnClose = true
             };
 
-            writer = XmlWriter.Create(outputBuilder, settings);
+            writer = XmlWriter.Create(memoryStream, settings);
 
             // Start OSM
             writer.WriteStartElement("osm");
@@ -376,7 +379,9 @@ namespace OSMToSCT2.TextConverters
 
             writer.Flush();
 
-            return outputBuilder.ToString();
+            outputText = Encoding.UTF8.GetString(memoryStream.ToArray());
+            
+            return outputText;
         }
     }
 }

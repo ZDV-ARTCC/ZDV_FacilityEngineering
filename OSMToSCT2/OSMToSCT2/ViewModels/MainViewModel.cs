@@ -279,10 +279,13 @@ namespace OSMToSCT2.ViewModels
 
             outputFileInfo = new FileInfo(Path.Combine(outputDirectoryPath, Path.ChangeExtension(inputFileInfo.Name, "osm")));
 
+            if (outputFileInfo.Exists)
+                outputFileInfo.Delete();
+
             // Write the OSM file(s)
             using (FileStream fileStream = outputFileInfo.OpenWrite())
             {
-                streamWriter = new StreamWriter(fileStream);
+                streamWriter = new StreamWriter(fileStream, Encoding.UTF8);
 
                 streamWriter.Write(osmText);
                 streamWriter.Flush();

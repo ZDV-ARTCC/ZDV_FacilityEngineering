@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <osm version="0.6" generator="OSMToSCT2">
   <node id="-2" action="modify" visible="true" lat="39.22975416667" lon="-106.87180277778" />
   <node id="-3" action="modify" visible="true" lat="39.22970444444" lon="-106.87138722222" />
