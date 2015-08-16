@@ -58,5 +58,77 @@ namespace OSMToSCT2.Properties {
                 this["OutputDirectory"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regram")]
+        public string ColorApron {
+            get {
+                return ((string)(this["ColorApron"]));
+            }
+            set {
+                this["ColorApron"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regbui")]
+        public string ColorHangar {
+            get {
+                return ((string)(this["ColorHangar"]));
+            }
+            set {
+                this["ColorHangar"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regoth")]
+        public string ColorOther1 {
+            get {
+                return ((string)(this["ColorOther1"]));
+            }
+            set {
+                this["ColorOther1"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regrw")]
+        public string ColorRunway {
+            get {
+                return ((string)(this["ColorRunway"]));
+            }
+            set {
+                this["ColorRunway"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regtax")]
+        public string ColorTaxiway {
+            get {
+                return ((string)(this["ColorTaxiway"]));
+            }
+            set {
+                this["ColorTaxiway"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("regbui")]
+        public string ColorTerminal {
+            get {
+                return ((string)(this["ColorTerminal"]));
+            }
+            set {
+                this["ColorTerminal"] = value;
+            }
+        }
     }
 }
