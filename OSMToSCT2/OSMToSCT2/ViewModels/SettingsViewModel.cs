@@ -18,7 +18,7 @@ namespace OSMToSCT2.ViewModels
 
         public SettingsViewModel()
         {
-            mColorRunway = "regrw";
+
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
