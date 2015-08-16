@@ -156,8 +156,70 @@ namespace OSMToSCT2.ViewModels
         /// <param name="param">Not Used</param>
         public void ConvertOSMToSCT(object param)
         {
+            FileInfo inputFileInfo;
+            FileInfo outputFileInfo;
+            StreamReader streamReader;
+            StreamWriter streamWriter;
+            String osmText;
+            String sctText;
+            String outputDirectoryPath;
+            DirectoryInfo outputDirInfo;
+            OSMToSCTTextConverter converter;
+
             OutputConsoleText = "";
             OutputConsoleText += "Converting OSM to SCT...";
+
+            inputFileInfo = new FileInfo(mInputOSMFilePath);
+
+            if (!inputFileInfo.Exists)
+            {
+                OutputConsoleText += "Error. File not found.";
+                return;
+            }
+
+            // Read in the file contents
+            using (FileStream fileStream = inputFileInfo.OpenRead())
+            {
+                streamReader = new StreamReader(fileStream);
+
+                osmText = streamReader.ReadToEnd();
+
+                fileStream.Flush();
+                fileStream.Close();
+            }
+
+            // Initialize the converter utility
+            converter = new OSMToSCTTextConverter(mSettingsVM.ColorRunway,
+                                                  mSettingsVM.ColorTaxiway,
+                                                  mSettingsVM.ColorApron,
+                                                  mSettingsVM.ColorTerminal,
+                                                  mSettingsVM.ColorHangar,
+                                                  mSettingsVM.ColorOther1);
+
+            // Perform the conversion
+            sctText = converter.Convert(osmText);
+
+            outputDirectoryPath = Environment.ExpandEnvironmentVariables(mOutputDirectoryPath);
+            outputDirInfo = new DirectoryInfo(outputDirectoryPath);
+
+            if (!outputDirInfo.Exists)
+                outputDirInfo.Create();
+
+            outputFileInfo = new FileInfo(Path.Combine(outputDirectoryPath, Path.ChangeExtension(inputFileInfo.Name, "sct2")));
+            outputFileInfo.Delete();
+
+            // Write the SCT file(s)
+            using (FileStream fileStream = outputFileInfo.OpenWrite())
+            {
+                streamWriter = new StreamWriter(fileStream);
+
+                streamWriter.Write(sctText);
+                streamWriter.Flush();
+
+                fileStream.Close();
+
+                OutputConsoleText += "SCT File Created Successfully.";
+            }
         }
 
         /// <summary>
