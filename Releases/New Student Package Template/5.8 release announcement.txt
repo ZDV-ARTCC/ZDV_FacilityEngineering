@@ -1,0 +1,15 @@
+Effective Immediately, [url=http://denartcc.org/fe/ZDV_ARTCC_Sector_5.8.zip]ZDV ARTCC Sector File 5.8[/url] is current and available for download.
+
+Here is a full list of changes included in this release:
+
++ The boundary lines of Denver Center's four-way split have changed to better balance the arrival and departure flows among the four sectors
+
+Enjoy!
+
+Casey Diers
+ZDV_CI_FE
+DEN ARTCC Facility Engineer
+casey@denartcc.org
+
+
+Please post feature requests and bugs below this post in this thread or on the new  [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues]github issue tracker page by clicking here[/url].
