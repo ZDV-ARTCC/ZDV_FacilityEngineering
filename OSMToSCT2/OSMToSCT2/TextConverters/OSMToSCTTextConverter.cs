@@ -241,7 +241,7 @@ namespace OSMToSCT2.TextConverters
                     for (int n = 0; n < shape.Nodes.Count - 1; n++)
                     {
                         node = shape.Nodes[n];
-                        outputBuilder.AppendFormat("  {0} {1}" + Environment.NewLine, LatitudeDecimalToDMS(node.Latitude), LongitudeDecimalToDMS(node.Longitude));
+                        outputBuilder.AppendFormat("  {0} {1}" + Environment.NewLine, Utilities.LatitudeDecimalToDMS(node.Latitude), Utilities.LongitudeDecimalToDMS(node.Longitude));
                     }
                 }
                 else
@@ -252,7 +252,7 @@ namespace OSMToSCT2.TextConverters
                     for (int n = 0; n < shape.Nodes.Count; n++)
                     {
                         node = shape.Nodes[n];
-                        outputBuilder.AppendFormat(";  {0} {1}" + Environment.NewLine, LatitudeDecimalToDMS(node.Latitude), LongitudeDecimalToDMS(node.Longitude));
+                        outputBuilder.AppendFormat(";  {0} {1}" + Environment.NewLine, Utilities.LatitudeDecimalToDMS(node.Latitude), Utilities.LongitudeDecimalToDMS(node.Longitude));
                     }
                 }
 
@@ -263,79 +263,5 @@ namespace OSMToSCT2.TextConverters
             return outputBuilder.ToString();
         }
 
-        /// <summary>
-        /// Formats a decimal latitude value in the SCT DMS format
-        /// </summary>
-        /// <param name="latitudeDecimal">Decimal Latitude value</param>
-        /// <returns>SCT-formatted latitude value (ex. N039.13.25.089)</returns>
-        protected static String LatitudeDecimalToDMS(decimal latitudeDecimal)
-        {
-            String latitudeDMS;
-            decimal latitudeM;
-            decimal latitudeS;
-            decimal latitudeSRemainder;
-
-            latitudeDMS = "";
-
-            if (latitudeDecimal >= 0)
-            {
-                latitudeDMS += "N";
-            }
-            else
-            {
-                latitudeDecimal = -latitudeDecimal;
-                latitudeDMS += "S";
-            }
-
-            latitudeM = (latitudeDecimal - Math.Floor(latitudeDecimal)) * 60;
-            latitudeS = Math.Round((latitudeM - Math.Floor(latitudeM)) * 60, 3);
-            latitudeSRemainder = Math.Round((latitudeS - Math.Floor(latitudeS)) * 1000);
-
-            latitudeDMS += String.Format("{0:000}.{1:00}.{2:00}.{3:000}",
-                                         (int)latitudeDecimal,
-                                         (int)latitudeM,
-                                         (int)latitudeS,
-                                         (int)latitudeSRemainder);
-
-            return latitudeDMS;
-        }
-
-        /// <summary>
-        /// Formats a decimal longitude value in the SCT DMS format
-        /// </summary>
-        /// <param name="longitudeDecimal">Decimal Longitude value</param>
-        /// <returns>SCT-formatted longitude value (ex. W106.52.00.570)</returns>
-        protected static String LongitudeDecimalToDMS(decimal longitudeDecimal)
-        {
-            String longitudeDMS;
-            decimal longitudeM;
-            decimal longitudeS;
-            decimal longitudeSRemainder;
-
-            longitudeDMS = "";
-
-            if (longitudeDecimal >= 0)
-            {
-                longitudeDMS += "E";
-            }
-            else
-            {
-                longitudeDecimal = -longitudeDecimal;
-                longitudeDMS += "W";
-            }
-
-            longitudeM = (longitudeDecimal - Math.Floor(longitudeDecimal)) * 60;
-            longitudeS = Math.Round((longitudeM - Math.Floor(longitudeM)) * 60, 3);
-            longitudeSRemainder = Math.Round((longitudeS - Math.Floor(longitudeS)) * 1000);
-
-
-            longitudeDMS += String.Format("{0:000}.{1:00}.{2:00}.{3:000}",
-                                         (int)longitudeDecimal,
-                                         (int)longitudeM,
-                                         (int)longitudeS,
-                                         (int)longitudeSRemainder);
-
-            return longitudeDMS;
-        }
     }
 }

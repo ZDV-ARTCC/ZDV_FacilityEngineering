@@ -55,10 +55,15 @@
     </ApplicationDefinition>
     <Compile Include="Geo\Node.cs" />
     <Compile Include="Geo\Shape.cs" />
+    <Compile Include="Helpers\BooleanNotConverter.cs" />
+    <Compile Include="Helpers\BooleanVisibilityConverter.cs" />
     <Compile Include="Helpers\ConversionException.cs" />
+    <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="TextConverters\OSMToSCTTextConverter.cs" />
+    <Compile Include="TextConverters\OSMToSCTVideoMapConverter.cs" />
     <Compile Include="TextConverters\SCTToOSMTextConverter.cs" />
     <Compile Include="Helpers\RelayCommand.cs" />
+    <Compile Include="TextConverters\SCTToOSMVideoMapConverter.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\SettingsViewModel.cs" />
     <Page Include="MainWindow.xaml">
