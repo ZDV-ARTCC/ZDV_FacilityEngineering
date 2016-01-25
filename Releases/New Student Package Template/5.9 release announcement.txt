@@ -1,0 +1,29 @@
+Effective Immediately, [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.9.zip]ZDV ARTCC Sector File 5.9[/url] is current and available for download.
+In addition, the POF File has been updated to version 4.3 and is available [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.3.zip]here[/url].
+
+Here is a full list of changes included in this release:
+
+Sector File:
++ KEGE Airport Diagram Updated
++ KBJC Airport Diagram Updated
++ Split line for ZLA sector 6 and 36 added to diagrams
++ Nav Data updated to AIRAC 1601
++ KEGE EKR1 updated to EKR2 and corrected
+
+POF File:
++ Frequencies corrected for ASE_DEL, COS_DEL, DEN_W_TWR, EGE_TWR
++ Added EGE_DEL
++ Removed FTG_DEL
+
+Other:
++ New student package now contains myservers.txt file with an entry for SweatBox
+
+Enjoy!
+
+James Waltz
+ZDV_JW_FE
+DEN ARTCC Facility Engineer
+james@denartcc.org
+
+
+Please post feature requests and bugs below this post in this thread or on the new  [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues]github issue tracker page by clicking here[/url].
