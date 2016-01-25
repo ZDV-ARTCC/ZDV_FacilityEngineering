@@ -1,8 +1,8 @@
 ;	+----------------------------------------------------------------------------------------------------+
-;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.1                          |
+;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.3b                         |
 ;	| File may only be distributed as freeware.                                                          |
 ;	| Copyright (c) Virtual Denver ARTCC on VATSIM                                                       |
-;	| Release Date: 22 MAY 2015                                                                          |
+;	| Release Date: Not Released                                                                         |
 ;	+----------------------------------------------------------------------------------------------------+
 ;	| Authorization: Mani Manigault ATM                                                                  |
 ;	| ZDV Authors: Harold Rutila, Richard Snaer, David Hendleman, Mike Evans, Casey Diers and James Waltz|
@@ -35,7 +35,7 @@ DEL:Centennial Clearance Delivery:128.600:3C:C:APA:DEL:APA:DEL:0601:0677
 APP:Aspen Departure/Approach:123.800:7A:R:ASE:APP:ASE:APP:2701:2777
 TWR:Aspen Tower:118.850:7B:B:ASE:TWR:ASE:TWR:2701:2777
 GND:Aspen Ground:121.900:7C:C:ASE:GND:ASE:GND:2701:2777
-DEL:Aspen Clearance Delivery:123.850:7D:D:ASE:DEL:ASE:DEL:2701:2777
+DEL:Aspen Clearance Delivery:123.750:7D:D:ASE:DEL:ASE:DEL:2701:2777
 ;
 ;BJC ATCT
 TWR:Metro Tower:118.600:2A:A:BJC:TWR:BJC:TWR:0601:0677
@@ -50,7 +50,7 @@ APP:Springs Approach:118.500:4A:C:COS:APP:COS:APP:5101-5177
 DEP:Springs Departure:124.000:4D:D:COS:DEP:COS:APP:5101-5177
 TWR:Springs Tower:119.900:4B:B:COS:TWR:COS:TWR:5101-5177
 GND:Springs Ground:121.700:4C:C:COS:GND:COS:GND:5101-5177
-DEL:Springs Delivery:124.000:4D:D:COS:DEL:COS:DEL:5101-5177
+DEL:Springs Delivery:134.450:4D:D:COS:DEL:COS:DEL:5101-5177
 ;
 ;CPR ATCT/TRACON
 APP:Casper Approach:120.650:6A:P:CPR:APP:CPR:APP:1401:1477
@@ -81,14 +81,15 @@ APP/DEP:Ellsworth Departure/Approach:119.500:9A:E:RCA:APP:RCA:APP:1401:1477
 ;
 ;DEN ATCT
 E_TWR:Denver Tower:133.300:1A:A:DEN:TWR:DEN:TWR:0601:0677 		
-W_TWR:Denver Tower:124.300:1B:B:DEN:TWR:DEN:TWR:0601:0677
+W_TWR:Denver Tower:135.300:1B:B:DEN:TWR:DEN:TWR:0601:0677
 E_GND:Denver Ground:121.850:1C:C:DEN:GND:DEN:GND:0601:0677
 W_GND:Denver Ground:127.500:1D:D:DEN:GND:DEN:GND:0601:0677
 FD/DEL:Denver Clearance Delivery:118.750:1E:E:DEN:DEL:DEN:DEL:0601:0677
 ;
 ;EGE ATCT
-TWR:Eagle Tower:118.200:8A:A:EGE:TWR:EGE:TWR:1401:1477
+TWR:Eagle Tower:119.800:8A:A:EGE:TWR:EGE:TWR:1401:1477
 GND:Eagle Ground:121.800:8B:B:EGE:GND:EGE:GND:1401:1477
+DEL:Eagle Clearance Delivery:124.750:8C:C:EGE:DEL:EGE:DEL:1401:1477
 ;
 ;FMN ATCT
 TWR:Farmington Tower:118.900:F1:A:FMN:TWR:FMN:TWR:1401:1477
@@ -97,7 +98,6 @@ GND:Farmington Ground:121.700:F2:B:FMN:GND:FMN:GND:1401:1477
 ;FTG ATCT
 TWR:Front Range Tower:120.200:5A:T:FTG:TWR:FTG:TWR:0601:0677
 GND:Front Range Ground:124.700:5B:B:FTG:GND:FTG:GND:0601:0677
-DEL:Front Range Clearance Delivery:121.750:5C:C:FTG:DEL:FTG:DEL:0601:0677
 ;
 ;GJT ATCT
 TWR:Grand Junction Tower:118.100:3B:B:GJT:TWR:GJT:TWR:0601:0677

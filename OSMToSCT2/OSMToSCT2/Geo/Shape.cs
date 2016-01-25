@@ -15,7 +15,8 @@ namespace OSMToSCT2.Geo
             Apron,
             Terminal,
             Hangar,
-            Other1
+            Other1,
+            VideoMap
         }
 
         private List<Node> mNodes;

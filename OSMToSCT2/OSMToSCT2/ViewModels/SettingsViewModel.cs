@@ -16,9 +16,11 @@ namespace OSMToSCT2.ViewModels
         private String mColorHangar;
         private String mColorOther1;
 
+        private Boolean mIsDiagramMode;
+
         public SettingsViewModel()
         {
-
+            mIsDiagramMode = true;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -125,6 +127,23 @@ namespace OSMToSCT2.ViewModels
                 {
                     mColorOther1 = value;
                     OnPropertyChanged("ColorOther1");
+                }
+            }
+        }
+
+        [DefaultValue(true)]
+        public Boolean IsDiagramMode
+        {
+            get
+            {
+                return mIsDiagramMode;
+            }
+            set
+            {
+                if (mIsDiagramMode != value)
+                {
+                    mIsDiagramMode = value;
+                    OnPropertyChanged("IsDiagramMode");
                 }
             }
         }

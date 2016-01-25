@@ -229,7 +229,8 @@ namespace OSMToSCT2.ViewModels
         /// <param name="param">Not Used</param>
         public void ConvertSCTToOSM(object param)
         {
-            SCTToOSMTextConverter converter;
+            SCTToOSMTextConverter diagramConverter;
+            SCTToOSMVideoMapConverter videomapConverter;
             StreamReader streamReader;
             StreamWriter streamWriter;
             FileInfo inputFileInfo;
@@ -238,11 +239,13 @@ namespace OSMToSCT2.ViewModels
             String sctText;
             String osmText;
             String outputDirectoryPath;
+            String inputFilePath;
 
             OutputConsoleText = "";
             OutputConsoleText += "Converting SCT to OSM...";
 
-            inputFileInfo = new FileInfo(mInputSCTFilePath);
+            inputFilePath = Environment.ExpandEnvironmentVariables(mInputSCTFilePath);
+            inputFileInfo = new FileInfo(inputFilePath);
 
             if (!inputFileInfo.Exists)
             {
@@ -261,15 +264,26 @@ namespace OSMToSCT2.ViewModels
                 fileStream.Close();
             }
 
-            // Initialize the converter utility
-            converter = new SCTToOSMTextConverter(mSettingsVM.ColorRunway,
-                                                  mSettingsVM.ColorTaxiway,
-                                                  mSettingsVM.ColorApron,
-                                                  mSettingsVM.ColorTerminal,
-                                                  mSettingsVM.ColorHangar,
-                                                  mSettingsVM.ColorOther1);
-            // Perform the conversion
-            osmText = converter.Convert(sctText);
+            if (mSettingsVM.IsDiagramMode)
+            {
+                // Initialize the converter utility
+                diagramConverter = new SCTToOSMTextConverter(mSettingsVM.ColorRunway,
+                                                      mSettingsVM.ColorTaxiway,
+                                                      mSettingsVM.ColorApron,
+                                                      mSettingsVM.ColorTerminal,
+                                                      mSettingsVM.ColorHangar,
+                                                      mSettingsVM.ColorOther1);
+                // Perform the conversion
+                osmText = diagramConverter.Convert(sctText);
+            }
+            else
+            {
+                // Initialize the converter utility
+                videomapConverter = new SCTToOSMVideoMapConverter();
+
+                // Perform the conversion
+                osmText = videomapConverter.Convert(sctText);
+            }
 
             outputDirectoryPath = Environment.ExpandEnvironmentVariables(mOutputDirectoryPath);
             outputDirInfo = new DirectoryInfo(outputDirectoryPath);
