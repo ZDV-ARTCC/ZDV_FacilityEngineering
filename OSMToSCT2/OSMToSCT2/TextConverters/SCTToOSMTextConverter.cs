@@ -1,4 +1,5 @@
 ﻿using OSMToSCT2.Geo;
+using OSMToSCT2.Helpers;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -44,7 +45,6 @@ namespace OSMToSCT2.TextConverters
         /// <returns>OSM data</returns>
         public String Convert(String inputSCT)
         {
-            StringBuilder outputBuilder;
             String[] inputLines;
             Regex coordRegex;
             Match coordMatch;
@@ -65,7 +65,6 @@ namespace OSMToSCT2.TextConverters
 
             currentShape = null;
 
-            outputBuilder = new StringBuilder();
             shapes = new Dictionary<int, Shape>();
             nodes = new Dictionary<int, Node>();
 
@@ -142,8 +141,8 @@ namespace OSMToSCT2.TextConverters
                 // Create a new node
                 currentNode = new Node();
                 currentNode.ID = lastId--;
-                currentNode.Latitude = DecimalLatitudeFromString(coordMatch.Groups[1].Value);
-                currentNode.Longitude = DecimalLongitudeFromString(coordMatch.Groups[2].Value);
+                currentNode.Latitude = Utilities.DecimalLatitudeFromString(coordMatch.Groups[1].Value);
+                currentNode.Longitude = Utilities.DecimalLongitudeFromString(coordMatch.Groups[2].Value);
 
                 nodes.Add(currentNode.ID, currentNode);
                 currentShape.Nodes.Add(currentNode);
@@ -152,68 +151,6 @@ namespace OSMToSCT2.TextConverters
             
             // Return results
             return GenerateOSM(shapes.Values.ToList(), nodes.Values.ToList());
-        }
-
-        /// <summary>
-        /// Parses an SCT-formatted Latitude string to a Decimal
-        /// </summary>
-        /// <param name="strLatitude">SCT-formatted Latitude string</param>
-        /// <returns>Decimal Latitude</returns>
-        private decimal DecimalLatitudeFromString(String strLatitude)
-        {
-            decimal decLatitude;
-            decimal decSeconds;
-            decimal decMinutes;
-            decimal sign;
-            string[] parts;
-
-            if (strLatitude[0] == 'N')
-            {
-                sign = 1;
-            }
-            else
-            {
-                sign = -1;
-            }
-
-            parts = strLatitude.Substring(1).Split('.');
-
-            decSeconds = Decimal.Parse(parts[2] + "." + parts[3]) / 3600;
-            decMinutes = Decimal.Parse(parts[1]) / 60;
-            decLatitude = sign * (Decimal.Parse(parts[0]) + decMinutes + decSeconds);
-
-            return decLatitude;
-        }
-        
-        /// <summary>
-        /// Parses an SCT-formatted Longitude string to a Decimal
-        /// </summary>
-        /// <param name="strLongitude">SCT-formatted Longitude string</param>
-        /// <returns>Decimal Longitude</returns>
-        private decimal DecimalLongitudeFromString(String strLongitude)
-        {
-            decimal decLongitude;
-            decimal decSeconds;
-            decimal decMinutes;
-            decimal sign;
-            string[] parts;
-
-            if (strLongitude[0] == 'E')
-            {
-                sign = 1;
-            }
-            else
-            {
-                sign = -1;
-            }
-
-            parts = strLongitude.Substring(1).Split('.');
-
-            decSeconds = Decimal.Parse(parts[2] + "." + parts[3]) / 3600;
-            decMinutes = Decimal.Parse(parts[1]) / 60;
-            decLongitude = sign * (Decimal.Parse(parts[0]) + decMinutes + decSeconds);
-
-            return decLongitude;
         }
 
         /// <summary>

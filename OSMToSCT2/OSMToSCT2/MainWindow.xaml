@@ -2,8 +2,11 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:OSMToSCT2"
+        xmlns:helpers="clr-namespace:OSMToSCT2.Helpers"
         Title="OSMToSCT 2" Height="600" Width="800">
     <Window.Resources>
+        <helpers:BooleanVisibilityConverter x:Key="BooleanVisibilityConverter" />
+        <helpers:BooleanNotConverter x:Key="BooleanNotConverter" />
         <Style TargetType="Button">
             <Setter Property="Margin" Value="5,3,5,3" />
             <Setter Property="Padding" Value="3,1,3,1" />
@@ -14,6 +17,11 @@
         </Style>
         <Style TargetType="GroupBox">
             <Setter Property="Margin" Value="5" />
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="Margin" Value="5,3,5,3" />
+            <Setter Property="Padding" Value="3,1,3,1" />
+            <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
     </Window.Resources>
     <Grid>
@@ -87,8 +95,24 @@
                     <Grid.RowDefinitions>
                         <RowDefinition />
                         <RowDefinition />
+                        <RowDefinition />
                     </Grid.RowDefinitions>
-                    <GroupBox Header="Colors">
+                    <StackPanel Grid.Row="0" 
+                                Orientation="Horizontal">
+                        <Label Content="Conversion Mode"
+                               Target="{Binding ElementName=rbDiagram}" />
+                        <RadioButton Name="rbDiagram"
+                                     Content="Diagram"
+                                     GroupName="ConversionMode"
+                                     IsChecked="{Binding IsDiagramMode}"/>
+                        <RadioButton Name="rbVideoMap"
+                                     Content="Video Map"
+                                     GroupName="ConversionMode"
+                                     IsChecked="{Binding IsDiagramMode, Converter={StaticResource BooleanNotConverter}}"/>
+                    </StackPanel>
+                    <GroupBox Header="Colors"
+                              Grid.Row="1"
+                              Visibility="{Binding ElementName=rbDiagram, Path=IsChecked, Converter={StaticResource BooleanVisibilityConverter}}">
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
@@ -159,7 +183,13 @@
                         </Grid>
                     </GroupBox>
                     <GroupBox Header="Other"
-                              Grid.Row="1" />
+                              Grid.Row="2"
+                              Visibility="{Binding ElementName=rbDiagram, Path=IsChecked, Converter={StaticResource BooleanVisibilityConverter}}" />
+                    <GroupBox Header="Video Map"
+                              Grid.Row="1"
+                              Visibility="{Binding ElementName=rbVideoMap, Path=IsChecked, Converter={StaticResource BooleanVisibilityConverter}}">
+                        
+                    </GroupBox>
                 </Grid>
             </GroupBox>
         </Grid>
