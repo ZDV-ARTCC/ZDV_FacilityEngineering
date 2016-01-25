@@ -26,7 +26,118 @@
 <!ATTLIST change affected CDATA #IMPLIED>
 ]>
  <changelog>
- <version current="1" releasedate="23 November 2014" releasetime="1416770296" airac="1412">
+   <version current="1" releasedate="24 Jan 2016" releasetime="1453679999" airac="1601">
+   <by title="Facility Engineer">James Waltz</by>
+   <packetinfo filerev="5.9" releasedate="1/24/2016">
+    <filename>New Student Package v5.9</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.9.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.9" releasedate="1/24/2016">
+    <filename>ZDV ARTCC Sector v5.9</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.9.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.3" releasedate="1/24/2016">
+    <filename>ZDV POF File v4.3</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.3.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change affected="KEGE">KEGE Airport Diagram Updated</change>
+	<change affected="KBJC">KBJC Airport Diagram Updated</change>
+	<change affected="ZDV">Split line for ZLA sector 6 and 36 added</change>
+	<change affected="KEGE">EKR1 updated to EKR2 and corrected</change>
+	<change affected="ALL">Nav Data updated to AIRAC 1601</change>
+	<change affected="ALL">POF File Updated</change>
+  </version>
+  <version releasedate="19 Oct 2015" releasetime="1445255000" airac="1509">
+   <by title="Assistant Facility Engineer">James Waltz</by>
+   <packetinfo filerev="5.8" releasedate="10/19/2015">
+    <filename>New Student Package v5.8</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.8.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.8" releasedate="10/19/2015">
+    <filename>ZDV ARTCC Sector v5.8</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.8.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.2" releasedate="9/20/2015">
+    <filename>ZDV POF File v4.2</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.2.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change affected="ALL">Revised CTR Splits</change>
+  </version>
+  <version releasedate="20 Sep 2015" releasetime="1442777391" airac="1509">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.7" releasedate="9/20/2015">
+    <filename>New Student Package v5.7</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.7.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.7" releasedate="9/20/2015">
+    <filename>ZDV ARTCC Sector v5.7</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.7.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.2" releasedate="9/20/2015">
+    <filename>ZDV POF File v4.2</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.2.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change affected="ALL">Update Sector File for AIRAC 1509</change>
+	<change affected="ALL">POF Updates</change>
+	<change affected="KASE">Update KASE airport diagram</change>
+	<change affected="KCOS">Update KCOS MVAs</change>
+  </version>
+ <version releasedate="26 May 2015" releasetime="1432695628" airac="1505">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.6" releasedate="5/26/2015">
+    <filename>New Student Package v5.6</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.6.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.6" releasedate="5/26/2015">
+    <filename>ZDV ARTCC Sector v5.6</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.6.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.1" releasedate="3/22/2015">
+    <filename>ZDV POF File v4.1</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.1.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change affected="ALL">Updated VORs, NDBs, fixes, and airways for 1505.</change>
+	<change affected="KCOS">Update COS MVAs</change>
+  </version>
+ <version releasedate="22 March 2015" releasetime="1427077707" airac="1503">
+   <by title="Facility Engineer">Casey Diers</by>
+   <packetinfo filerev="5.5" releasedate="3/22/2015">
+    <filename>New Student Package v5.5</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.5.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.5" releasedate="3/22/2015">
+    <filename>ZDV ARTCC Sector v5.5</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.5.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.1" releasedate="3/22/2015">
+    <filename>ZDV POF File v4.1</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.1.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	<change>Updated VORs, NDBs, FIXs, and Airways to 1503 AIRAC.</change>
+	<change affected="KPUB">Update KPUB to reflect the new runway north of old runway 08L/26R. Runways renamed accordingly.</change>
+	<change affected="ALL">Update ZAB Center Splits diagram to correctly reflect the changes to their sectorization that they implemented in January of 2015.</change>
+  </version>
+ <version releasedate="23 November 2014" releasetime="1416770296" airac="1412">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo filerev="5.4" releasedate="11/23/14">
     <filename>New Student Package v5.4</filename>
@@ -380,7 +491,6 @@
    <change affected="KASE">Updated LINDZ SIX to LINDZ SEVEN and PITKN ONE to PITKN TWO</change>
    <change>Updated VORs, NDBs, and FIXs to 1113 AIRAC.</change>
   </version>
-  
   <version releasedate="16 Nov 2011" releasetime="1321486977" airac="1111">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo>
@@ -401,7 +511,6 @@
    </aliasinfo>
    <change>Updated VORs, NDBs, and FIXs to 1111 AIRAC.</change>
   </version>
-  
   <version releasedate="5 Sep 2011" releasetime="1315180800" airac="1109">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo>
@@ -443,7 +552,6 @@
    <change affected="D01">Added in new High/Low Center Splits, to be utilized at Denver Live this year.</change>
    <change affected="KPUB">Corrected KPUB extended center line issue.</change>
   </version>
-  
   <version releasedate="11 JULY 2011" releasetime="1310342400" airac="1107">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo>
@@ -466,7 +574,6 @@
    <change affected="KFMN">Reworked KFMN SIDs</change>
    <change affected="KGJT">Make the MONMT2 ODP diagram</change>
   </version>
-  
   <version releasedate="23 MAY 2011" releasetime="1306108800" airac="1105">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo>
@@ -486,7 +593,6 @@
    <change affected="KCOS">Bug that warranted mid release update: Added back in KCOS airport diagram</change>
    <change affected="D01">Updated the PLAIN4 HCT initial heading marker.  Updated due to magnetic variation.  was 062&#176;, now 061&#176;.</change>
   </version>
-  
   <version releasedate="16 MAY 2011" releasetime="1305504000" airac="1105">
    <by title="Facility Engineer">Casey Diers</by>
    <packetinfo>
@@ -533,4 +639,4 @@ One of the problems with using a combined file for all positions is that traditi
 To re-enable them, simply add that semicolon (";") back at the beginning of the line.
    </change>
   </version>
- </changelog>
+</changelog>
