@@ -22,7 +22,7 @@
    <facility id="ZDV" filerev="0.1">
     <filename>Denver ARTCC (ZDV)</filename>
     <ID>ZDV</ID>
-    <url>vERAM Facility - Denver ARTCC (ZDV)_v0.1.gz</url>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM Facility%20-%20Denver%20ARTCC%20(ZDV)_v0.1.gz</url>
    </facility>
    <change>Initial Release (v0.1)</change>
   </version>  
