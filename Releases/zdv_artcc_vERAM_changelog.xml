@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE changelog [
+<!ELEMENT changelog (version+)>
+<!ELEMENT version (by*,facility,change+)>
+<!ELEMENT facility (filename*,ID*,url*)>
+<!ELEMENT filename (#PCDATA)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT by (#PCDATA)>
+<!ELEMENT change (#PCDATA)>
+<!ATTLIST version current CDATA #IMPLIED>
+<!ATTLIST version releasedate CDATA #IMPLIED>
+<!ATTLIST version releasetime CDATA #IMPLIED>
+<!ATTLIST by title CDATA #IMPLIED>
+<!ATTLIST facility id CDATA #IMPLIED>
+<!ATTLIST facility filerev CDATA #IMPLIED>
+<!ATTLIST change affected CDATA #IMPLIED>
+]>
+ <changelog>
+  <version current="1" releasedate="22 Mar 2016" releasetime="1458685701">
+   <by title="Facility Engineer">James Waltz</by>
+   <facility id="ZDV" filerev="0.1">
+    <filename>Denver ARTCC (ZDV)</filename>
+    <ID>ZDV</ID>
+    <url>vERAM Facility - Denver ARTCC (ZDV)_v0.1.gz</url>
+   </facility>
+   <change>Initial Release (v0.1)</change>
+  </version>  
+ </changelog>
