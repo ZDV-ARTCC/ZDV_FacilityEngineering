@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>KAPA</ID>
+  <Name>Centennial</Name>
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <AtisFrequency>120.300</AtisFrequency>
+  <Profiles>
+    <Profile>
+      <Name>NORTH</Name>
+      <DepArrNotice>LDG AND DEPTG RUNWAY 35L AND 35R.
+RWY 10 28 AVBL ON RQST.</DepArrNotice>
+      <ILSApch>false</ILSApch>
+      <RNAVApch>false</RNAVApch>
+      <VORApch>false</VORApch>
+      <DMEApch>false</DMEApch>
+      <VisualApch>false</VisualApch>
+      <LocalizeApch>false</LocalizeApch>
+      <SimulApchIntersecting>false</SimulApchIntersecting>
+      <ConvergingOps>false</ConvergingOps>
+      <LandHoldShort>false</LandHoldShort>
+      <SimulApchs>false</SimulApchs>
+      <GrassOps>false</GrassOps>
+      <WindshearAdvs>false</WindshearAdvs>
+      <VFRDirection>false</VFRDirection>
+      <NOTAM>VFR DEPS ADVS GND CTL DRCTN OF FLT.
+ALL DEPS ADVS GND CTL WHEN YOUR RUN UP IS COMPLETE.
+REMAIN ON GND CTL FREQ UNTIL ADVSD TO MONITOR TOWER.</NOTAM>
+      <HoldShortIntructions>false</HoldShortIntructions>
+      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
+      <DepsCtcFreq>false</DepsCtcFreq>
+      <CtcPosition />
+      <CtcFreq />
+      <ReadbackCallsign>false</ReadbackCallsign>
+      <VerifySID>false</VerifySID>
+      <ModeCharlie>false</ModeCharlie>
+      <NormalUpdate>true</NormalUpdate>
+      <NormalUpdateTime>53</NormalUpdateTime>
+      <MagneticVariation>true</MagneticVariation>
+      <MagneticSubtract>true</MagneticSubtract>
+      <MagneticAdd>false</MagneticAdd>
+      <MagneticDegrees>9</MagneticDegrees>
+      <HazardousWeather>false</HazardousWeather>
+      <HazardousWeatherArea />
+      <DepartingRwys />
+      <ArrivingRwys />
+      <EUParse>false</EUParse>
+    </Profile>
+    <Profile>
+      <Name>SOUTH</Name>
+      <DepArrNotice>LDG AND DEPTG RWY 17L AND 17R.
+RWY 10 28 AVBL ON RQST.</DepArrNotice>
+      <ILSApch>false</ILSApch>
+      <RNAVApch>false</RNAVApch>
+      <VORApch>false</VORApch>
+      <DMEApch>false</DMEApch>
+      <VisualApch>false</VisualApch>
+      <LocalizeApch>false</LocalizeApch>
+      <SimulApchIntersecting>false</SimulApchIntersecting>
+      <ConvergingOps>false</ConvergingOps>
+      <LandHoldShort>false</LandHoldShort>
+      <SimulApchs>false</SimulApchs>
+      <GrassOps>false</GrassOps>
+      <WindshearAdvs>false</WindshearAdvs>
+      <VFRDirection>false</VFRDirection>
+      <NOTAM>VFR DEPS ADVS GND CTL DRCTN OF FLT.
+ALL DEPS ADVS GND CTL WHEN YOUR RUN UP IS COMPLETE.
+REMAIN ON GND CTL FREQ UNTIL ADVSD TO MONITOR TOWER.</NOTAM>
+      <HoldShortIntructions>false</HoldShortIntructions>
+      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
+      <DepsCtcFreq>false</DepsCtcFreq>
+      <CtcPosition />
+      <CtcFreq />
+      <ReadbackCallsign>false</ReadbackCallsign>
+      <VerifySID>false</VerifySID>
+      <ModeCharlie>false</ModeCharlie>
+      <NormalUpdate>true</NormalUpdate>
+      <NormalUpdateTime>53</NormalUpdateTime>
+      <MagneticVariation>true</MagneticVariation>
+      <MagneticSubtract>true</MagneticSubtract>
+      <MagneticAdd>false</MagneticAdd>
+      <MagneticDegrees>9</MagneticDegrees>
+      <HazardousWeather>false</HazardousWeather>
+      <HazardousWeatherArea />
+      <DepartingRwys />
+      <ArrivingRwys />
+      <EUParse>false</EUParse>
+    </Profile>
+  </Profiles>
+</Facility>

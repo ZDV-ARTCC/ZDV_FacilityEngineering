@@ -1,429 +1,62 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ID>KDEN</ID>
-  <Name>Denver Intl</Name>
-  <IDS />
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KDEN" Name="Denver" UpdatedOn="0001-01-01T00:00:00">
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>125.600</AtisFrequency>
+  <MagneticVariation>-8</MagneticVariation>
+  <ObservationTime>53</ObservationTime>
+  <AtisContractions />
   <Profiles>
-    <Profile>
-      <Name>NORTH CALM</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08,25,34R</DepartingRwys>
-      <ArrivingRwys>35L,35R</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="SOUTH CALM">
+      <Approaches> VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 16L, 17R. DEPARTING RUNWAYS 8, 25, 17R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <Notams />
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>NORTH ALL</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>34L,34R</DepartingRwys>
-      <ArrivingRwys>35L,35R</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="DENVER">
+      <Approaches />
+      <AtisTemplate>$WX</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>SOUTH CALM</Name>
-      <DepArrNotice>R N P %Z APPR AVBL ON RQST</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08,17R,25</DepartingRwys>
-      <ArrivingRwys>16L,17R</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="NORTH CALM">
+      <Approaches> VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAY 35L. DEPARTING RUNWAYS 8, 25, 34R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <Notams>NONE</Notams>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>SOUTH ALL</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>17L,17R</DepartingRwys>
-      <ArrivingRwys>16L,16R</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="NORTH WEST">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 26 AND 35L DEPARTING RUNWAYS 25, 34R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <Notams />
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>EAST ALL</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08</DepartingRwys>
-      <ArrivingRwys>07</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="NORTH EAST">
+      <Approaches> VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 7 AND 35L. DEPARTING RUNWAYS 8, 34R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <Notams />
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>WEST ALL</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>25</DepartingRwys>
-      <ArrivingRwys>26</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="SOUTH WEST">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 26 AND 16L. DEPARTING RUNWAYS 25 AND 17R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>NORTH EAST</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>true</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08,34R</DepartingRwys>
-      <ArrivingRwys>07,35L</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="SOUTH EAST">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 7 AND 16L. DEPARTING RUNWAYS 8, 17R. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>SOUTH EAST</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>true</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08,17R</DepartingRwys>
-      <ArrivingRwys>07,16L</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="EAST">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAY 7 DEPARTING RUNWAY 8 READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>NORTH WEST</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>true</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>25,34R</DepartingRwys>
-      <ArrivingRwys>26,35L</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="WEST">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAY 26 DEPARTING RUNWAY 25 READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>SOUTH WEST</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>true</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>17R,25</DepartingRwys>
-      <ArrivingRwys>16L,26</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="NORTH ALL">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 35L DEPARTING RUNWAYS 34R AND 34L. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
-    <Profile>
-      <Name>NORTH AND SOUTH</Name>
-      <DepArrNotice>RNP %Z APPR AVBL ON RQST.
-SIMUL OPPOSITE DRCTN PARALLEL RWY ARR OPS IN PROG.</DepArrNotice>
-      <ILSApch>true</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>true</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>ASDE X SURVEILLANCE SYSTEM NOT SIMULATED. SQUAWK STANDBY ON ALL RAMPS AND TWYS.
-ACFT MUST READBACK ASSIGNED HDG OR FIRST WAYPOINT WITH TAKEOFF CLNC.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>9</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>08,25</DepartingRwys>
-      <ArrivingRwys>16L,35L</ArrivingRwys>
-      <EUParse>false</EUParse>
+    <Profile Name="SOUTH ALL">
+      <Approaches>VISUAL AND ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 16L AND 17R. DEPARTING RUNWAYS 17R AND 17L READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+    <Profile Name="NORTH ALL-IMC">
+      <Approaches> ILS APPROACHES IN USE, RNAV ZULU APPROACHES AVAILABLE ON REQUEST. LANDING RUNWAYS 35L DEPARTING RUNWAYS 34R AND 34L. READBACK ALL HOLD SHORT INSTRUCTIONS</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
   </Profiles>
 </Facility>
