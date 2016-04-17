@@ -4,7 +4,9 @@
   <AtisFrequency>125.000</AtisFrequency>
   <MagneticVariation>8</MagneticVariation>
   <ObservationTime>54</ObservationTime>
-  <AtisContractions />
+  <AtisContractions>
+    <AtisContraction Find="SPR" Replace="SPRINGS" />
+  </AtisContractions>
   <Profiles>
     <Profile Name="NORTH">
       <Approaches>LDG RWYS 31, 35L, AND 35R. DEPG RWYS 31, 35L, AND 35R.</Approaches>

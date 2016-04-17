@@ -1,47 +1,18 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ID>KEGE</ID>
-  <Name>Eagle County</Name>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KEGE" Name="Eagle County" UpdatedOn="0001-01-01T00:00:00">
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>135.575</AtisFrequency>
+  <MagneticVariation>-9</MagneticVariation>
+  <ObservationTime>50</ObservationTime>
+  <AtisContractions>
+    <AtisContraction Find="CO" Replace="COUNTY" />
+    <AtisContraction Find="REGL" Replace="REGIONAL" />
+  </AtisContractions>
   <Profiles>
-    <Profile>
-      <Name>STANDARD</Name>
-      <DepArrNotice>LDG AND DEPTG RWY 25.
-EXPT LDA/DME RWY 25 APPR.</DepArrNotice>
-      <ILSApch>false</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>false</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM />
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>50</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>10</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys />
-      <ArrivingRwys />
-      <EUParse>false</EUParse>
+    <Profile Name="STANDARD">
+      <Approaches>LDG AND DEPTG RWY 25.
+EXPT LDA/DME RWY 25 APPR.</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
   </Profiles>
 </Facility>

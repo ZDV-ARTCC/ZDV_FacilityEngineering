@@ -4,7 +4,10 @@
   <AtisFrequency>120.400</AtisFrequency>
   <MagneticVariation>9</MagneticVariation>
   <ObservationTime>53</ObservationTime>
-  <AtisContractions />
+  <AtisContractions>
+    <AtisContraction Find="CO" Replace="COUNTY" />
+    <AtisContraction Find="SARD" Replace="SARD FIELD" />
+  </AtisContractions>
   <Profiles>
     <Profile Name="STANDARD">
       <Approaches>LANDING RUNWAY 15 DEPARTING RUNWAY 33.</Approaches>
