@@ -1,50 +1,18 @@
 <?xml version="1.0"?>
-<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ID>KASE</ID>
-  <Name>Aspen</Name>
-  <IDS />
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KASE" Name="Aspen-Pitkin Co" UpdatedOn="0001-01-01T00:00:00">
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>120.400</AtisFrequency>
+  <MagneticVariation>10</MagneticVariation>
+  <ObservationTime>53</ObservationTime>
+  <AtisContractions />
   <Profiles>
-    <Profile>
-      <Name>STANDARD</Name>
-      <DepArrNotice />
-      <ILSApch>false</ILSApch>
-      <RNAVApch>false</RNAVApch>
-      <VORApch>false</VORApch>
-      <DMEApch>false</DMEApch>
-      <VisualApch>false</VisualApch>
-      <LocalizeApch>false</LocalizeApch>
-      <SimulApchIntersecting>false</SimulApchIntersecting>
-      <ConvergingOps>false</ConvergingOps>
-      <LandHoldShort>false</LandHoldShort>
-      <SimulApchs>false</SimulApchs>
-      <GrassOps>false</GrassOps>
-      <WindshearAdvs>false</WindshearAdvs>
-      <VFRDirection>false</VFRDirection>
-      <NOTAM>FOLLOW NOISE ABATEMENT PROCEDURES.
+    <Profile Name="STANDARD">
+      <Approaches>LANDING RUNWAY 15 DEPARTING RUNWAY 33.</Approaches>
+      <Notams>FOLLOW NOISE ABATEMENT PROCEDURES.
 ASPEN PRIMARY RADAR UNAVAILABLE.
 RADAR TFC ADVZYS AND SVCS AVBL FOR XPDR EQUIPPED ACFT ONLY.
-DUE TO OPPOSITE DRCTN TFC, EXPT TO PASS IN CLOSE PROXIMITY TO ACFT NEAR THE ARPT.</NOTAM>
-      <HoldShortIntructions>false</HoldShortIntructions>
-      <ReadbackAssignedAlt>false</ReadbackAssignedAlt>
-      <DepsCtcFreq>false</DepsCtcFreq>
-      <CtcPosition />
-      <CtcFreq />
-      <ReadbackCallsign>false</ReadbackCallsign>
-      <VerifySID>false</VerifySID>
-      <ModeCharlie>false</ModeCharlie>
-      <NormalUpdate>true</NormalUpdate>
-      <NormalUpdateTime>53</NormalUpdateTime>
-      <MagneticVariation>true</MagneticVariation>
-      <MagneticSubtract>true</MagneticSubtract>
-      <MagneticAdd>false</MagneticAdd>
-      <MagneticDegrees>10</MagneticDegrees>
-      <HazardousWeather>false</HazardousWeather>
-      <HazardousWeatherArea />
-      <DepartingRwys>33</DepartingRwys>
-      <ArrivingRwys>15</ArrivingRwys>
-      <EUParse>false</EUParse>
+DUE TO OPPOSITE DRCTN TFC, EXPT TO PASS IN CLOSE PROXIMITY TO ACFT NEAR THE ARPT.</Notams>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
     </Profile>
   </Profiles>
 </Facility>
