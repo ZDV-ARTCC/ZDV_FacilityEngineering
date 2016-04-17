@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KCOS" Name="Colorado Springs" UpdatedOn="0001-01-01T00:00:00">
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <AtisFrequency>125.000</AtisFrequency>
+  <MagneticVariation>-8</MagneticVariation>
+  <ObservationTime>54</ObservationTime>
+  <AtisContractions>
+    <AtisContraction Find="SPR" Replace="SPRINGS" />
+  </AtisContractions>
+  <Profiles>
+    <Profile Name="NORTH">
+      <Approaches>LDG RWYS 31, 35L, AND 35R. DEPG RWYS 31, 35L, AND 35R.</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+    <Profile Name="SOUTH">
+      <Approaches>LDG RWYS 13, 17L, AND 17R. DEPG RWYS 13, 17L, AND 17R.</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+  </Profiles>
+</Facility>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KEGE" Name="Eagle County" UpdatedOn="0001-01-01T00:00:00">
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <AtisFrequency>135.575</AtisFrequency>
+  <MagneticVariation>-9</MagneticVariation>
+  <ObservationTime>50</ObservationTime>
+  <AtisContractions>
+    <AtisContraction Find="CO" Replace="COUNTY" />
+    <AtisContraction Find="REGL" Replace="REGIONAL" />
+  </AtisContractions>
+  <Profiles>
+    <Profile Name="STANDARD">
+      <Approaches>LDG AND DEPTG RWY 25.
+EXPT LDA/DME RWY 25 APPR.</Approaches>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+  </Profiles>
+</Facility>

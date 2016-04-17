@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KASE" Name="Aspen-Pitkin Co" UpdatedOn="0001-01-01T00:00:00">
+  <VoiceServer>rw.liveatc.net</VoiceServer>
+  <AtisFrequency>120.400</AtisFrequency>
+  <MagneticVariation>-9</MagneticVariation>
+  <ObservationTime>53</ObservationTime>
+  <AtisContractions>
+    <AtisContraction Find="CO" Replace="COUNTY" />
+    <AtisContraction Find="SARD" Replace="SARD FIELD" />
+  </AtisContractions>
+  <Profiles>
+    <Profile Name="STANDARD">
+      <Approaches>LANDING RUNWAY 15 DEPARTING RUNWAY 33.</Approaches>
+      <Notams>FOLLOW NOISE ABATEMENT PROCEDURES.
+ASPEN PRIMARY RADAR UNAVAILABLE.
+RADAR TFC ADVZYS AND SVCS AVBL FOR XPDR EQUIPPED ACFT ONLY.
+DUE TO OPPOSITE DRCTN TFC, EXPT TO PASS IN CLOSE PROXIMITY TO ACFT NEAR THE ARPT.</Notams>
+      <AtisTemplate>$FACILITY ATIS INFO $ID $OBSTIME. $WX. $ARRDEP $NOTAMS ...ADVS YOU HAVE INFO $ID.</AtisTemplate>
+    </Profile>
+  </Profiles>
+</Facility>
