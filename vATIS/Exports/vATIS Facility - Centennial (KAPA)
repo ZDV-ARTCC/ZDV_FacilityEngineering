@@ -2,7 +2,7 @@
 <Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KAPA" Name="Centennial" UpdatedOn="0001-01-01T00:00:00">
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>120.300</AtisFrequency>
-  <MagneticVariation>8</MagneticVariation>
+  <MagneticVariation>-8</MagneticVariation>
   <ObservationTime>53</ObservationTime>
   <AtisContractions />
   <Profiles>
