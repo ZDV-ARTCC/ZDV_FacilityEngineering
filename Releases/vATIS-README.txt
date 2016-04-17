@@ -4,6 +4,7 @@ Authors: 	James Waltz
 Creation Date:  02/17/2015
 Change history: 
 		02/17/2015	Initial Creation
+		04/16/2016	Updated all file for vATIS version 2
 
 
 Installation:
