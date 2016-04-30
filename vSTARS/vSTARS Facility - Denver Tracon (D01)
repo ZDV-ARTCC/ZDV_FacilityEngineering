@@ -40,7 +40,7 @@
       <PositionInfo PositionType="Other" SectorName="APP" RadioName="Aspen Departure/Approach" Prefix="ASE" Suffix="APP" Frequency="23800" SectorID="7A" PositionSymbol="R" />
       <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Aspen Tower" Prefix="ASE" Suffix="TWR" Frequency="18850" SectorID="7B" PositionSymbol="B" />
       <PositionInfo PositionType="Other" SectorName="GND" RadioName="Aspen Ground" Prefix="ASE" Suffix="GND" Frequency="21900" SectorID="7C" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="DEL" RadioName="Aspen Clearance Delivery" Prefix="ASE" Suffix="DEL" Frequency="23850" SectorID="7D" PositionSymbol="D" />
+      <PositionInfo PositionType="Other" SectorName="DEL" RadioName="Aspen Clearance Delivery" Prefix="ASE" Suffix="DEL" Frequency="23750" SectorID="7D" PositionSymbol="D" />
       <PositionInfo PositionType="Adjacent" SectorName="TWR" RadioName="Metro Tower" Prefix="BJC" Suffix="TWR" Frequency="18600" SectorID="2A" PositionSymbol="A" />
       <PositionInfo PositionType="Adjacent" SectorName="GND" RadioName="Metro Ground" Prefix="BJC" Suffix="GND" Frequency="21700" SectorID="2B" PositionSymbol="B" />
       <PositionInfo PositionType="Adjacent" SectorName="TWR" RadioName="Buckley Tower" Prefix="BKF" Suffix="TWR" Frequency="21000" SectorID="4A" PositionSymbol="A" />
@@ -49,7 +49,7 @@
       <PositionInfo PositionType="Adjacent" SectorName="DEP" RadioName="Springs Departure" Prefix="COS" Suffix="DEP" Frequency="24000" SectorID="4D" PositionSymbol="D" />
       <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Springs Tower" Prefix="COS" Suffix="TWR" Frequency="19900" SectorID="4B" PositionSymbol="B" />
       <PositionInfo PositionType="Other" SectorName="GND" RadioName="Springs Ground" Prefix="COS" Suffix="GND" Frequency="21700" SectorID="4C" PositionSymbol="C" />
-      <PositionInfo PositionType="Adjacent" SectorName="DEL" RadioName="Springs Delivery" Prefix="COS" Suffix="DEL" Frequency="24000" SectorID="4D" PositionSymbol="D" />
+      <PositionInfo PositionType="Adjacent" SectorName="DEL" RadioName="Springs Delivery" Prefix="COS" Suffix="DEL" Frequency="34450" SectorID="4D" PositionSymbol="D" />
       <PositionInfo PositionType="Other" SectorName="APP" RadioName="Casper Approach" Prefix="CPR" Suffix="APP" Frequency="20650" SectorID="6A" PositionSymbol="P" />
       <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Casper Tower" Prefix="CPR" Suffix="TWR" Frequency="18300" SectorID="6B" PositionSymbol="B" />
       <PositionInfo PositionType="Other" SectorName="GND" RadioName="Casper Ground" Prefix="CPR" Suffix="TWR" Frequency="21900" SectorID="6C" PositionSymbol="A" />
@@ -63,24 +63,24 @@
       <PositionInfo PositionType="InFacility" SectorName="DR1" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="26100" SectorID="1L" PositionSymbol="L" />
       <PositionInfo PositionType="InFacility" SectorName="DR2" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="27050" SectorID="1N" PositionSymbol="N" />
       <PositionInfo PositionType="InFacility" SectorName="DR3" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28250" SectorID="1R" PositionSymbol="R" />
-      <PositionInfo PositionType="Other" SectorName="DR4" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28450" SectorID="1S" PositionSymbol="S" />
+      <PositionInfo PositionType="Other" SectorName="DR4" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28449" SectorID="1S" PositionSymbol="S" />
       <PositionInfo PositionType="InFacility" SectorName="SR1" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="32750" SectorID="1A" PositionSymbol="A" />
       <PositionInfo PositionType="InFacility" SectorName="SR2" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="26650" SectorID="1D" PositionSymbol="D" />
       <PositionInfo PositionType="InFacility" SectorName="PUB" RadioName="Denver Departure/Approach" Prefix="PUB" Suffix="APP" Frequency="20100" SectorID="1P" PositionSymbol="P" />
       <PositionInfo PositionType="InFacility" SectorName="GJT" RadioName="Denver Departure/Approach" Prefix="GJT" Suffix="APP" Frequency="19700" SectorID="1G" PositionSymbol="G" />
       <PositionInfo PositionType="Other" SectorName="APP/DEP" RadioName="Ellsworth Departure/Approach" Prefix="RCA" Suffix="APP" Frequency="19500" SectorID="9A" PositionSymbol="E" />
       <PositionInfo PositionType="InFacility" SectorName="E_TWR" RadioName="Denver Tower" Prefix="DEN" Suffix="TWR" Frequency="33300" SectorID="1A" PositionSymbol="A" />
-      <PositionInfo PositionType="InFacility" SectorName="W_TWR" RadioName="Denver Tower" Prefix="DEN" Suffix="TWR" Frequency="24300" SectorID="1B" PositionSymbol="B" />
+      <PositionInfo PositionType="InFacility" SectorName="W_TWR" RadioName="Denver Tower" Prefix="DEN" Suffix="TWR" Frequency="35300" SectorID="1B" PositionSymbol="B" />
       <PositionInfo PositionType="InFacility" SectorName="E_GND" RadioName="Denver Ground" Prefix="DEN" Suffix="GND" Frequency="21850" SectorID="1C" PositionSymbol="C" />
       <PositionInfo PositionType="InFacility" SectorName="W_GND" RadioName="Denver Ground" Prefix="DEN" Suffix="GND" Frequency="27500" SectorID="1D" PositionSymbol="D" />
       <PositionInfo PositionType="InFacility" SectorName="FD/DEL" RadioName="Denver Clearance Delivery" Prefix="DEN" Suffix="DEL" Frequency="18750" SectorID="1E" PositionSymbol="E" />
-      <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Eagle Tower" Prefix="EGE" Suffix="TWR" Frequency="18200" SectorID="8A" PositionSymbol="A" />
+      <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Eagle Tower" Prefix="EGE" Suffix="TWR" Frequency="19800" SectorID="8A" PositionSymbol="A" />
       <PositionInfo PositionType="Other" SectorName="GND" RadioName="Eagle Ground" Prefix="EGE" Suffix="GND" Frequency="21800" SectorID="8B" PositionSymbol="B" />
+      <PositionInfo PositionType="Other" SectorName="DEL" RadioName="Eagle Clearance Delivery" Prefix="EGE" Suffix="DEL" Frequency="24750" SectorID="8C" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="TWR" RadioName="Farmington Tower" Prefix="FMN" Suffix="TWR" Frequency="18900" SectorID="F1" PositionSymbol="A" />
       <PositionInfo PositionType="Other" SectorName="GND" RadioName="Farmington Ground" Prefix="FMN" Suffix="GND" Frequency="21700" SectorID="F2" PositionSymbol="B" />
       <PositionInfo PositionType="InFacility" SectorName="TWR" RadioName="Front Range Tower" Prefix="FTG" Suffix="TWR" Frequency="20200" SectorID="5A" PositionSymbol="T" />
       <PositionInfo PositionType="InFacility" SectorName="GND" RadioName="Front Range Ground" Prefix="FTG" Suffix="GND" Frequency="24700" SectorID="5B" PositionSymbol="B" />
-      <PositionInfo PositionType="InFacility" SectorName="DEL" RadioName="Front Range Clearance Delivery" Prefix="FTG" Suffix="DEL" Frequency="21750" SectorID="5C" PositionSymbol="C" />
       <PositionInfo PositionType="Adjacent" SectorName="TWR" RadioName="Grand Junction Tower" Prefix="GJT" Suffix="TWR" Frequency="18100" SectorID="3B" PositionSymbol="B" />
       <PositionInfo PositionType="Adjacent" SectorName="GND" RadioName="Grand Junction Ground" Prefix="GJT" Suffix="GND" Frequency="21700" SectorID="3C" PositionSymbol="C" />
       <PositionInfo PositionType="Adjacent" SectorName="TWR" RadioName="Pueblo Tower" Prefix="PUB" Suffix="TWR" Frequency="19100" SectorID="2B" PositionSymbol="B" />
@@ -97,14 +97,42 @@
       <PositionInfo PositionType="Adjacent" SectorName="LS" RadioName="Denver Center" Prefix="DEN" Suffix="CTR" Frequency="24800" SectorID="19" PositionSymbol="C" />
       <PositionInfo PositionType="Adjacent" SectorName="LE" RadioName="Denver Center" Prefix="DEN" Suffix="CTR" Frequency="25900" SectorID="20" PositionSymbol="C" />
       <PositionInfo PositionType="Adjacent" SectorName="LW" RadioName="Denver Center" Prefix="DEN" Suffix="CTR" Frequency="28500" SectorID="21" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Kansas City Center" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="32320" SectorID="31" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Salt Lake Center" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33600" SectorID="32" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Albuquerque Center" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="33" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Los Angeles Center" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="25800" SectorID="35" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Minneapolis North(11) Center" RadioName="Minneapolis North(11) Center" Prefix="MSP" Suffix="CTR" Frequency="33400" SectorID="34" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="Minneapolis South(30) Center" RadioName="Minneapolis South(30) Center" Prefix="MSP" Suffix="CTR" Frequency="35770" SectorID="36" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB ZB" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="30" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB ZN" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="31" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB ZE" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="32" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB ZW" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="28449" SectorID="33" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB NW" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="28449" SectorID="34" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB NE" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="35" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB 15" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="27850" SectorID="36" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB 17" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="24320" SectorID="37" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB 43" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="28449" SectorID="38" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB 94" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="33650" SectorID="39" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZAB 97" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="34750" SectorID="40" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 21" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="34670" SectorID="50" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 41" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="32320" SectorID="51" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 97" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="25820" SectorID="52" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 04" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="25800" SectorID="60" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 06" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="34650" SectorID="61" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 13" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="32600" SectorID="62" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 30" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="19950" SectorID="63" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 36" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="27350" SectorID="64" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 37" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="33550" SectorID="65" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLA 39" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="33200" SectorID="66" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLC  " RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33600" SectorID="70" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLC N" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33600" SectorID="71" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLC S" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="27700" SectorID="72" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZLC L" RadioName="Salt Lake Center" Prefix="SLC" Suffix="CTR" Frequency="33250" SectorID="73" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 10" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="21050" SectorID="80" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 11" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="33400" SectorID="81" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 1A" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="33400" SectorID="82" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 17" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="34250" SectorID="83" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 20" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="26250" SectorID="84" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 30" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="35770" SectorID="85" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 33" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="25100" SectorID="86" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 39" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="35100" SectorID="87" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZMP 07" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="32350" SectorID="88" PositionSymbol="C" />
     </Positions>
-    <PositionsLastImported>2012-01-14T16:44:01.4375-05:00</PositionsLastImported>
+    <PositionsLastImported>2016-04-29T22:45:28.1922489-04:00</PositionsLastImported>
     <CommandAliases>
       <CommandAlias Command=".cor" ReplaceWith="clearance on request, standby..." />
       <CommandAlias Command=".cdt" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, then as filed;" />
@@ -332,10 +360,46 @@
       <CommandAlias Command=".dymon" ReplaceWith="$dist(DYMON) miles from DYMON, maintain $1 until established on the localizer, cleared ILS runway 35L approach" />
       <CommandAlias Command=".fronz" ReplaceWith="$dist(FRONZ) miles from FRONZ, maintain $1 until established on the localizer, cleared ILS runway 35R approach" />
       <CommandAlias Command=".deane" ReplaceWith="$dist(DEANE) miles from DEANE, maintain $1 until established on the localizer, cleared ILS runway 35R approach" />
-      <CommandAlias Command=".fuzzz" ReplaceWith="$dist(FUZZZ) miles from FUZZZ, maintain $1 until established on the localizer, cleared ILS runway 25 approach" />
-      <CommandAlias Command=".grasp" ReplaceWith="$dist(GRASP) miles from GRASP, maintain $1 until established on the localizer, cleared ILS runway 25 approach" />
+      <CommandAlias Command=".fuzzz" ReplaceWith="$dist(FUZZZ) miles from FUZZZ, maintain $1 until established on the localizer, cleared ILS runway 26 approach" />
+      <CommandAlias Command=".grasp" ReplaceWith="$dist(GRASP) miles from GRASP, maintain $1 until established on the localizer, cleared ILS runway 26 approach" />
+      <CommandAlias Command=".gasti" ReplaceWith="$dist(GASTI) miles from GASTI, maintain $1 until established on the localizer, cleared ILS runway 25 approach" />
+      <CommandAlias Command=".ethal" ReplaceWith="$dist(ETHAL) miles from ETHAL, maintain $1 until established on the localizer, cleared ILS runway 25 approach" />
       <CommandAlias Command=".tailr" ReplaceWith="$dist(TAILR) miles from TAILR, maintain $1 until established on the localizer, cleared ILS runway 7 approach" />
       <CommandAlias Command=".sarah" ReplaceWith="$dist(SARAH) miles from SARAH, maintain $1 until established on the localizer, cleared ILS runway 7 approach" />
+      <CommandAlias Command=".rnav16r" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 16R approach" />
+      <CommandAlias Command=".kippr16r" ReplaceWith="Denver altimeter $altim(airport), after KIPPR, cleared ILS runway 16R approach" />
+      <CommandAlias Command=".tshnr16r" ReplaceWith="Denver altimeter $altim(airport), after TSHNR, cleared ILS runway 16R approach" />
+      <CommandAlias Command=".kaile16r" ReplaceWith="Denver altimeter $altim(airport), after KAILE, cleared ILS runway 16R approach" />
+      <CommandAlias Command=".rnav16l" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 16L approach" />
+      <CommandAlias Command=".kippr16l" ReplaceWith="Denver altimeter $altim(airport), after KIPPR, cleared ILS runway 16L approach" />
+      <CommandAlias Command=".tshnr16l" ReplaceWith="Denver altimeter $altim(airport), after TSHNR, cleared ILS runway 16L approach" />
+      <CommandAlias Command=".kaile16l" ReplaceWith="Denver altimeter $altim(airport), after KAILE, cleared ILS runway 16L approach" />
+      <CommandAlias Command=".rnav17r" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 17R approach" />
+      <CommandAlias Command=".kippr17r" ReplaceWith="Denver altimeter $altim(airport), after KIPPR, cleared ILS runway 17R approach" />
+      <CommandAlias Command=".tshnr17r" ReplaceWith="Denver altimeter $altim(airport), after TSHNR, cleared ILS runway 17R approach" />
+      <CommandAlias Command=".kaile17r" ReplaceWith="Denver altimeter $altim(airport), after KAILE, cleared ILS runway 17R approach" />
+      <CommandAlias Command=".rnav17l" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 17L approach" />
+      <CommandAlias Command=".kippr17l" ReplaceWith="Denver altimeter $altim(airport), after KIPPR, cleared ILS runway 17L approach" />
+      <CommandAlias Command=".tshnr17l" ReplaceWith="Denver altimeter $altim(airport), after TSHNR, cleared ILS runway 17L approach" />
+      <CommandAlias Command=".kaile17l" ReplaceWith="Denver altimeter $altim(airport), after KAILE, cleared ILS runway 17L approach" />
+      <CommandAlias Command=".wahuu17l" ReplaceWith="Denver altimeter $altim(airport), after WAHUU, cleared ILS runway 17L approach" />
+      <CommandAlias Command=".rnav34l" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 34L approach" />
+      <CommandAlias Command=".tellr34l" ReplaceWith="Denver altimeter $altim(airport), after TELLR, cleared ILS runway 34L approach" />
+      <CommandAlias Command=".ldora34l" ReplaceWith="Denver altimeter $altim(airport), after LDORA, cleared ILS runway 34L approach" />
+      <CommandAlias Command=".bosss34l" ReplaceWith="Denver altimeter $altim(airport), after BOSSS, cleared ILS runway 34L approach" />
+      <CommandAlias Command=".rnav34r" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 34R approach" />
+      <CommandAlias Command=".tellr34r" ReplaceWith="Denver altimeter $altim(airport), after TELLR, cleared ILS runway 34R approach" />
+      <CommandAlias Command=".ldora34r" ReplaceWith="Denver altimeter $altim(airport), after LDORA, cleared ILS runway 34R approach" />
+      <CommandAlias Command=".bosss34r" ReplaceWith="Denver altimeter $altim(airport), after BOSSS, cleared ILS runway 34R approach" />
+      <CommandAlias Command=".rnav35l" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 35L approach" />
+      <CommandAlias Command=".tellr35l" ReplaceWith="Denver altimeter $altim(airport), after TELLR, cleared ILS runway 35L approach" />
+      <CommandAlias Command=".ldora35l" ReplaceWith="Denver altimeter $altim(airport), after LDORA, cleared ILS runway 35L approach" />
+      <CommandAlias Command=".bosss35l" ReplaceWith="Denver altimeter $altim(airport), after BOSSS, cleared ILS runway 35L approach" />
+      <CommandAlias Command=".rnav35r" ReplaceWith="Denver altimeter $altim(airport), cleared ILS runway 35R approach" />
+      <CommandAlias Command=".tellr35r" ReplaceWith="Denver altimeter $altim(airport), after TELLR, cleared ILS runway 35R approach" />
+      <CommandAlias Command=".ldora35r" ReplaceWith="Denver altimeter $altim(airport), after LDORA, cleared ILS runway 35R approach" />
+      <CommandAlias Command=".bosss35r" ReplaceWith="Denver altimeter $altim(airport), after BOSSS, cleared ILS runway 35R approach" />
+      <CommandAlias Command=".purrl35r" ReplaceWith="Denver altimeter $altim(airport), after PURRL, cleared ILS runway 35R approach" />
       <CommandAlias Command=".alike" ReplaceWith="$dist(ALIKE) miles from ALIKE, maintain $1 until established on the localizer, cleared ILS runway 29R approach" />
       <CommandAlias Command=".casse" ReplaceWith="$dist(CASSE) miles from CASSE, maintain $1 until established on the localizer, cleared ILS runway 35R approach" />
       <CommandAlias Command=".colln" ReplaceWith="$dist(COLLN) miles from COLLN, maintain $1 until established on the localizer, cleared ILS runway 33 approach" />
@@ -490,7 +554,7 @@
       <CommandAlias Command=".suffixes" ReplaceWith=".openurl http://www.faa.gov/airports_airtraffic/air_traffic/publications/atpubs/aim/Chap5/aim0501.html" />
       <CommandAlias Command=".forums" ReplaceWith=".openurl http://denartcc.org/forum/" />
       <CommandAlias Command=".visapp" ReplaceWith=".vis TOMSN SAYGE DANDD POWDR" />
-      <CommandAlias Command=".visctr" ReplaceWith=".vis KDEN KGJT" />
+      <CommandAlias Command=".visctr" ReplaceWith=".vis DVC DANDD DDY TDD" />
       <CommandAlias Command=".airportinfo" ReplaceWith=".openurl http://www.airnav.com/airport/$1" />
       <CommandAlias Command=".vorinfo" ReplaceWith=".openurl http://www.airnav.com/airspace/vor/$1" />
       <CommandAlias Command=".fixinfo" ReplaceWith=".openurl http://www.airnav.com/airspace/fix/$1" />
@@ -504,7 +568,7 @@
       <CommandAlias Command=".reload8" ReplaceWith=".reloadsector /8" />
       <CommandAlias Command=".reload" ReplaceWith=".reload1 .reload2 .reload3 .reload4 .reload5 .reload6 .reload7 .reload8" />
     </CommandAliases>
-    <CommandAliasesLastImported>2012-01-14T16:43:12.3125-05:00</CommandAliasesLastImported>
+    <CommandAliasesLastImported>2016-04-29T22:45:31.4964379-04:00</CommandAliasesLastImported>
     <LDBBeaconCodesInhibited>true</LDBBeaconCodesInhibited>
     <PDBGroundSpeedInhibited>true</PDBGroundSpeedInhibited>
     <DisplayRequestedAltInFDB>true</DisplayRequestedAltInFDB>
