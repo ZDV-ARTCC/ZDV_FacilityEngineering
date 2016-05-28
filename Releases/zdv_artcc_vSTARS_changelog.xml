@@ -17,7 +17,30 @@
 <!ATTLIST change affected CDATA #IMPLIED>
 ]>
  <changelog>
-  <version current="1" releasedate="31 Oct 2012" releasetime="1351726181">
+  <version current="1" releasedate="27 May 2016" releasetime="1464397233">
+   <by title="Facility Engineer">James Waltz</by>
+   <facility id="D01" filerev="121605">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/121605.vSTARS%20Facility%20-%20Denver%20Tracon%20(D01).gz</url>
+   </facility>
+   <change>Updated video maps from VRC data.</change>
+  </version>
+  <version releasedate="26 May 2015" releasetime="1432695628">
+   <by title="Facility Engineer">Casey Diers</by>
+   <facility id="D01" filerev="111125">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/111125.vSTARS%20Facility%20-%20Denver%20Tracon%20(D01).gz</url>
+   </facility>
+   <change>Inbound Flights Listed as Over Flights Enhancement</change>
+   <change>"Display Requested Altitude" option Enabled</change>
+   <change>Corrected squawk codes</change>
+   <change>Add RNAV Patterns for RNAV SIDs</change>
+   <change>Add Scratchpad Rules for RNAV SIDs</change>
+   <change>Departure Scratchpad Rules for RNAV</change>
+  </version>
+  <version releasedate="31 Oct 2012" releasetime="1351726181">
    <by title="Facility Engineer">Casey Diers</by>
    <facility id="D01" filerev="101453">
     <filename>Denver Tracon</filename>

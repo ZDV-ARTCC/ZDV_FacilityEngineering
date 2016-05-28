@@ -17,12 +17,21 @@
 <!ATTLIST change affected CDATA #IMPLIED>
 ]>
  <changelog>
-  <version current="1" releasedate="22 Mar 2016" releasetime="1458685701">
+  <version current="1" releasedate="27 May 2016" releasetime="1464396762">
+   <by title="Facility Engineer">James Waltz</by>
+   <facility id="ZDV" filerev="1.0">
+    <filename>Denver ARTCC (ZDV)</filename>
+    <ID>ZDV</ID>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM%20Facility%20-%20Denver%20ARTCC%20(ZDV)_v1.0.gz</url>
+   </facility>
+   <change>Reworked the file using data provided by Dhruv Kalra.</change>
+  </version>  
+  <version releasedate="22 Mar 2016" releasetime="1458685701">
    <by title="Facility Engineer">James Waltz</by>
    <facility id="ZDV" filerev="0.1">
     <filename>Denver ARTCC (ZDV)</filename>
     <ID>ZDV</ID>
-    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM Facility%20-%20Denver%20ARTCC%20(ZDV)_v0.1.gz</url>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM%20Facility%20-%20Denver%20ARTCC%20(ZDV)_v0.1.gz</url>
    </facility>
    <change>Initial Release (v0.1)</change>
   </version>  
