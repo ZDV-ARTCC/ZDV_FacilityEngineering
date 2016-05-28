@@ -1,0 +1,23 @@
+Effective Immediately, [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM Facility%20-%20Denver%20ARTCC%20(ZDV)_v1.0.gz]Version 1.0 of our vERAM Facility file[/url], [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.11.zip]VRC Sector File 5.11[/url], and [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/121605.vSTARS%20Facility%20- Denver%20Tracon%20(D01).gz]vSTARS D01 File 121605[/url] are current and available for download.
+
+Here is a list of changes included in this release:
+
+vERAM Facility File:
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues/46]Version 1.0[/url]
+
+VRC Sector File:
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues/37]Updated for AIRAC 1605[/url]
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues/55]MIAs updated[/url]
+
+vSTARS D01 Facility File:
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues/50]Updated Video Maps from VRC data[/url]
+
+Enjoy!
+
+James Waltz
+ZDV_JW_FE
+DEN ARTCC Facility Engineer
+james@denartcc.org
+
+
+Please post feature requests and bugs below this post in this thread or on the new  [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues]github issue tracker page by clicking here[/url].
