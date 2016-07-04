@@ -2,7 +2,7 @@
 <Facility xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="KASE" Name="Aspen-Pitkin Co" UpdatedOn="0001-01-01T00:00:00">
   <VoiceServer>rw.liveatc.net</VoiceServer>
   <AtisFrequency>120.400</AtisFrequency>
-  <MagneticVariation>-9</MagneticVariation>
+  <MagneticVariation>-10</MagneticVariation>
   <ObservationTime>53</ObservationTime>
   <AtisContractions>
     <AtisContraction Find="CO" Replace="COUNTY" />
