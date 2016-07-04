@@ -1,5 +1,5 @@
 ;	+----------------------------------------------------------------------------------------------------+
-;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.3b                         |
+;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.4b                         |
 ;	| File may only be distributed as freeware.                                                          |
 ;	| Copyright (c) Virtual Denver ARTCC on VATSIM                                                       |
 ;	| Release Date: Not Released                                                                         |
@@ -141,9 +141,11 @@ ZAB 94:Albuquerque Center:133.650:39:C:ABQ:CTR:ZAB:94:0701:0777
 ZAB 97:Albuquerque Center:134.750:40:C:ABQ:CTR:ZAB:97:0701:0777
 
 ;ZKC ARTCC----------------------------------------------------
-ZKC 21:Kansas City Center:134.670:50:C:KC:CTR:KC:CTR:2163:2177
-ZKC 41:Kansas City Center:132.320:51:C:KC:CTR:KC:CTR:2101:2177
-ZKC 97:Kansas City Center:125.820:52:C:KC:CTR:KC:CTR:2133:2146
+ZKC 41:Kansas City Center 41 TOP/Combined:132.320:41:C:KC:CTR:KC:CTR:2101:2177
+ZKC 84:Kansas City Center 84 STL:133.150:84:C:KC:CTR:KC:CTR:2115:2132
+ZKC 68:Kansas City Center 68 GCK:125.200:68:C:KC:CTR:KC:CTR:2133:2146
+ZKC 48:Kansas City Center 48 EMP:127.720:48:C:KC:CTR:KC:CTR:2147:2162
+ZKC 54:Kansas City Center 54 LIB:127.470:54:C:KC:CTR:KC:CTR:2163:2177
 
 ;ZLA ARTCC-----------------------------------------------------
 ZLA 04:Los Angeles Center:125.800:60:C:LAX:CTR:LAX:04:7140:7177
