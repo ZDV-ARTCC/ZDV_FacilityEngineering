@@ -114,8 +114,8 @@
       <PositionInfo PositionType="Other" SectorName="ZAB 94" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="33650" SectorID="39" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZAB 97" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="34750" SectorID="40" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZKC 41" RadioName="Kansas City Center 41 TOP/Combined" Prefix="KC" Suffix="CTR" Frequency="32320" SectorID="41" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="ZKC 84" RadioName="Kansas City Center 84 STL" Prefix="KC" Suffix="CTR" Frequency="33150" SectorID="84" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="ZKC 68" RadioName="Kansas City Center 68 GCK" Prefix="KC" Suffix="CTR" Frequency="25200" SectorID="68" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 84" RadioName="Kansas City Center 84 STL" Prefix="KC" Suffix="CTR" Frequency="34670" SectorID="84" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 68" RadioName="Kansas City Center 68 GCK" Prefix="KC" Suffix="CTR" Frequency="25720" SectorID="68" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZKC 48" RadioName="Kansas City Center 48 EMP" Prefix="KC" Suffix="CTR" Frequency="27720" SectorID="48" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZKC 54" RadioName="Kansas City Center 54 LIB" Prefix="KC" Suffix="CTR" Frequency="27470" SectorID="54" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZLA 04" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="25800" SectorID="60" PositionSymbol="C" />
@@ -139,7 +139,7 @@
       <PositionInfo PositionType="Other" SectorName="ZMP 39" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="35100" SectorID="87" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZMP 07" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="32350" SectorID="88" PositionSymbol="C" />
     </Positions>
-    <PositionsLastImported>2016-07-04T10:18:04.7648737-04:00</PositionsLastImported>
+    <PositionsLastImported>2016-08-07T07:16:41.9776356-04:00</PositionsLastImported>
     <CommandAliases>
       <CommandAlias Command=".cor" ReplaceWith="clearance on request, standby..." />
       <CommandAlias Command=".cdt" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, then as filed;" />
