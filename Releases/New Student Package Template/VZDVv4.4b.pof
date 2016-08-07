@@ -1,0 +1,180 @@
+;	+----------------------------------------------------------------------------------------------------+
+;	| VATSIM Denver Air Route Traffic Control Center (ARTCC) Position File v4.4b                         |
+;	| File may only be distributed as freeware.                                                          |
+;	| Copyright (c) Virtual Denver ARTCC on VATSIM                                                       |
+;	| Release Date: Not Released                                                                         |
+;	+----------------------------------------------------------------------------------------------------+
+;	| Authorization: Mani Manigault ATM                                                                  |
+;	| ZDV Authors: Harold Rutila, Richard Snaer, David Hendleman, Mike Evans, Casey Diers and James Waltz|
+;	+----------------------------------------------------------------------------------------------------+
+;THIS FILE USES THE FOLLOWING FORMAT
+;NAME:RNAME:FREQ:SECID:ARTSTAG:CALLPREFIX:CALLSUFFIX:LINE1:LINE2:LSQUAWK:HSQUAWK
+;
+;NAME = SECTOR NAME
+;RNAME = RADIO CALLSIGN
+;FREQ = FREQUENCY MATCH FOR THIS POSITION
+;SECID = SECTOR ID USED FOR HANDOFFS & ATC-ATC COMMS
+;ARTSTAG = POSITION SYMBOL ON THE ARTS SCOPE
+;CALLPREFIX = PREFIX MATCH FOR THIS POSITION
+;CALLSUFFIX = SUFFIX MATCH FOR THIS POSITION
+;LINE1 = FIRST LINE TO DISPLAY ON EACH KEY IN VSCS
+;LINE2 = SECOND LINE TO DISPLAY ON EACH KEY IN VSCS
+;LSQUAWK = LOW END OF SQUAWK RANGE FOR THIS POSITION
+;HSQUAWK = HIGH END OF SQUAWK RANGE FOR THIS POSITION
+;
+;AFF ATCT
+TWR:Academy Tower:124.150:4E:E:AFF:TWR:AFF:TWR:5101-5177
+GND:Academy Ground:118.125:4F:F:AFF:GND:AFF:GND:5101-5177
+;
+;APA ATCT
+TWR:Centennial Tower:118.900:3A:A:APA:TWR:APA:TWR:0601:0677
+GND:Centennial Ground:121.800:3B:B:APA:GND:APA:GND:0601:0677
+DEL:Centennial Clearance Delivery:128.600:3C:C:APA:DEL:APA:DEL:0601:0677
+;
+;ASE ATCT/TRACON
+APP:Aspen Departure/Approach:123.800:7A:R:ASE:APP:ASE:APP:2701:2777
+TWR:Aspen Tower:118.850:7B:B:ASE:TWR:ASE:TWR:2701:2777
+GND:Aspen Ground:121.900:7C:C:ASE:GND:ASE:GND:2701:2777
+DEL:Aspen Clearance Delivery:123.750:7D:D:ASE:DEL:ASE:DEL:2701:2777
+;
+;BJC ATCT
+TWR:Metro Tower:118.600:2A:A:BJC:TWR:BJC:TWR:0601:0677
+GND:Metro Ground:121.700:2B:B:BJC:GND:BJC:GND:0601:0677
+;
+;BKF ATCT
+TWR:Buckley Tower:121.000:4A:A:BKF:TWR:BKF:TWR:0601:0677
+GND:Buckley Ground:121.600:5A:B:BKF:GND:BKF:GND:0601:0677
+;
+;COS ATCT/TRACON
+APP:Springs Approach:118.500:4A:C:COS:APP:COS:APP:5101-5177
+DEP:Springs Departure:124.000:4D:D:COS:DEP:COS:APP:5101-5177
+TWR:Springs Tower:119.900:4B:B:COS:TWR:COS:TWR:5101-5177
+GND:Springs Ground:121.700:4C:C:COS:GND:COS:GND:5101-5177
+DEL:Springs Delivery:134.450:4D:D:COS:DEL:COS:DEL:5101-5177
+;
+;CPR ATCT/TRACON
+APP:Casper Approach:120.650:6A:P:CPR:APP:CPR:APP:1401:1477
+TWR:Casper Tower:118.300:6B:B:CPR:TWR:CPR:TWR:1401:1477
+GND:Casper Ground:121.900:6C:A:CPR:GND:CPR:GND:1401:1477
+;
+;CYS ATCT/TRACON
+APP:Cheyenne Approach:124.550:5A:A:CYS:APP:CYS:APP:5501:5577
+TWR:Cheyenne Tower:118.700:5B:B:CYS:TWR:CYS:TWR:5501:5577
+GND:Cheyenne Ground:121.900:5C:C:CYS:GND:CYS:GND:5501:5577
+;
+;D01 TRACON
+AR1:Denver Approach:120.350:1I:I:DEN:APP:DEN:APP:0601:0677
+AR2:Denver Approach:119.300:1H:H:DEN:APP:DEN:APP:0601:0677
+AR3:Denver Approach:124.950:1G:G:DEN:APP:DEN:APP:0601:0677
+AR4:Denver Approach:126.550:1X:X:DEN:APP:DEN:APP:0601:0677
+FR1:Denver Final Approach:123.850:1W:W:DEN:APP:DEN:APP:0601:0677
+FR2:Denver Final Approach:120.800:1E:E:DEN:APP:DEN:APP:0601:0677
+FR3:Denver Final Approach:125.750:1O:O:DEN:APP:DEN:APP:0601:0677
+FR4:Denver Final Approach:133.620:1T:T:DEN:APP:DEN:APP:0601:0677
+DR1:Denver Departure/Approach:126.100:1L:L:DEN:DEP:DEN:DEP:0601:0677
+DR2:Denver Departure/Approach:127.050:1N:N:DEN:DEP:DEN:DEP:0601:0677
+DR3:Denver Departure/Approach:128.250:1R:R:DEN:DEP:DEN:DEP:0601:0677
+DR4:Denver Departure/Approach:128.450:1S:S:DEN:DEP:DEN:DEP:0601:0677
+SR1:Denver Departure/Approach:125.120:1J:J:DEN:DEP:DEN:DEP:0601:0677
+SR2:Denver Departure/Approach:134.850:1D:D:DEN:DEP:DEN:DEP:0601:0677
+SR4:Denver Departure/Approach:132.750:1A:A:DEN:DEP:DEN:DEP:0601:0677
+JR1:Denver Departure/Approach:119.700:1J:J:GJT:APP:GJT:APP:0601:0677
+PR1:Denver Departure/Approach:120.100:1P:P:PUB:APP:PUB:APP:0601:0677
+
+;
+;Dakota RAPCON
+APP/DEP:Ellsworth Departure/Approach:119.500:9A:E:RCA:APP:RCA:APP:1401:1477
+;
+;DEN ATCT
+E_TWR:Denver Tower:133.300:1A:A:DEN:TWR:DEN:TWR:0601:0677 		
+W_TWR:Denver Tower:135.300:1B:B:DEN:TWR:DEN:TWR:0601:0677
+E_GND:Denver Ground:121.850:1C:C:DEN:GND:DEN:GND:0601:0677
+W_GND:Denver Ground:127.500:1D:D:DEN:GND:DEN:GND:0601:0677
+FD/DEL:Denver Clearance Delivery:118.750:1E:E:DEN:DEL:DEN:DEL:0601:0677
+;
+;EGE ATCT
+TWR:Eagle Tower:119.800:8A:A:EGE:TWR:EGE:TWR:1401:1477
+GND:Eagle Ground:121.800:8B:B:EGE:GND:EGE:GND:1401:1477
+DEL:Eagle Clearance Delivery:124.750:8C:C:EGE:DEL:EGE:DEL:1401:1477
+;
+;FMN ATCT
+TWR:Farmington Tower:118.900:F1:A:FMN:TWR:FMN:TWR:1401:1477
+GND:Farmington Ground:121.700:F2:B:FMN:GND:FMN:GND:1401:1477
+;
+;FTG ATCT
+TWR:Front Range Tower:120.200:5A:T:FTG:TWR:FTG:TWR:0601:0677
+GND:Front Range Ground:124.700:5B:B:FTG:GND:FTG:GND:0601:0677
+;
+;GJT ATCT
+TWR:Grand Junction Tower:118.100:3B:B:GJT:TWR:GJT:TWR:0601:0677
+GND:Grand Junction Ground:121.700:3C:C:GJT:GND:GJT:GND:0601:0677
+;
+;PUB ATCT
+TWR:Pueblo Tower:119.100:2B:B:PUB:TWR:PUB:TWR:0601:0677
+GND:Pueblo Ground:121.900:2C:C:PUB:GND:PUB:GND:0601:0677
+;
+;RCA ATCT
+TWR:Ellsworth Tower:126.050:9A:A:RCA:TWR:RCA:TWR:1401:1477
+GND:Ellsworth Ground:121.800:9B:B:RCA:GND:RCA:GND:1401:1477
+;
+;RAP ATCT
+TWR:Rapid City Tower:125.850:R1:A:RAP:TWR:RAP:TWR:1401:1477
+GND:Rapid City Ground:121.900:R2:B:RAP:GND:RAP:GND:1401:1477
+;
+;ZDV ARTCC
+HN:Denver Center:135.600:12:C:DEN:CTR:DEN:CTR:1401:1477
+HS:Denver Center:132.700:14:C:DEN:CTR:DEN:CTR:1401:1477
+HE:Denver Center:132.100:15:C:DEN:CTR:DEN:CTR:1401:1477
+HW:Denver Center:132.500:17:C:DEN:CTR:DEN:CTR:1401:1477
+LN:Denver Center:134.500:18:C:DEN:CTR:DEN:CTR:1401:1477
+LS:Denver Center:124.800:19:C:DEN:CTR:DEN:CTR:1401:1477
+LE:Denver Center:125.900:20:C:DEN:CTR:DEN:CTR:1401:1477
+LW:Denver Center:128.500:21:C:DEN:CTR:DEN:CTR:1401:1477
+;==================================================================================================
+
+;ADJACENT ARTCCs===================================================================================
+;ZAB ARTCC-----------------------------------------------------
+ZAB ZB:Albuquerque Center:127.850:30:C:ABQ:CTR:ZAB:ZB:0701:0777
+ZAB ZN:Albuquerque Center:127.850:31:C:ABQ:CTR:ZAB:ZN:0701:0777
+ZAB ZE:Albuquerque Center:127.850:32:C:ABQ:CTR:ZAB:ZE:0701:0777
+ZAB ZW:Albuquerque Center:128.450:33:C:ABQ:CTR:ZAB:ZW:0701:0777
+ZAB NW:Albuquerque Center:128.450:34:C:ABQ:CTR:ZAB:NW:0701:0777
+ZAB NE:Albuquerque Center:127.850:35:C:ABQ:CTR:ZAB:NE:0701:0777
+ZAB 15:Albuquerque Center:127.850:36:C:ABQ:CTR:ZAB:15:0701:0777
+ZAB 17:Albuquerque Center:124.320:37:C:ABQ:CTR:ZAB:17:0701:0777
+ZAB 43:Albuquerque Center:128.450:38:C:ABQ:CTR:ZAB:43:0701:0777
+ZAB 94:Albuquerque Center:133.650:39:C:ABQ:CTR:ZAB:94:0701:0777
+ZAB 97:Albuquerque Center:134.750:40:C:ABQ:CTR:ZAB:97:0701:0777
+
+;ZKC ARTCC----------------------------------------------------
+ZKC 41:Kansas City Center 41 TOP/Combined:132.320:41:C:KC:CTR:KC:CTR:2101:2177
+ZKC 84:Kansas City Center 84 STL:134.670:84:C:KC:CTR:KC:CTR:2115:2132
+ZKC 68:Kansas City Center 68 GCK:125.720:68:C:KC:CTR:KC:CTR:2133:2146
+ZKC 48:Kansas City Center 48 EMP:127.720:48:C:KC:CTR:KC:CTR:2147:2162
+ZKC 54:Kansas City Center 54 LIB:127.470:54:C:KC:CTR:KC:CTR:2163:2177
+
+;ZLA ARTCC-----------------------------------------------------
+ZLA 04:Los Angeles Center:125.800:60:C:LAX:CTR:LAX:04:7140:7177
+ZLA 06:Los Angeles Center:134.650:61:C:LAX:CTR:LAX:06:7250:7307
+ZLA 13:Los Angeles Center:132.600:62:C:LAX:CTR:LAX:13:7101:7137
+ZLA 30:Los Angeles Center:119.950:63:C:LAX:CTR:LAX:30:7310:7337
+ZLA 36:Los Angeles Center:127.350:64:C:LAX:CTR:LAX:36:7340:7377
+ZLA 37:Los Angeles Center:133.550:65:C:LAX:CTR:LAX:37:7200:7247
+ZLA 39:Los Angeles Center:133.200:66:C:LAX:CTR:LAX:39:7200:7247
+
+;ZLC ARTCC=--------------------------------------------------
+ZLC  :Salt Lake Center:133.600:70:C:SLC:CTR:SLC:CTR:6001:6077
+ZLC N:Salt Lake Center:133.600:71:C:SLC:CTR:SLC:CTR:6001:6077
+ZLC S:Salt Lake Center:127.700:72:C:SLC:CTR:SLC:CTR:6001:6077
+ZLC L:Salt Lake Center:133.250:73:C:SLC:CTR:SLC:CTR:6001:6077
+
+;ZMP ARTCC-----------------------------------------------------
+ZMP 10:Minneapolis Center:121.050:80:C:MSP:CTR:MSP:10:3601:3677
+ZMP 11:Minneapolis Center:133.400:81:C:MSP:CTR:MSP:11:3601:3677
+ZMP 1A:Minneapolis Center:133.400:82:C:MSP:CTR:MSP:1A:3601:3677
+ZMP 17:Minneapolis Center:134.250:83:C:MSP:CTR:MSP:17:3601:3677
+ZMP 20:Minneapolis Center:126.250:84:C:MSP:CTR:MSP:24:3601:3677
+ZMP 30:Minneapolis Center:135.770:85:C:MSP:CTR:MSP:30:3601:3677
+ZMP 33:Minneapolis Center:125.100:86:C:MSP:CTR:MSP:33:3601:3677
+ZMP 39:Minneapolis Center:135.100:87:C:MSP:CTR:MSP:39:3601:3677
+ZMP 07:Minneapolis Center:132.350:88:C:MSP:CTR:MSP:07:3601:3677
