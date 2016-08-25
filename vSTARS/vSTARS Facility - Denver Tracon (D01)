@@ -58,16 +58,21 @@
       <PositionInfo PositionType="InFacility" SectorName="GND" RadioName="Cheyenne Ground" Prefix="CYS" Suffix="GND" Frequency="21900" SectorID="5C" PositionSymbol="C" />
       <PositionInfo PositionType="InFacility" SectorName="AR1" RadioName="Denver Approach" Prefix="DEN" Suffix="APP" Frequency="20350" SectorID="1I" PositionSymbol="I" />
       <PositionInfo PositionType="InFacility" SectorName="AR2" RadioName="Denver Approach" Prefix="DEN" Suffix="APP" Frequency="19300" SectorID="1H" PositionSymbol="H" />
+      <PositionInfo PositionType="InFacility" SectorName="AR3" RadioName="Denver Approach" Prefix="DEN" Suffix="APP" Frequency="24950" SectorID="1G" PositionSymbol="G" />
+      <PositionInfo PositionType="InFacility" SectorName="AR4" RadioName="Denver Approach" Prefix="DEN" Suffix="APP" Frequency="26550" SectorID="1X" PositionSymbol="X" />
       <PositionInfo PositionType="InFacility" SectorName="FR1" RadioName="Denver Final Approach" Prefix="DEN" Suffix="APP" Frequency="23850" SectorID="1W" PositionSymbol="W" />
       <PositionInfo PositionType="InFacility" SectorName="FR2" RadioName="Denver Final Approach" Prefix="DEN" Suffix="APP" Frequency="20800" SectorID="1E" PositionSymbol="E" />
+      <PositionInfo PositionType="InFacility" SectorName="FR3" RadioName="Denver Final Approach" Prefix="DEN" Suffix="APP" Frequency="25750" SectorID="1O" PositionSymbol="O" />
+      <PositionInfo PositionType="InFacility" SectorName="FR4" RadioName="Denver Final Approach" Prefix="DEN" Suffix="APP" Frequency="33620" SectorID="1T" PositionSymbol="T" />
       <PositionInfo PositionType="InFacility" SectorName="DR1" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="26100" SectorID="1L" PositionSymbol="L" />
       <PositionInfo PositionType="InFacility" SectorName="DR2" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="27050" SectorID="1N" PositionSymbol="N" />
       <PositionInfo PositionType="InFacility" SectorName="DR3" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28250" SectorID="1R" PositionSymbol="R" />
-      <PositionInfo PositionType="Other" SectorName="DR4" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28449" SectorID="1S" PositionSymbol="S" />
-      <PositionInfo PositionType="InFacility" SectorName="SR1" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="32750" SectorID="1A" PositionSymbol="A" />
-      <PositionInfo PositionType="InFacility" SectorName="SR2" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="26650" SectorID="1D" PositionSymbol="D" />
-      <PositionInfo PositionType="InFacility" SectorName="PUB" RadioName="Denver Departure/Approach" Prefix="PUB" Suffix="APP" Frequency="20100" SectorID="1P" PositionSymbol="P" />
-      <PositionInfo PositionType="InFacility" SectorName="GJT" RadioName="Denver Departure/Approach" Prefix="GJT" Suffix="APP" Frequency="19700" SectorID="1G" PositionSymbol="G" />
+      <PositionInfo PositionType="InFacility" SectorName="DR4" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="28449" SectorID="1S" PositionSymbol="S" />
+      <PositionInfo PositionType="InFacility" SectorName="SR1" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="25120" SectorID="1J" PositionSymbol="J" />
+      <PositionInfo PositionType="InFacility" SectorName="SR2" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="34850" SectorID="1D" PositionSymbol="D" />
+      <PositionInfo PositionType="InFacility" SectorName="SR4" RadioName="Denver Departure/Approach" Prefix="DEN" Suffix="DEP" Frequency="32750" SectorID="1A" PositionSymbol="A" />
+      <PositionInfo PositionType="InFacility" SectorName="JR1" RadioName="Denver Departure/Approach" Prefix="GJT" Suffix="APP" Frequency="19700" SectorID="1J" PositionSymbol="J" />
+      <PositionInfo PositionType="InFacility" SectorName="PR1" RadioName="Denver Departure/Approach" Prefix="PUB" Suffix="APP" Frequency="20100" SectorID="1P" PositionSymbol="P" />
       <PositionInfo PositionType="Other" SectorName="APP/DEP" RadioName="Ellsworth Departure/Approach" Prefix="RCA" Suffix="APP" Frequency="19500" SectorID="9A" PositionSymbol="E" />
       <PositionInfo PositionType="InFacility" SectorName="E_TWR" RadioName="Denver Tower" Prefix="DEN" Suffix="TWR" Frequency="33300" SectorID="1A" PositionSymbol="A" />
       <PositionInfo PositionType="InFacility" SectorName="W_TWR" RadioName="Denver Tower" Prefix="DEN" Suffix="TWR" Frequency="35300" SectorID="1B" PositionSymbol="B" />
@@ -108,9 +113,11 @@
       <PositionInfo PositionType="Other" SectorName="ZAB 43" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="28449" SectorID="38" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZAB 94" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="33650" SectorID="39" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZAB 97" RadioName="Albuquerque Center" Prefix="ABQ" Suffix="CTR" Frequency="34750" SectorID="40" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="ZKC 21" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="34670" SectorID="50" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="ZKC 41" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="32320" SectorID="51" PositionSymbol="C" />
-      <PositionInfo PositionType="Other" SectorName="ZKC 97" RadioName="Kansas City Center" Prefix="KC" Suffix="CTR" Frequency="25820" SectorID="52" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 41" RadioName="Kansas City Center 41 TOP/Combined" Prefix="KC" Suffix="CTR" Frequency="32320" SectorID="41" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 84" RadioName="Kansas City Center 84 STL" Prefix="KC" Suffix="CTR" Frequency="34670" SectorID="84" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 68" RadioName="Kansas City Center 68 GCK" Prefix="KC" Suffix="CTR" Frequency="25720" SectorID="68" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 48" RadioName="Kansas City Center 48 EMP" Prefix="KC" Suffix="CTR" Frequency="27720" SectorID="48" PositionSymbol="C" />
+      <PositionInfo PositionType="Other" SectorName="ZKC 54" RadioName="Kansas City Center 54 LIB" Prefix="KC" Suffix="CTR" Frequency="27470" SectorID="54" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZLA 04" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="25800" SectorID="60" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZLA 06" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="34650" SectorID="61" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZLA 13" RadioName="Los Angeles Center" Prefix="LAX" Suffix="CTR" Frequency="32600" SectorID="62" PositionSymbol="C" />
@@ -132,7 +139,7 @@
       <PositionInfo PositionType="Other" SectorName="ZMP 39" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="35100" SectorID="87" PositionSymbol="C" />
       <PositionInfo PositionType="Other" SectorName="ZMP 07" RadioName="Minneapolis Center" Prefix="MSP" Suffix="CTR" Frequency="32350" SectorID="88" PositionSymbol="C" />
     </Positions>
-    <PositionsLastImported>2016-04-29T22:45:28.1922489-04:00</PositionsLastImported>
+    <PositionsLastImported>2016-08-07T07:16:41.9776356-04:00</PositionsLastImported>
     <CommandAliases>
       <CommandAlias Command=".cor" ReplaceWith="clearance on request, standby..." />
       <CommandAlias Command=".cdt" ReplaceWith="cleared to $arr airport; $1 departure, $2 transition, then as filed;" />
