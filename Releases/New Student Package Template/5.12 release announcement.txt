@@ -1,4 +1,4 @@
-Effective Immediately, [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM Facility%20-%20Denver%20ARTCC%20(ZDV)_v1.0.gz]Version 1.0 of our vERAM Facility file[/url], [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.11.zip]VRC Sector File 5.11[/url], and [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/121605.vSTARS%20Facility%20- Denver%20Tracon%20(D01).gz]vSTARS D01 File 121605[/url] are current and available for download.
+Effective Immediately, [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vERAM Facility%20-%20Denver%20ARTCC%20(ZDV)_v1.1.gz]Version 1.0 of our vERAM Facility file[/url], [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.11.zip]VRC Sector File 5.11[/url], and [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/121605.vSTARS%20Facility%20- Denver%20Tracon%20(D01).gz]vSTARS D01 File 121605[/url] are current and available for download.
 
 Here is a list of changes included in this release:
 
