@@ -1,0 +1,39 @@
+New Files for AIRAC 1608!
+
+[url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/ZDV_ARTCC_Sector_5.12.zip]VRC Sector File 5.12[/url]
++ Updated to AIRAC 1608
++ Text changes to diagrams menu
+
+[url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/VZDVv4.4.zip]VRC POF File 4.4[/url]
++ ZKC Frequency Changes
++ Updated for SOP changes
++ Fixed CPR_GND entry
+
+[url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/160807.vSTARS%20Facility%20-%20Denver%20Tracon%20(D01).gz]vSTARS Facility File 160807[/url]
++ Updated POF entries
+
+[url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vERAM%20Facility%20-%20Denver%20ARTCC%20(ZDV)_v1.1.gz]vERAM Facility File v1.1[/url]
++ Updated POF entries
+
+vATIS Files
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vATIS%20Facility%20-%20Centennial%20(KAPA).160807.gz]KAPA 160807[/url]
+  + Rounded magnetic variation to nearest 10deg
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vATIS%20Facility%20-%20Aspen%20(KASE).160807.gz]KASE 160807[/url]
+  + Rounded magnetic variation to nearest 10deg
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vATIS%20Facility%20-%20Colorado%20Springs%20(KCOS).160807.gz]KCOS 160807[/url]
+  + Rounded magnetic variation to nearest 10deg
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vATIS%20Facility%20-%20Denver%20Intl%20(KDEN).160807.gz]KDEN 160807[/url]
+  + Updated for SOP changes
+	+ Rounded magnetic variation to nearest 10deg
++ [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/blob/master/Releases/vATIS%20Facility%20-%20Eagle%20County%20(KEGE).160807.gz]KEGE 160807[/url]
+  + Rounded magnetic variation to nearest 10deg
+
+Enjoy!
+
+James Waltz
+ZDV_JW_FE
+DEN ARTCC Facility Engineer
+james@denartcc.org
+
+
+Please post feature requests and bugs below this post in this thread or on the new  [url=https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/issues]github issue tracker page by clicking here[/url].
