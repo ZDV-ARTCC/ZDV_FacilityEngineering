@@ -4,7 +4,53 @@
 <!ELEMENT version (by*,packetinfo,sectorinfo,POFinfo,aliasinfo,change+)>
 ]>
  <changelog>
-  <facility current="1" releasedate="16 April 2016" releasetime="1460857416">
+  <facility current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+    <by title="Facility Engineer">James Waltz</by>
+    <fileinfo filerev="2.1" releasedate="8/24/2016">
+     <airportname>Denver Intl</airportname>
+     <airporticao>KDEN</airporticao>
+     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Denver%20Intl%20(KDEN).160807.gz</url>
+    </fileinfo>
+   <change>Updated for SOP changes</change>
+	 <change>Rounded magnetic variation to nearest 10 deg</change>
+  </facility>
+  <facility current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+    <by title="Facility Engineer">James Waltz</by>
+    <fileinfo filerev="2.1" releasedate="8/24/2016">
+     <airportname>Aspen</airportname>
+     <airporticao>KASE</airporticao>
+     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Aspen%20(KASE).160807.gz</url>
+    </fileinfo>
+	 <change>Rounded magnetic variation to nearest 10 deg</change>
+   </facility>
+  <facility current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+    <by title="Facility Engineer">James Waltz</by>
+    <fileinfo filerev="2.1" releasedate="8/24/2016">
+     <airportname>Eagle County</airportname>
+     <airporticao>KEGE</airporticao>
+     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Eagle%20County%20(KEGE).160807.gz</url>
+    </fileinfo>
+	 <change>Rounded magnetic variation to nearest 10 deg</change>
+  </facility>
+  <facility current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+    <by title="Facility Engineer">James Waltz</by>
+    <fileinfo filerev="2.1" releasedate="8/24/2016">
+     <airportname>Colorado Springs</airportname>
+     <airporticao>KCOS</airporticao>
+     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Colorado%20Springs%20(KCOS).160807.gz</url>
+    </fileinfo>
+	 <change>Rounded magnetic variation to nearest 10 deg</change>
+  </facility>
+  <facility current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+    <by title="Facility Engineer">James Waltz</by>
+    <fileinfo filerev="2.1" releasedate="8/24/2016">
+     <airportname>Centennial</airportname>
+     <airporticao>KAPA</airporticao>
+     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Centennial%20(KAPA).160807.gz</url>
+    </fileinfo>
+	 <change>Rounded magnetic variation to nearest 10 deg</change>
+  </facility>	
+  <facility current="0" releasedate="16 April 2016" releasetime="1460857416">
    <by title="Facility Engineer">James Waltz</by>
    <fileinfo filerev="2.0" releasedate="4/16/16">
     <airportname>Denver Intl</airportname>
@@ -12,8 +58,8 @@
     <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/vATIS%20Facility%20-%20Denver%20Intl%20(KDEN).160416.gz</url>
    </fileinfo>
 	<change>Updated for vATIS V2</change>
-  </facility>
- <facility current="1" releasedate="16 April 2016" releasetime="1460857416">
+ </facility>
+ <facility current="0" releasedate="16 April 2016" releasetime="1460857416">
    <by title="Facility Engineer">James Waltz</by>
    <fileinfo filerev="2.0" releasedate="4/16/16">
     <airportname>Aspen</airportname>
@@ -22,7 +68,7 @@
    </fileinfo>
 	<change>Updated for vATIS V2</change>
   </facility>
- <facility current="1" releasedate="16 April 2016" releasetime="1460857416">
+ <facility current="0" releasedate="16 April 2016" releasetime="1460857416">
    <by title="Facility Engineer">James Waltz</by>
    <fileinfo filerev="2.0" releasedate="4/16/16">
     <airportname>Eagle County</airportname>
@@ -31,7 +77,7 @@
    </fileinfo>
 	<change>Updated for vATIS V2</change>
   </facility>
- <facility current="1" releasedate="16 April 2016" releasetime="1460857416">
+ <facility current="0" releasedate="16 April 2016" releasetime="1460857416">
    <by title="Facility Engineer">James Waltz</by>
    <fileinfo filerev="2.0" releasedate="4/16/16">
     <airportname>Colorado Springs</airportname>
@@ -40,7 +86,7 @@
    </fileinfo>
 	<change>Updated for vATIS V2</change>
   </facility>
- <facility current="1" releasedate="16 April 2016" releasetime="1460857416">
+ <facility current="0" releasedate="16 April 2016" releasetime="1460857416">
    <by title="Facility Engineer">James Waltz</by>
    <fileinfo filerev="2.0" releasedate="4/16/16">
     <airportname>Centennial</airportname>

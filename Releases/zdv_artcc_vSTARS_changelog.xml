@@ -17,7 +17,16 @@
 <!ATTLIST change affected CDATA #IMPLIED>
 ]>
  <changelog>
-  <version current="1" releasedate="27 May 2016" releasetime="1464397233">
+  <version current="1" releasedate="24 Aug 2016" releasetime="1472061600">
+   <by title="Facility Engineer">James Waltz</by>
+   <facility id="D01" filerev="160807">
+    <filename>Denver Tracon</filename>
+    <ID>D01</ID>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/160807.vSTARS%20Facility%20-%20Denver%20Tracon%20(D01).gz</url>
+   </facility>
+   <change>Updated POF entries</change>
+  </version>
+  <version releasedate="27 May 2016" releasetime="1464397233">
    <by title="Facility Engineer">James Waltz</by>
    <facility id="D01" filerev="121605">
     <filename>Denver Tracon</filename>

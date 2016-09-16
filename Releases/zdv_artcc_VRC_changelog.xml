@@ -26,7 +26,30 @@
 <!ATTLIST change affected CDATA #IMPLIED>
 ]>
  <changelog>
-  <version current="1" releasedate="27 May 2016" releasetime="1464397233 " airac="1605">
+  <version current="1" releasedate="24 Aug 2016" releasetime="1472061600" airac="1608">
+   <by title="Facility Engineer">James Waltz</by>
+   <packetinfo filerev="5.12" releasedate="08/24/2016">
+    <filename>New Student Package v5.12</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/New%20Student%20Package%20v5.12.zip</url>
+   </packetinfo>
+   <sectorinfo filerev="5.12" releasedate="08/24/2016">
+    <filename>ZDV ARTCC Sector v5.12</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/ZDV_ARTCC_Sector_5.12.zip</url>
+   </sectorinfo>
+   <POFinfo filerev="4.4" releasedate="08/24/2016">
+    <filename>ZDV POF File v4.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/VZDVv4.4.zip</url>
+   </POFinfo>
+   <aliasinfo filerev="2.1.4" releasedate="1/16/2013">
+    <filename>ZDV Alias File v2.1.4</filename>
+    <url>https://github.com/ZDV-ARTCC/ZDV_FacilityEngineering/raw/master/Releases/zdv_alias_v2.1.4.zip</url>
+   </aliasinfo>
+	 <change affected="ALL">Nav Data updated to AIRAC 1608</change>
+	 <change affected="ALL">Text changes to diagrams menu</change>
+	 <change affected="ALL">POF File updated for ZKC frequency changes</change>
+	 <change affected="ALL">POF File fixed CPR_GND entry</change>
+  </version>
+  <version releasedate="27 May 2016" releasetime="1464397233 " airac="1605">
    <by title="Facility Engineer">James Waltz</by>
    <packetinfo filerev="5.11" releasedate="5/27/2016">
     <filename>New Student Package v5.11</filename>
